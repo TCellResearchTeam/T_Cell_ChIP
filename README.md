@@ -72,7 +72,10 @@
 - [GSE96969](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE96969)
 - Mouse CD4, in vitro activated
 
-
+15. **[ 2020_PNAS_KwesiMaliepaard ]** [Kwesi-Maliepaard, Eliza Mari, et al. "The histone methyltransferase DOT1L prevents antigen-independent differentiation and safeguards epigenetic identity of CD8+ T cells." Proceedings of the National Academy of Sciences 117.34 (2020): 20706-20716.](https://www.pnas.org/content/117/34/20706.short)
+- H3K79me2, H3K4me3 
+- [GSE138908](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE138908)
+- Mouse CD8, naive & memory & thymus SP
 
 
 
