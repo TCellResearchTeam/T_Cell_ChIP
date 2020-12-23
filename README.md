@@ -22,3 +22,8 @@
 - [GSE54191](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE54191)
 - Mouse CD8, In vitro effectors
 
+5. **[ 2013_IMMUNITY_KIM ]** [Kim, Myoungjoo V., et al. "The transcription factor Foxo1 controls central-memory CD8+ T cell responses to infection." Immunity 39.2 (2013): 286-297.](https://www.sciencedirect.com/science/article/pii/S107476131300321X)
+- FOXO1
+- [GSE46943](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE46943)
+- Mouse CD8, naive
+
