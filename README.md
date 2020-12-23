@@ -27,3 +27,14 @@
 - [GSE46943](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE46943)
 - Mouse CD8, naive
 
+6. **[ 2013_PLOS_ONE_Lotem ]** [Lotem, Joseph, et al. "Runx3-mediated transcriptional program in cytotoxic lymphocytes." PloS one 8.11 (2013): e80467.](https://www.cell.com/immunity/comments/S1074-7613(18)30126-2)
+- RUNX3
+- [GSE50128](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE50128)
+- Mouse CD8, naive & in vitro activated
+
+7. **[ 2017_PNAS_Li ]** [Li, Peng, et al. "STAT5-mediated chromatin interactions in superenhancers activate IL-2 highly inducible genes: Functional dissection of the Il2ra gene locus." Proceedings of the National Academy of Sciences 114.46 (2017): 12111-12119.](https://www.pnas.org/content/114/46/12111.short)
+- STAT5B
+- [GSE102317](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE102317)
+- Mouse CD4&CD8, naive & in vitro activated, with / without IL2
+
+
