@@ -62,6 +62,10 @@
 - [GSE106268](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE106268)
 - Mouse CD8, in vitro activated
 
+13. **[ 2016_NAT_IMMUNOL_Xing ]** [Xing, Shaojun, et al. "Tcf1 and Lef1 transcription factors establish CD8+ T cell identity through intrinsic HDAC activity." Nature immunology 17.6 (2016): 695-703.](https://www.nature.com/articles/ni.3456)
+- TCF1, H3K4Me3, H3K27Me3, H3K27Ac, H3K9Ac
+- [GSE73240](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE73240)
+- Mouse CD8, naive, WT or Tcf7fl/fl, Lef1fl/fl
 
 
 
