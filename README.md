@@ -47,3 +47,23 @@
 - [GSE77857](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE77857)
 - Mouse CD8, in vitro activated
 
+10. **[ 2018_FRONTIERS_IMMUNOL_Li ]** [Li, Jing, et al. "High levels of eomes promote exhaustion of anti-tumor CD8+ T cells." Frontiers in immunology 9 (2018): 2981.](https://www.frontiersin.org/articles/10.3389/fimmu.2018.02981/full)
+- EOMES
+- [GSE122895](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE122895)
+- Mouse CD8, OTI, in vitro activated, Eomes OE v.s. control
+
+11. **[ 2017_NAT_IMMUNOL_Yu ]** [Yu, Bingfei, et al. "Epigenetic landscapes reveal transcription factors that regulate CD8+ T cell differentiation." Nature immunology 18.5 (2017): 573-582.](https://www.nature.com/articles/ni.3706)
+- H3K27me3, Ezh2, Pol II
+- [GSE89036](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE89036)
+- Mouse CD8, P14, LCMV, in vivo & in vivo
+
+12. **[ 2018_SCIENCE_Pace ]** [Pace, Luigia, et al. "The epigenetic control of stemness in CD8+ T cell fate commitment." Science 359.6372 (2018): 177-186.](https://science.sciencemag.org/content/359/6372/177.full)
+- H3K9me3
+- [GSE106268](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE106268)
+- Mouse CD8, in vitro activated
+
+
+
+
+
+
