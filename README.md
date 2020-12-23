@@ -67,6 +67,11 @@
 - [GSE73240](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE73240)
 - Mouse CD8, naive, WT or Tcf7fl/fl, Lef1fl/fl
 
+14. **[ 2019_NAT_Liu ]** [Liu, Xindong, et al. "Genome-wide analysis identifies NR4A1 as a key mediator of T cell dysfunction." Nature 567.7749 (2019): 525-529.](https://www.nature.com/articles/s41586-019-0979-8#Sec2)
+- NR4A1
+- [GSE96969](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE96969)
+- Mouse CD4, in vitro activated
+
 
 
 
