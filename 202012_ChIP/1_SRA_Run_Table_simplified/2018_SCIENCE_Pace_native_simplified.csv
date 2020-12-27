@@ -1,0 +1,9 @@
+Run,LibraryLayout,name
+SRR6228881,PAIRED,H3K9me3_native_invitro-d0-CD8-WT
+SRR6228882,PAIRED,Input_native_invitro-d0-CD8-WT
+SRR6228883,PAIRED,H3K9me3_native_invitro-d3-CD8-WT
+SRR6228884,PAIRED,Input_native_invitro-d3-CD8-WT
+SRR6228885,PAIRED,H3K9me3_invitro-d3-CD8-WT
+SRR6228886,PAIRED,Input_invitro-d3-CD8-WT
+SRR6228887,PAIRED,H3K9me3_invitro-d3-CD8-Suv39h1KO
+SRR6228888,PAIRED,Input_invitro-d3-CD8-Suv39h1KO

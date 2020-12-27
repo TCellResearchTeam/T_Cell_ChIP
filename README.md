@@ -44,7 +44,7 @@
 
 8. **[ 2015_JEM_Dominguez ]** [Dominguez, Claudia X., et al. "The transcription factors ZEB2 and T-bet cooperate to program cytotoxic T cell terminal differentiation in response to LCMV viral infection." Journal of Experimental Medicine 212.12 (2015): 2041-2056.](https://rupress.org/jem/article/212/12/2041/41850/The-transcription-factors-ZEB2-and-T-bet-cooperate)
 - TBET
-- [PRJNA287664](https://www.ncbi.nlm.nih.gov/Traces/study/?query_key=2&WebEnv=MCID_5fe3574bfc6e8f107847a2af&o=acc_s%3Aa)
+- [PRJNA287664](https://www.ncbi.nlm.nih.gov/Traces/study/?acc=PRJNA287664&o=acc_s%3Aa)
 - Mouse CD8, P14, LCMVarm, Day8
 
 9. **[ 2016_NAT_IMMUNOL_Roychoudhuri ]** [Roychoudhuri, Rahul, et al. "BACH2 regulates CD8+ T cell differentiation by controlling access of AP-1 factors to enhancers." Nature immunology 17.7 (2016): 851-860.](https://www.nature.com/articles/ni.3441)
