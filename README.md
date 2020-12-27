@@ -1,5 +1,10 @@
 # T_Cell_ChIP
 
+## Sample description
+- Format: H3K4Me3_LCMVarmD4-P14-CD8-Runx3KO <br>
+          Antibody_Infection-Cell-type <br>
+          Input_Infection-Cell-type <br>
+
 ## Transcription factor ChIPs
 1. **[ 2017_NAT_IMMUNOL_Shan ]** [Shan, Qiang, et al. "The transcription factor Runx3 guards cytotoxic CD8+ effector T cells against deviation towards follicular helper T cell lineage." Nature immunology 18.8 (2017): 931-939.](https://www.nature.com/articles/ni.3773)
 - H3K4Me1, H3K4Me3, H3K27Me3, H3K27Ac, CBF
@@ -27,9 +32,9 @@
 - [GSE46943](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE46943)
 - Mouse CD8, naive
 
-6. **[ 2013_PLOS_ONE_Lotem ]** [Lotem, Joseph, et al. "Runx3-mediated transcriptional program in cytotoxic lymphocytes." PloS one 8.11 (2013): e80467.](https://www.cell.com/immunity/comments/S1074-7613(18)30126-2)
+6. **[ 2013_PLOS_ONE_Lotem ]** [Lotem, Joseph, et al. "Runx3-mediated transcriptional program in cytotoxic lymphocytes." PloS one 8.11 (2013): e80467.](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0080467)
 - RUNX3
-- [GSE50128](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE50128)
+- [GSE50131](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE50131)
 - Mouse CD8, naive & in vitro activated
 
 7. **[ 2017_PNAS_Li ]** [Li, Peng, et al. "STAT5-mediated chromatin interactions in superenhancers activate IL-2 highly inducible genes: Functional dissection of the Il2ra gene locus." Proceedings of the National Academy of Sciences 114.46 (2017): 12111-12119.](https://www.pnas.org/content/114/46/12111.short)
