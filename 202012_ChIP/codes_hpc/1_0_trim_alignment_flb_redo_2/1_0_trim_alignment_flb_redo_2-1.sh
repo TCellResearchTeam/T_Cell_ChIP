@@ -11,12 +11,12 @@ module load bedtools
 
 ### Fastqc for untrimmed files
 cd /gpfs/group/pipkin/hdiao/T_Cell_ChIP/0_fastq
-fastq_untrimmed_1=/gpfs/group/pipkin/hdiao/T_Cell_ChIP/0_fastq/SRR3233934_1_solidCvt.fastq
+fastq_untrimmed_1=/gpfs/group/pipkin/hdiao/T_Cell_ChIP/0_fastq/SRR3233934_1.fastq
 fastqc $fastq_untrimmed_1
 
 ### Trim Galore
 trim_galore --length 24 --stringency 3 $fastq_untrimmed_1
-trim_fastq_end1=/gpfs/group/pipkin/hdiao/T_Cell_ChIP/0_fastq/SRR3233934_1_solidCvt_trimmed.fq
+trim_fastq_end1=/gpfs/group/pipkin/hdiao/T_Cell_ChIP/0_fastq/SRR3233934_1_trimmed.fq
 
 ### Fastqc for trimmed files
 fastqc $trim_fastq_end1
