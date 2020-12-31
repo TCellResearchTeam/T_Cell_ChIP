@@ -82,5 +82,15 @@
 - [GSE138908](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE138908)
 - Mouse CD8, naive & memory & thymus SP
 
+16. **[ 2016_SCIENCE_Mackay ]** [Mackay, Laura K., et al. "Hobit and Blimp1 instruct a universal transcriptional program of tissue residency in lymphocytes." Science 352.6284 (2016): 459-463.](https://science.sciencemag.org/content/352/6284/459)
+- Hobit, Blimp1
+- [GSE79339](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE79339)
+- Mouse CD8, 3-day stimulation with anti-CD3, anti-CD28 and IL-2 followed by 2-day cultivation with IL-2 and IL-12
+
+17. **[ 2019_IMMUNITY_Veeken ]** [van der Veeken, Joris, et al. "Natural genetic variation reveals key features of epigenetic and transcriptional memory in virus-specific CD8 T cells." Immunity 50.5 (2019): 1202-1217.](https://www.sciencedirect.com/science/article/pii/S1074761319301487)
+- Cbfb, Eomes, Tbet
+- [GSE126770](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE126770)
+- Mouse CD8, LCMV day7 / naive
+
 
 

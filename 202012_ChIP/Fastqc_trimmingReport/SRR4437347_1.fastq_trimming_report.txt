@@ -1,0 +1,21 @@
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: SRR4437347_1.fastq
+Trimming mode: single-end
+Trim Galore version: 0.6.1
+Cutadapt version: 1.18
+Number of cores used for trimming: 1
+Quality Phred score cutoff: 20
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'AGATCGGAAGAGC' (Illumina TruSeq, Sanger iPCR; auto-detected)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 3 bp
+Minimum required sequence length before a sequence gets removed: 24 bp
+
+
+This is cutadapt 1.18 with Python 2.7.11
+Command line parameters: -j 1 -e 0.1 -q 20 -O 3 -a AGATCGGAAGAGC SRR4437347_1.fastq
+Processing reads on 1 core in single-end mode ...
+cutadapt: error: At line 3: Sequence descriptions in the FASTQ file don't match ('SRR4437347.15367761.1 DGZN8DQ1:497:HJF7GADXX:2:2114:5050:46056 length=50' != 'SRR4437347.15367761.1 DGZN8DQ1:497:HJF7GADXX:2:2114:5050:46056 le').
+The second sequence description must be either empty or equal to the first description.
