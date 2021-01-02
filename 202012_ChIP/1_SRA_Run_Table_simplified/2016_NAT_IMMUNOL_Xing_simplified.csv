@@ -1,4 +1,4 @@
-Run,LibraryLayout,name
-SRR2467231,SINGLE,Tcf1_naive-CD8-Tcf1KO
-SRR2467213,SINGLE,Input_naive-CD8-WT
-SRR2467230,SINGLE,Tcf1_naive-CD8-WT
+Run,LibraryLayout,condition,name,Input
+SRR2467231,SINGLE,Tcf1_naive-CD8-Tcf1KO,Tcf1-Tcf1KO_1,Input_all
+SRR2467213,SINGLE,Input_naive-CD8-WT,Input_all_1,
+SRR2467230,SINGLE,Tcf1_naive-CD8-WT,Tcf1_1,Input_all

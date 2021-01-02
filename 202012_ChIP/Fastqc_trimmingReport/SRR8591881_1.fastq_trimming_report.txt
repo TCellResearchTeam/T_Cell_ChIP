@@ -1,0 +1,102 @@
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: /gpfs/group/pipkin/hdiao/T_Cell_ChIP/0_fastq/SRR8591881_1.fastq
+Trimming mode: paired-end
+Trim Galore version: 0.6.1
+Cutadapt version: 1.18
+Number of cores used for trimming: 1
+Quality Phred score cutoff: 20
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'AGATCGGAAGAGC' (Illumina TruSeq, Sanger iPCR; auto-detected)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 3 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 24 bp
+
+
+This is cutadapt 1.18 with Python 2.7.11
+Command line parameters: -j 1 -e 0.1 -q 20 -O 3 -a AGATCGGAAGAGC /gpfs/group/pipkin/hdiao/T_Cell_ChIP/0_fastq/SRR8591881_1.fastq
+Processing reads on 1 core in single-end mode ...
+Finished in 342.44 s (16 us/read; 3.73 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:              21,282,816
+Reads with adapters:                   583,868 (2.7%)
+Reads written (passing filters):    21,282,816 (100.0%)
+
+Total basepairs processed: 1,085,423,616 bp
+Quality-trimmed:                 961,465 bp (0.1%)
+Total written (filtered):  1,081,589,968 bp (99.6%)
+
+=== Adapter 1 ===
+
+Sequence: AGATCGGAAGAGC; Type: regular 3'; Length: 13; Trimmed: 583868 times.
+
+No. of allowed errors:
+0-9 bp: 0; 10-13 bp: 1
+
+Bases preceding removed adapters:
+  A: 28.1%
+  C: 25.1%
+  G: 25.5%
+  T: 17.8%
+  none/other: 3.4%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+3	448420	332544.0	0	448420
+4	93207	83136.0	0	93207
+5	18076	20784.0	0	18076
+6	1745	5196.0	0	1745
+7	320	1299.0	0	320
+8	94	324.8	0	94
+9	308	81.2	0	47 261
+10	486	20.3	1	43 443
+11	243	5.1	1	34 209
+12	89	1.3	1	40 49
+13	78	0.3	1	33 45
+14	59	0.3	1	30 29
+15	40	0.3	1	24 16
+16	34	0.3	1	17 17
+17	38	0.3	1	27 11
+18	46	0.3	1	27 19
+19	43	0.3	1	15 28
+20	34	0.3	1	19 15
+21	33	0.3	1	19 14
+22	43	0.3	1	28 15
+23	35	0.3	1	20 15
+24	31	0.3	1	17 14
+25	35	0.3	1	16 19
+26	30	0.3	1	22 8
+27	31	0.3	1	8 23
+28	22	0.3	1	14 8
+29	28	0.3	1	13 15
+30	24	0.3	1	9 15
+31	37	0.3	1	7 30
+32	45	0.3	1	8 37
+33	9	0.3	1	4 5
+34	17	0.3	1	7 10
+35	22	0.3	1	4 18
+36	13	0.3	1	7 6
+37	39	0.3	1	2 37
+38	15	0.3	1	3 12
+39	16	0.3	1	3 13
+40	22	0.3	1	2 20
+41	25	0.3	1	3 22
+42	15	0.3	1	1 14
+43	8	0.3	1	0 8
+44	29	0.3	1	0 29
+45	4	0.3	1	0 4
+46	10	0.3	1	0 10
+47	16	0.3	1	0 16
+48	27	0.3	1	2 25
+49	28	0.3	1	0 28
+50	204	0.3	1	0 204
+51	19595	0.3	1	4 19591
+
+
+RUN STATISTICS FOR INPUT FILE: /gpfs/group/pipkin/hdiao/T_Cell_ChIP/0_fastq/SRR8591881_1.fastq
+=============================================
+21282816 sequences processed in total
+

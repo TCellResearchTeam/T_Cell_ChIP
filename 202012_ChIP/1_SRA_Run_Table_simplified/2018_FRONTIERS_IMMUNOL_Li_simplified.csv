@@ -1,5 +1,5 @@
-Run,LibraryLayout,name
-SRR8240834,SINGLE,Eomes_invitro-act-OTI-WT
-SRR8240835,SINGLE,Input_invitro-act-OTI-WT
-SRR8240836,SINGLE,Eomes_invitro-act-OTI-EomesOE
-SRR8240837,SINGLE,Input_invitro-act-OTI-EomesOE
+Run,LibraryLayout,condition,name,Input
+SRR8240834,SINGLE,Eomes_invitro-act-OTI-WT,Eomes-WT_1,Input_WT
+SRR8240835,SINGLE,Input_invitro-act-OTI-WT,Input_WT_1,
+SRR8240836,SINGLE,Eomes_invitro-act-OTI-EomesOE,Eomes-EomesOE_1,Input-EomesOE
+SRR8240837,SINGLE,Input_invitro-act-OTI-EomesOE,Input-EomesOE_1,

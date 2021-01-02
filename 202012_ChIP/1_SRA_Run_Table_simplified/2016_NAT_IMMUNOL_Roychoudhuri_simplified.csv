@@ -1,8 +1,8 @@
-Run,LibraryLayout,name
-SRR3203617,SINGLE,Bach2_invitro-CD8-WT
-SRR3203618,SINGLE,JunD_invitro-stim-CD8-WT
-SRR3203619,SINGLE,JunD_invitro-stim-CD8-Bach2KO
-SRR3203620,SINGLE,p300_invitro-CD8-WT
-SRR3203621,SINGLE,H3K4me1_invitro-CD8-WT
-SRR3203622,SINGLE,H3K27ac_invitro-CD8-WT
-SRR3203623,SINGLE,Input_invitro-CD8-WT
+Run,LibraryLayout,condition,name,Input
+SRR3203617,SINGLE,Bach2_invitro-CD8-WT,Bach2_1,Input_all
+SRR3203618,SINGLE,JunD_invitro-stim-CD8-WT,JunD_1,Input_all
+SRR3203619,SINGLE,JunD_invitro-stim-CD8-Bach2KO,JunD-Bach2KO_1,Input_all
+SRR3203620,SINGLE,p300_invitro-CD8-WT,p300_1,Input_all
+SRR3203621,SINGLE,H3K4me1_invitro-CD8-WT,H3K4me1_1,Input_all
+SRR3203622,SINGLE,H3K27ac_invitro-CD8-WT,H3K27ac_1,Input_all
+SRR3203623,SINGLE,Input_invitro-CD8-WT,Input_all_1,

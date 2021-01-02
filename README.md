@@ -1,9 +1,17 @@
 # T_Cell_ChIP
 
 ## Sample description
-- Format: H3K4Me3_LCMVarmD4-P14-CD8-Runx3KO <br>
-          Antibody_Infection-Cell-type <br>
-          Input_Infection-Cell-type <br>
+- Condition (detailed description) Format: 
+	- H3K4Me3_LCMVarmD4-P14-CD8-Runx3KO <br>
+    - Antibody_Infection-Cell-type <br>
+    - Input_Infection-Cell-type <br>
+
+- Name Format: 
+	- shortConditionNameX_1 (experiment sample) <br>
+	- Input_shortConditionNameX_1 <br>
+	- Input_all_1 (input that works for all samples)
+- Input:
+	- Input_shortConditionNameX (without replicate number) <br>
 
 ## Transcription factor ChIPs
 1. **[ 2017_NAT_IMMUNOL_Shan ]** [Shan, Qiang, et al. "The transcription factor Runx3 guards cytotoxic CD8+ effector T cells against deviation towards follicular helper T cell lineage." Nature immunology 18.8 (2017): 931-939.](https://www.nature.com/articles/ni.3773)

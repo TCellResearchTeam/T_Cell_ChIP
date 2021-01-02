@@ -1,0 +1,103 @@
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: /gpfs/group/pipkin/hdiao/T_Cell_ChIP/0_fastq/SRR8591883_2.fastq
+Trimming mode: paired-end
+Trim Galore version: 0.6.1
+Cutadapt version: 1.18
+Number of cores used for trimming: 1
+Quality Phred score cutoff: 20
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'AGATCGGAAGAGC' (Illumina TruSeq, Sanger iPCR; auto-detected)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 3 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 24 bp
+
+
+This is cutadapt 1.18 with Python 2.7.11
+Command line parameters: -j 1 -e 0.1 -q 20 -O 3 -a AGATCGGAAGAGC /gpfs/group/pipkin/hdiao/T_Cell_ChIP/0_fastq/SRR8591883_2.fastq
+Processing reads on 1 core in single-end mode ...
+Finished in 20.62 s (15 us/read; 3.92 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:               1,347,584
+Reads with adapters:                    38,250 (2.8%)
+Reads written (passing filters):     1,347,584 (100.0%)
+
+Total basepairs processed:    68,726,784 bp
+Quality-trimmed:               1,956,683 bp (2.8%)
+Total written (filtered):     66,580,389 bp (96.9%)
+
+=== Adapter 1 ===
+
+Sequence: AGATCGGAAGAGC; Type: regular 3'; Length: 13; Trimmed: 38250 times.
+
+No. of allowed errors:
+0-9 bp: 0; 10-13 bp: 1
+
+Bases preceding removed adapters:
+  A: 28.5%
+  C: 24.0%
+  G: 25.5%
+  T: 18.6%
+  none/other: 3.4%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+3	29423	21056.0	0	29423
+4	5797	5264.0	0	5797
+5	1099	1316.0	0	1099
+6	102	329.0	0	102
+7	42	82.2	0	42
+8	41	20.6	0	41
+9	51	5.1	0	36 15
+10	57	1.3	1	17 40
+11	45	0.3	1	20 25
+12	40	0.1	1	20 20
+13	36	0.0	1	22 14
+14	33	0.0	1	21 12
+15	24	0.0	1	12 12
+16	15	0.0	1	7 8
+17	23	0.0	1	17 6
+18	16	0.0	1	8 8
+19	19	0.0	1	12 7
+20	17	0.0	1	12 5
+21	13	0.0	1	9 4
+22	3	0.0	1	3
+23	10	0.0	1	8 2
+24	17	0.0	1	9 8
+25	6	0.0	1	4 2
+26	7	0.0	1	5 2
+27	11	0.0	1	9 2
+28	10	0.0	1	7 3
+29	8	0.0	1	3 5
+30	7	0.0	1	3 4
+31	6	0.0	1	2 4
+32	1	0.0	1	1
+33	4	0.0	1	2 2
+34	7	0.0	1	2 5
+35	1	0.0	1	0 1
+36	3	0.0	1	1 2
+37	2	0.0	1	0 2
+39	3	0.0	1	1 2
+40	2	0.0	1	0 2
+41	2	0.0	1	0 2
+42	2	0.0	1	0 2
+43	3	0.0	1	0 3
+44	2	0.0	1	1 1
+45	2	0.0	1	0 2
+47	6	0.0	1	0 6
+48	12	0.0	1	0 12
+49	6	0.0	1	0 6
+50	257	0.0	1	0 257
+51	957	0.0	1	0 957
+
+
+RUN STATISTICS FOR INPUT FILE: /gpfs/group/pipkin/hdiao/T_Cell_ChIP/0_fastq/SRR8591883_2.fastq
+=============================================
+1347584 sequences processed in total
+
+Total number of sequences analysed for the sequence pair length validation: 1347584
+
+Number of sequence pairs removed because at least one read was shorter than the length cutoff (24 bp): 30651 (2.27%)
