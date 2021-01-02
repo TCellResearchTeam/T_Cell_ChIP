@@ -1,4 +1,4 @@
-Run,LibraryLayout,condition,name,input
+Run,LibraryLayout,condition,name,Input
 SRR10285313,SINGLE,H3K79me2_naive-CD8,H3K79me2-naive_1,
 SRR10285314,SINGLE,H3K79me2_naive-CD8,H3K79me2-naive_2,
 SRR10285315,SINGLE,H3K79me2_mem-CD8,H3K79me2-mem_1,

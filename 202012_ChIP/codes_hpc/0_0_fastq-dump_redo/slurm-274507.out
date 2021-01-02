@@ -1,0 +1,40 @@
+2020-12-28T16:36:28 fastq-dump.2.10.4 err: name not found while resolving query within virtual file system module - failed to resolve accession 'SRR3203621' - no data ( 404 )
+2020-12-28T16:36:28 fastq-dump.2.10.4 err: name not found while resolving query within virtual file system module - failed to resolve accession 'SRR3203617' - no data ( 404 )
+2020-12-28T16:36:28 fastq-dump.2.10.4 err: item not found while constructing within virtual database module - the path 'SRR3203621' cannot be opened as database or table
+fastq-dump (PID 24408) quit with error code 3
+2020-12-28T16:36:28 fastq-dump.2.10.4 err: item not found while constructing within virtual database module - the path 'SRR3203617' cannot be opened as database or table
+fastq-dump (PID 24413) quit with error code 3
+2020-12-28T16:38:53 fastq-dump.2.10.4 err: data corrupt while selecting function within transform module - failed SRR3203620
+
+=============================================================
+An error occurred during processing.
+A report was generated into the file '/gpfs/home/hdiao/ncbi_error_report.txt'.
+If the problem persists, you may consider sending the file
+to 'sra-tools@ncbi.nlm.nih.gov' for assistance.
+=============================================================
+
+fastq-dump (PID 24411) quit with error code 3
+2020-12-28T16:41:51 fastq-dump.2.10.4 err: data corrupt while selecting function within transform module - failed SRR2075585
+
+=============================================================
+An error occurred during processing.
+A report was generated into the file '/gpfs/home/hdiao/ncbi_error_report.txt'.
+If the problem persists, you may consider sending the file
+to 'sra-tools@ncbi.nlm.nih.gov' for assistance.
+=============================================================
+
+fastq-dump (PID 24409) quit with error code 3
+Read 28633994 spots for SRR2075584
+Written 28633994 spots for SRR2075584
+Read 37918787 spots for SRR2075586
+Written 37918787 spots for SRR2075586
+Read 65334420 spots for SRR3203618
+Written 65334420 spots for SRR3203618
+Read 61519992 spots for SRR3203619
+Written 61519992 spots for SRR3203619
+2020-12-28T17:10:17 fastq-dump.2.10.4 err: name not found while resolving query within virtual file system module - failed to resolve accession 'SRR3203622' - no data ( 404 )
+2020-12-28T17:10:17 fastq-dump.2.10.4 err: name not found while resolving query within virtual file system module - failed to resolve accession 'SRR3203623' - no data ( 404 )
+2020-12-28T17:10:17 fastq-dump.2.10.4 err: item not found while constructing within virtual database module - the path 'SRR3203622' cannot be opened as database or table
+fastq-dump (PID 29053) quit with error code 3
+2020-12-28T17:10:17 fastq-dump.2.10.4 err: item not found while constructing within virtual database module - the path 'SRR3203623' cannot be opened as database or table
+fastq-dump (PID 29054) quit with error code 3

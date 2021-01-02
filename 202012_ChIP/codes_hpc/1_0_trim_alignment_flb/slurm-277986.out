@@ -1,0 +1,41 @@
+Started analysis of SRR1731136_1.fastq
+Approx 5% complete for SRR1731136_1.fastq
+Approx 10% complete for SRR1731136_1.fastq
+Approx 15% complete for SRR1731136_1.fastq
+Approx 20% complete for SRR1731136_1.fastq
+Approx 25% complete for SRR1731136_1.fastq
+Approx 30% complete for SRR1731136_1.fastq
+Approx 35% complete for SRR1731136_1.fastq
+Approx 40% complete for SRR1731136_1.fastq
+Approx 45% complete for SRR1731136_1.fastq
+Approx 50% complete for SRR1731136_1.fastq
+Approx 55% complete for SRR1731136_1.fastq
+Approx 60% complete for SRR1731136_1.fastq
+Approx 65% complete for SRR1731136_1.fastq
+Approx 70% complete for SRR1731136_1.fastq
+Approx 75% complete for SRR1731136_1.fastq
+Approx 80% complete for SRR1731136_1.fastq
+Approx 85% complete for SRR1731136_1.fastq
+Approx 90% complete for SRR1731136_1.fastq
+Approx 95% complete for SRR1731136_1.fastq
+Analysis complete for SRR1731136_1.fastq
+Multicore support not enabled. Proceeding with single-core trimming.
+Path to Cutadapt set as: 'cutadapt' (default)
+Cutadapt seems to be working fine (tested command 'cutadapt --version')
+No quality encoding type selected. Assuming that the data provided uses Sanger encoded Phred scores (default)
+
+File seems to be in SOLiD colorspace format which is not supported by Trim Galore (sequence is: 'T223213030122113231010232.323..33..020..330....1...')! Please use Cutadapt on colorspace files separately and check its documentation!
+
+Skipping '/gpfs/group/pipkin/hdiao/T_Cell_ChIP/0_fastq/SRR1731136_1_trimmed.fq' which didn't exist, or couldn't be read
+stat: Bad file descriptor
+Warning: Could not open read file "/gpfs/group/pipkin/hdiao/T_Cell_ChIP/0_fastq/SRR1731136_1_trimmed.fq" for reading; skipping...
+Error: No input read files were valid
+(ERR): bowtie2-align exited with value 1
+[E::hts_open_format] Failed to open file "SRR1731136.sam" : No such file or directory
+samtools view: failed to open "SRR1731136.sam" for reading: No such file or directory
+samtools sort: failed to read header from "SRR1731136.bam"
+[E::hts_open_format] Failed to open file "SRR1731136_srt.sam" : No such file or directory
+samtools rmdup: failed to open "SRR1731136_srt.sam" for input: No such file or directory
+[E::hts_open_format] Failed to open file "SRR1731136_srt_dupr.sam" : No such file or directory
+samtools view: failed to open "SRR1731136_srt_dupr.sam" for reading: No such file or directory
+Failed to open BAM file SRR1731136_srt_dupr.bam

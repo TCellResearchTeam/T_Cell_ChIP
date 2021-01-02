@@ -38,8 +38,8 @@ fastq_file_new = fastq_file.replace(".fastq", "_solidCvt.fastq").replace(".fq", 
 
 with open(fastq_file, "r") as fin:
     with open(fastq_file_new, "w") as fout:
-        rfin = csv.reader(fin, delimiter=",")
-        wfout = csv.writer(fout, delimiter=",", lineterminator='\n')
+        rfin = csv.reader(fin, delimiter="\t")
+        wfout = csv.writer(fout, delimiter="\t", lineterminator='\n')
         row_n = 0
         for row in rfin:
             if row_n % 4 == 1:

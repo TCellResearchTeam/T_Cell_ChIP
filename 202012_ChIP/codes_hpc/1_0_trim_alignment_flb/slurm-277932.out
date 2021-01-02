@@ -1,0 +1,226 @@
+Started analysis of SRR5195618_1.fastq
+Approx 5% complete for SRR5195618_1.fastq
+Approx 10% complete for SRR5195618_1.fastq
+Approx 15% complete for SRR5195618_1.fastq
+Approx 20% complete for SRR5195618_1.fastq
+Approx 25% complete for SRR5195618_1.fastq
+Approx 30% complete for SRR5195618_1.fastq
+Approx 35% complete for SRR5195618_1.fastq
+Approx 40% complete for SRR5195618_1.fastq
+Approx 45% complete for SRR5195618_1.fastq
+Approx 50% complete for SRR5195618_1.fastq
+Approx 55% complete for SRR5195618_1.fastq
+Approx 60% complete for SRR5195618_1.fastq
+Approx 65% complete for SRR5195618_1.fastq
+Approx 70% complete for SRR5195618_1.fastq
+Approx 75% complete for SRR5195618_1.fastq
+Approx 80% complete for SRR5195618_1.fastq
+Approx 85% complete for SRR5195618_1.fastq
+Approx 90% complete for SRR5195618_1.fastq
+Approx 95% complete for SRR5195618_1.fastq
+Analysis complete for SRR5195618_1.fastq
+Multicore support not enabled. Proceeding with single-core trimming.
+Path to Cutadapt set as: 'cutadapt' (default)
+Cutadapt seems to be working fine (tested command 'cutadapt --version')
+No quality encoding type selected. Assuming that the data provided uses Sanger encoded Phred scores (default)
+
+
+
+AUTO-DETECTING ADAPTER TYPE
+===========================
+Attempting to auto-detect adapter type from the first 1 million sequences of the first file (>> SRR5195618_1.fastq <<)
+
+Found perfect matches for the following adapter sequences:
+Adapter type	Count	Sequence	Sequences analysed	Percentage
+Illumina	27757	AGATCGGAAGAGC	1000000	2.78
+Nextera	12	CTGTCTCTTATA	1000000	0.00
+smallRNA	0	TGGAATTCTCGG	1000000	0.00
+Using Illumina adapter for trimming (count: 27757). Second best hit was Nextera (count: 12)
+
+Writing report to 'SRR5195618_1.fastq_trimming_report.txt'
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: SRR5195618_1.fastq
+Trimming mode: single-end
+Trim Galore version: 0.6.1
+Cutadapt version: 1.18
+Number of cores used for trimming: 1
+Quality Phred score cutoff: 20
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'AGATCGGAAGAGC' (Illumina TruSeq, Sanger iPCR; auto-detected)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 3 bp
+Minimum required sequence length before a sequence gets removed: 24 bp
+
+Writing final adapter and quality trimmed output to SRR5195618_1_trimmed.fq
+
+
+  >>> Now performing quality (cutoff '-q 20') and adapter trimming in a single pass for the adapter sequence: 'AGATCGGAAGAGC' from file SRR5195618_1.fastq <<< 
+10000000 sequences processed
+20000000 sequences processed
+This is cutadapt 1.18 with Python 2.7.11
+Command line parameters: -j 1 -e 0.1 -q 20 -O 3 -a AGATCGGAAGAGC SRR5195618_1.fastq
+Processing reads on 1 core in single-end mode ...
+Finished in 2682.06 s (110 us/read; 0.54 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:              24,317,258
+Reads with adapters:                 2,119,841 (8.7%)
+Reads written (passing filters):    24,317,258 (100.0%)
+
+Total basepairs processed: 2,431,725,800 bp
+Quality-trimmed:             181,475,214 bp (7.5%)
+Total written (filtered):  2,200,925,243 bp (90.5%)
+
+=== Adapter 1 ===
+
+Sequence: AGATCGGAAGAGC; Type: regular 3'; Length: 13; Trimmed: 2119841 times.
+
+No. of allowed errors:
+0-9 bp: 0; 10-13 bp: 1
+
+Bases preceding removed adapters:
+  A: 19.6%
+  C: 16.8%
+  G: 28.4%
+  T: 23.7%
+  none/other: 11.6%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+3	588642	379957.2	0	588642
+4	144226	94989.3	0	144226
+5	78768	23747.3	0	78768
+6	62969	5936.8	0	62969
+7	59499	1484.2	0	59499
+8	53850	371.1	0	53850
+9	52722	92.8	0	52397 325
+10	47436	23.2	1	46536 900
+11	43324	5.8	1	42620 704
+12	40412	1.4	1	39869 543
+13	34296	0.4	1	33877 419
+14	33709	0.4	1	33173 536
+15	30283	0.4	1	29795 488
+16	28874	0.4	1	28341 533
+17	26940	0.4	1	26313 627
+18	24386	0.4	1	23844 542
+19	20422	0.4	1	20035 387
+20	19990	0.4	1	19626 364
+21	18058	0.4	1	17600 458
+22	17136	0.4	1	16694 442
+23	15227	0.4	1	14850 377
+24	14322	0.4	1	13908 414
+25	13351	0.4	1	13000 351
+26	12385	0.4	1	12025 360
+27	11287	0.4	1	10924 363
+28	12053	0.4	1	11528 525
+29	10157	0.4	1	9739 418
+30	10455	0.4	1	10019 436
+31	8323	0.4	1	8059 264
+32	8148	0.4	1	7881 267
+33	7428	0.4	1	7164 264
+34	7561	0.4	1	7275 286
+35	7414	0.4	1	7007 407
+36	6834	0.4	1	6476 358
+37	6864	0.4	1	6508 356
+38	6951	0.4	1	6578 373
+39	5721	0.4	1	5437 284
+40	6138	0.4	1	5806 332
+41	6058	0.4	1	5666 392
+42	6334	0.4	1	5963 371
+43	5500	0.4	1	5132 368
+44	6040	0.4	1	5603 437
+45	6718	0.4	1	6163 555
+46	6562	0.4	1	6053 509
+47	4932	0.4	1	4569 363
+48	5250	0.4	1	4830 420
+49	5143	0.4	1	4736 407
+50	5255	0.4	1	4884 371
+51	5380	0.4	1	4796 584
+52	7000	0.4	1	6352 648
+53	6289	0.4	1	5826 463
+54	4412	0.4	1	4041 371
+55	4268	0.4	1	3932 336
+56	5434	0.4	1	4666 768
+57	5753	0.4	1	5092 661
+58	6547	0.4	1	5565 982
+59	6500	0.4	1	5881 619
+60	5635	0.4	1	4898 737
+61	5994	0.4	1	5129 865
+62	9125	0.4	1	5431 3694
+63	11892	0.4	1	8837 3055
+64	8874	0.4	1	7597 1277
+65	6760	0.4	1	4924 1836
+66	10570	0.4	1	6050 4520
+67	34176	0.4	1	7957 26219
+68	59194	0.4	1	24251 34943
+69	147894	0.4	1	26311 121583
+70	74182	0.4	1	47295 26887
+71	15536	0.4	1	11759 3777
+72	4673	0.4	1	2842 1831
+73	1867	0.4	1	911 956
+74	865	0.4	1	467 398
+75	563	0.4	1	286 277
+76	407	0.4	1	203 204
+77	517	0.4	1	179 338
+78	517	0.4	1	144 373
+79	519	0.4	1	161 358
+80	463	0.4	1	98 365
+81	479	0.4	1	141 338
+82	523	0.4	1	139 384
+83	395	0.4	1	125 270
+84	333	0.4	1	105 228
+85	313	0.4	1	110 203
+86	332	0.4	1	112 220
+87	293	0.4	1	108 185
+88	321	0.4	1	92 229
+89	275	0.4	1	76 199
+90	327	0.4	1	80 247
+91	300	0.4	1	57 243
+92	289	0.4	1	44 245
+93	315	0.4	1	51 264
+94	344	0.4	1	29 315
+95	404	0.4	1	29 375
+96	435	0.4	1	33 402
+97	501	0.4	1	16 485
+98	461	0.4	1	13 448
+99	729	0.4	1	5 724
+100	6313	0.4	1	22 6291
+
+
+RUN STATISTICS FOR INPUT FILE: SRR5195618_1.fastq
+=============================================
+24317258 sequences processed in total
+Sequences removed because they became shorter than the length cutoff of 24 bp:	653013 (2.7%)
+
+Started analysis of SRR5195618_1_trimmed.fq
+Approx 5% complete for SRR5195618_1_trimmed.fq
+Approx 10% complete for SRR5195618_1_trimmed.fq
+Approx 15% complete for SRR5195618_1_trimmed.fq
+Approx 20% complete for SRR5195618_1_trimmed.fq
+Approx 25% complete for SRR5195618_1_trimmed.fq
+Approx 30% complete for SRR5195618_1_trimmed.fq
+Approx 35% complete for SRR5195618_1_trimmed.fq
+Approx 40% complete for SRR5195618_1_trimmed.fq
+Approx 45% complete for SRR5195618_1_trimmed.fq
+Approx 50% complete for SRR5195618_1_trimmed.fq
+Approx 55% complete for SRR5195618_1_trimmed.fq
+Approx 60% complete for SRR5195618_1_trimmed.fq
+Approx 65% complete for SRR5195618_1_trimmed.fq
+Approx 70% complete for SRR5195618_1_trimmed.fq
+Approx 75% complete for SRR5195618_1_trimmed.fq
+Approx 80% complete for SRR5195618_1_trimmed.fq
+Approx 85% complete for SRR5195618_1_trimmed.fq
+Approx 90% complete for SRR5195618_1_trimmed.fq
+Approx 95% complete for SRR5195618_1_trimmed.fq
+Analysis complete for SRR5195618_1_trimmed.fq
+23664245 reads; of these:
+  23664245 (100.00%) were unpaired; of these:
+    2012103 (8.50%) aligned 0 times
+    12695366 (53.65%) aligned exactly 1 time
+    8956776 (37.85%) aligned >1 times
+91.50% overall alignment rate
+[bam_sort_core] merging from 8 files and 1 in-memory blocks...
+[bam_rmdupse_core] 9765696 / 21652142 = 0.4510 in library '	'

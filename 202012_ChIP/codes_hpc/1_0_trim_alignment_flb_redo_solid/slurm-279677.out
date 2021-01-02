@@ -1,0 +1,104 @@
+Started analysis of SRR1731131_1_solidCvt.fastq
+Approx 5% complete for SRR1731131_1_solidCvt.fastq
+Approx 10% complete for SRR1731131_1_solidCvt.fastq
+Approx 15% complete for SRR1731131_1_solidCvt.fastq
+Approx 20% complete for SRR1731131_1_solidCvt.fastq
+Approx 25% complete for SRR1731131_1_solidCvt.fastq
+Approx 30% complete for SRR1731131_1_solidCvt.fastq
+Approx 35% complete for SRR1731131_1_solidCvt.fastq
+Approx 40% complete for SRR1731131_1_solidCvt.fastq
+Approx 45% complete for SRR1731131_1_solidCvt.fastq
+Approx 50% complete for SRR1731131_1_solidCvt.fastq
+Approx 55% complete for SRR1731131_1_solidCvt.fastq
+Approx 60% complete for SRR1731131_1_solidCvt.fastq
+Approx 65% complete for SRR1731131_1_solidCvt.fastq
+Approx 70% complete for SRR1731131_1_solidCvt.fastq
+Approx 75% complete for SRR1731131_1_solidCvt.fastq
+Approx 80% complete for SRR1731131_1_solidCvt.fastq
+Approx 85% complete for SRR1731131_1_solidCvt.fastq
+Approx 90% complete for SRR1731131_1_solidCvt.fastq
+Approx 95% complete for SRR1731131_1_solidCvt.fastq
+Failed to process file SRR1731131_1_solidCvt.fastq
+uk.ac.babraham.FastQC.Sequence.SequenceFormatException: Ran out of data in the middle of a fastq entry.  Your file is probably truncated
+	at uk.ac.babraham.FastQC.Sequence.FastQFile.readNext(FastQFile.java:179)
+	at uk.ac.babraham.FastQC.Sequence.FastQFile.next(FastQFile.java:125)
+	at uk.ac.babraham.FastQC.Analysis.AnalysisRunner.run(AnalysisRunner.java:76)
+	at java.lang.Thread.run(Thread.java:748)
+Multicore support not enabled. Proceeding with single-core trimming.
+Path to Cutadapt set as: 'cutadapt' (default)
+Cutadapt seems to be working fine (tested command 'cutadapt --version')
+No quality encoding type selected. Assuming that the data provided uses Sanger encoded Phred scores (default)
+
+
+
+AUTO-DETECTING ADAPTER TYPE
+===========================
+Attempting to auto-detect adapter type from the first 1 million sequences of the first file (>> /gpfs/group/pipkin/hdiao/T_Cell_ChIP/0_fastq/SRR1731131_1_solidCvt.fastq <<)
+
+Found perfect matches for the following adapter sequences:
+Adapter type	Count	Sequence	Sequences analysed	Percentage
+smallRNA	2	TGGAATTCTCGG	1000000	0.00
+Nextera	1	CTGTCTCTTATA	1000000	0.00
+Illumina	0	AGATCGGAAGAGC	1000000	0.00
+Using smallRNA adapter for trimming (count: 2). Second best hit was Nextera (count: 1)
+
+Writing report to 'SRR1731131_1_solidCvt.fastq_trimming_report.txt'
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: /gpfs/group/pipkin/hdiao/T_Cell_ChIP/0_fastq/SRR1731131_1_solidCvt.fastq
+Trimming mode: single-end
+Trim Galore version: 0.6.1
+Cutadapt version: 1.18
+Number of cores used for trimming: 1
+Quality Phred score cutoff: 20
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'TGGAATTCTCGG' (Illumina small RNA adapter; auto-detected)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 3 bp
+Minimum required sequence length before a sequence gets removed: 24 bp
+
+Writing final adapter and quality trimmed output to SRR1731131_1_solidCvt_trimmed.fq
+
+
+  >>> Now performing quality (cutoff '-q 20') and adapter trimming in a single pass for the adapter sequence: 'TGGAATTCTCGG' from file /gpfs/group/pipkin/hdiao/T_Cell_ChIP/0_fastq/SRR1731131_1_solidCvt.fastq <<< 
+10000000 sequences processed
+20000000 sequences processed
+This is cutadapt 1.18 with Python 2.7.11
+Command line parameters: -j 1 -e 0.1 -q 20 -O 3 -a TGGAATTCTCGG /gpfs/group/pipkin/hdiao/T_Cell_ChIP/0_fastq/SRR1731131_1_solidCvt.fastq
+Processing reads on 1 core in single-end mode ...
+cutadapt: error: FASTQ file ended prematurely
+
+
+Cutadapt terminated with exit signal: '256'.
+Terminating Trim Galore run, please check error message(s) to get an idea what went wrong...
+
+Started analysis of SRR1731131_1_solidCvt_trimmed.fq
+Approx 5% complete for SRR1731131_1_solidCvt_trimmed.fq
+Approx 10% complete for SRR1731131_1_solidCvt_trimmed.fq
+Approx 15% complete for SRR1731131_1_solidCvt_trimmed.fq
+Approx 20% complete for SRR1731131_1_solidCvt_trimmed.fq
+Approx 25% complete for SRR1731131_1_solidCvt_trimmed.fq
+Approx 30% complete for SRR1731131_1_solidCvt_trimmed.fq
+Approx 35% complete for SRR1731131_1_solidCvt_trimmed.fq
+Approx 40% complete for SRR1731131_1_solidCvt_trimmed.fq
+Approx 45% complete for SRR1731131_1_solidCvt_trimmed.fq
+Approx 50% complete for SRR1731131_1_solidCvt_trimmed.fq
+Approx 55% complete for SRR1731131_1_solidCvt_trimmed.fq
+Approx 60% complete for SRR1731131_1_solidCvt_trimmed.fq
+Approx 65% complete for SRR1731131_1_solidCvt_trimmed.fq
+Approx 70% complete for SRR1731131_1_solidCvt_trimmed.fq
+Approx 75% complete for SRR1731131_1_solidCvt_trimmed.fq
+Approx 80% complete for SRR1731131_1_solidCvt_trimmed.fq
+Approx 85% complete for SRR1731131_1_solidCvt_trimmed.fq
+Approx 90% complete for SRR1731131_1_solidCvt_trimmed.fq
+Approx 95% complete for SRR1731131_1_solidCvt_trimmed.fq
+Analysis complete for SRR1731131_1_solidCvt_trimmed.fq
+20737263 reads; of these:
+  20737263 (100.00%) were unpaired; of these:
+    10358095 (49.95%) aligned 0 times
+    8050455 (38.82%) aligned exactly 1 time
+    2328713 (11.23%) aligned >1 times
+50.05% overall alignment rate
+[bam_sort_core] merging from 5 files and 1 in-memory blocks...
+[bam_rmdupse_core] 2382010 / 10379168 = 0.2295 in library '	'

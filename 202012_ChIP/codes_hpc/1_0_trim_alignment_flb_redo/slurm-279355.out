@@ -1,0 +1,5 @@
+Error: Read SRR6228886.12585210.1 12585210 length=101 has more read characters than quality values.
+terminate called after throwing an instance of 'int'
+(ERR): bowtie2-align died with signal 6 (ABRT) 
+[bam_sort_core] merging from 4 files and 1 in-memory blocks...
+[bam_rmdupse_core] 1772598 / 12475544 = 0.1421 in library '	'

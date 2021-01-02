@@ -1,0 +1,175 @@
+Started analysis of SRR4437341_1.fastq
+Approx 5% complete for SRR4437341_1.fastq
+Approx 10% complete for SRR4437341_1.fastq
+Approx 15% complete for SRR4437341_1.fastq
+Approx 20% complete for SRR4437341_1.fastq
+Approx 25% complete for SRR4437341_1.fastq
+Approx 30% complete for SRR4437341_1.fastq
+Approx 35% complete for SRR4437341_1.fastq
+Approx 40% complete for SRR4437341_1.fastq
+Approx 45% complete for SRR4437341_1.fastq
+Approx 50% complete for SRR4437341_1.fastq
+Approx 55% complete for SRR4437341_1.fastq
+Approx 60% complete for SRR4437341_1.fastq
+Approx 65% complete for SRR4437341_1.fastq
+Approx 70% complete for SRR4437341_1.fastq
+Approx 75% complete for SRR4437341_1.fastq
+Approx 80% complete for SRR4437341_1.fastq
+Approx 85% complete for SRR4437341_1.fastq
+Approx 90% complete for SRR4437341_1.fastq
+Approx 95% complete for SRR4437341_1.fastq
+Analysis complete for SRR4437341_1.fastq
+Multicore support not enabled. Proceeding with single-core trimming.
+Path to Cutadapt set as: 'cutadapt' (default)
+Cutadapt seems to be working fine (tested command 'cutadapt --version')
+No quality encoding type selected. Assuming that the data provided uses Sanger encoded Phred scores (default)
+
+
+
+AUTO-DETECTING ADAPTER TYPE
+===========================
+Attempting to auto-detect adapter type from the first 1 million sequences of the first file (>> SRR4437341_1.fastq <<)
+
+Found perfect matches for the following adapter sequences:
+Adapter type	Count	Sequence	Sequences analysed	Percentage
+Illumina	1390	AGATCGGAAGAGC	1000000	0.14
+Nextera	2	CTGTCTCTTATA	1000000	0.00
+smallRNA	1	TGGAATTCTCGG	1000000	0.00
+Using Illumina adapter for trimming (count: 1390). Second best hit was Nextera (count: 2)
+
+Writing report to 'SRR4437341_1.fastq_trimming_report.txt'
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: SRR4437341_1.fastq
+Trimming mode: single-end
+Trim Galore version: 0.6.1
+Cutadapt version: 1.18
+Number of cores used for trimming: 1
+Quality Phred score cutoff: 20
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'AGATCGGAAGAGC' (Illumina TruSeq, Sanger iPCR; auto-detected)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 3 bp
+Minimum required sequence length before a sequence gets removed: 24 bp
+
+Writing final adapter and quality trimmed output to SRR4437341_1_trimmed.fq
+
+
+  >>> Now performing quality (cutoff '-q 20') and adapter trimming in a single pass for the adapter sequence: 'AGATCGGAAGAGC' from file SRR4437341_1.fastq <<< 
+10000000 sequences processed
+This is cutadapt 1.18 with Python 2.7.11
+Command line parameters: -j 1 -e 0.1 -q 20 -O 3 -a AGATCGGAAGAGC SRR4437341_1.fastq
+Processing reads on 1 core in single-end mode ...
+Finished in 1131.62 s (73 us/read; 0.82 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:              15,404,929
+Reads with adapters:                 3,756,961 (24.4%)
+Reads written (passing filters):    15,404,929 (100.0%)
+
+Total basepairs processed:   770,246,450 bp
+Quality-trimmed:               1,530,316 bp (0.2%)
+Total written (filtered):    605,824,838 bp (78.7%)
+
+=== Adapter 1 ===
+
+Sequence: AGATCGGAAGAGC; Type: regular 3'; Length: 13; Trimmed: 3756961 times.
+
+No. of allowed errors:
+0-9 bp: 0; 10-13 bp: 1
+
+Bases preceding removed adapters:
+  A: 3.4%
+  C: 4.0%
+  G: 4.3%
+  T: 2.8%
+  none/other: 85.6%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+3	325042	240702.0	0	325042
+4	82445	60175.5	0	82445
+5	36632	15043.9	0	36632
+6	20502	3761.0	0	20502
+7	14227	940.2	0	14227
+8	10742	235.1	0	10742
+9	9246	58.8	0	8969 277
+10	8068	14.7	1	7626 442
+11	7228	3.7	1	6922 306
+12	6035	0.9	1	5877 158
+13	5169	0.2	1	5032 137
+14	4143	0.2	1	4030 113
+15	3037	0.2	1	2934 103
+16	2059	0.2	1	1983 76
+17	1414	0.2	1	1349 65
+18	1029	0.2	1	982 47
+19	746	0.2	1	705 41
+20	606	0.2	1	565 41
+21	591	0.2	1	553 38
+22	569	0.2	1	516 53
+23	464	0.2	1	403 61
+24	387	0.2	1	317 70
+25	364	0.2	1	281 83
+26	721	0.2	1	230 491
+27	457	0.2	1	160 297
+28	433	0.2	1	132 301
+29	300	0.2	1	110 190
+30	378	0.2	1	99 279
+31	2944	0.2	1	95 2849
+32	250	0.2	1	78 172
+33	415	0.2	1	92 323
+34	4659	0.2	1	74 4585
+35	1227	0.2	1	55 1172
+36	2021	0.2	1	62 1959
+37	1169	0.2	1	36 1133
+38	426	0.2	1	44 382
+39	606	0.2	1	36 570
+40	541	0.2	1	44 497
+41	688	0.2	1	45 643
+42	792	0.2	1	30 762
+43	917	0.2	1	29 888
+44	2074	0.2	1	23 2051
+45	2968	0.2	1	28 2940
+46	1689	0.2	1	28 1661
+47	3493	0.2	1	20 3473
+48	5472	0.2	1	13 5459
+49	11740	0.2	1	13 11727
+50	3169836	0.2	1	106 3169730
+
+
+RUN STATISTICS FOR INPUT FILE: SRR4437341_1.fastq
+=============================================
+15404929 sequences processed in total
+Sequences removed because they became shorter than the length cutoff of 24 bp:	3220935 (20.9%)
+
+Started analysis of SRR4437341_1_trimmed.fq
+Approx 5% complete for SRR4437341_1_trimmed.fq
+Approx 10% complete for SRR4437341_1_trimmed.fq
+Approx 15% complete for SRR4437341_1_trimmed.fq
+Approx 20% complete for SRR4437341_1_trimmed.fq
+Approx 25% complete for SRR4437341_1_trimmed.fq
+Approx 30% complete for SRR4437341_1_trimmed.fq
+Approx 35% complete for SRR4437341_1_trimmed.fq
+Approx 40% complete for SRR4437341_1_trimmed.fq
+Approx 45% complete for SRR4437341_1_trimmed.fq
+Approx 50% complete for SRR4437341_1_trimmed.fq
+Approx 55% complete for SRR4437341_1_trimmed.fq
+Approx 60% complete for SRR4437341_1_trimmed.fq
+Approx 65% complete for SRR4437341_1_trimmed.fq
+Approx 70% complete for SRR4437341_1_trimmed.fq
+Approx 75% complete for SRR4437341_1_trimmed.fq
+Approx 80% complete for SRR4437341_1_trimmed.fq
+Approx 85% complete for SRR4437341_1_trimmed.fq
+Approx 90% complete for SRR4437341_1_trimmed.fq
+Approx 95% complete for SRR4437341_1_trimmed.fq
+Analysis complete for SRR4437341_1_trimmed.fq
+12183994 reads; of these:
+  12183994 (100.00%) were unpaired; of these:
+    897635 (7.37%) aligned 0 times
+    7998125 (65.64%) aligned exactly 1 time
+    3288234 (26.99%) aligned >1 times
+92.63% overall alignment rate
+[bam_sort_core] merging from 3 files and 1 in-memory blocks...
+[bam_rmdupse_core] 1599426 / 11286359 = 0.1417 in library '	'

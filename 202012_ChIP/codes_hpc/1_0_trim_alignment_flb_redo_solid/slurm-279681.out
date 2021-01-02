@@ -1,0 +1,172 @@
+Started analysis of SRR1731135_1_solidCvt.fastq
+Approx 5% complete for SRR1731135_1_solidCvt.fastq
+Approx 10% complete for SRR1731135_1_solidCvt.fastq
+Approx 15% complete for SRR1731135_1_solidCvt.fastq
+Approx 20% complete for SRR1731135_1_solidCvt.fastq
+Approx 25% complete for SRR1731135_1_solidCvt.fastq
+Approx 30% complete for SRR1731135_1_solidCvt.fastq
+Approx 35% complete for SRR1731135_1_solidCvt.fastq
+Approx 40% complete for SRR1731135_1_solidCvt.fastq
+Approx 45% complete for SRR1731135_1_solidCvt.fastq
+Approx 50% complete for SRR1731135_1_solidCvt.fastq
+Approx 55% complete for SRR1731135_1_solidCvt.fastq
+Approx 60% complete for SRR1731135_1_solidCvt.fastq
+Approx 65% complete for SRR1731135_1_solidCvt.fastq
+Approx 70% complete for SRR1731135_1_solidCvt.fastq
+Approx 75% complete for SRR1731135_1_solidCvt.fastq
+Approx 80% complete for SRR1731135_1_solidCvt.fastq
+Approx 85% complete for SRR1731135_1_solidCvt.fastq
+Approx 90% complete for SRR1731135_1_solidCvt.fastq
+Approx 95% complete for SRR1731135_1_solidCvt.fastq
+Analysis complete for SRR1731135_1_solidCvt.fastq
+Multicore support not enabled. Proceeding with single-core trimming.
+Path to Cutadapt set as: 'cutadapt' (default)
+Cutadapt seems to be working fine (tested command 'cutadapt --version')
+No quality encoding type selected. Assuming that the data provided uses Sanger encoded Phred scores (default)
+
+
+
+AUTO-DETECTING ADAPTER TYPE
+===========================
+Attempting to auto-detect adapter type from the first 1 million sequences of the first file (>> /gpfs/group/pipkin/hdiao/T_Cell_ChIP/0_fastq/SRR1731135_1_solidCvt.fastq <<)
+
+Found perfect matches for the following adapter sequences:
+Adapter type	Count	Sequence	Sequences analysed	Percentage
+smallRNA	4	TGGAATTCTCGG	1000000	0.00
+Nextera	4	CTGTCTCTTATA	1000000	0.00
+Illumina	1	AGATCGGAAGAGC	1000000	0.00
+Unable to auto-detect most prominent adapter from the first specified file (count smallRNA: 4, count Nextera: 4)
+Using smallRNA adapter for trimming (count: 4). Second best hit was Nextera (count: 4)
+
+Writing report to 'SRR1731135_1_solidCvt.fastq_trimming_report.txt'
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: /gpfs/group/pipkin/hdiao/T_Cell_ChIP/0_fastq/SRR1731135_1_solidCvt.fastq
+Trimming mode: single-end
+Trim Galore version: 0.6.1
+Cutadapt version: 1.18
+Number of cores used for trimming: 1
+Quality Phred score cutoff: 20
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'TGGAATTCTCGG' (Illumina small RNA adapter; auto-detected)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 3 bp
+Minimum required sequence length before a sequence gets removed: 24 bp
+
+Writing final adapter and quality trimmed output to SRR1731135_1_solidCvt_trimmed.fq
+
+
+  >>> Now performing quality (cutoff '-q 20') and adapter trimming in a single pass for the adapter sequence: 'TGGAATTCTCGG' from file /gpfs/group/pipkin/hdiao/T_Cell_ChIP/0_fastq/SRR1731135_1_solidCvt.fastq <<< 
+10000000 sequences processed
+20000000 sequences processed
+This is cutadapt 1.18 with Python 2.7.11
+Command line parameters: -j 1 -e 0.1 -q 20 -O 3 -a TGGAATTCTCGG /gpfs/group/pipkin/hdiao/T_Cell_ChIP/0_fastq/SRR1731135_1_solidCvt.fastq
+Processing reads on 1 core in single-end mode ...
+Finished in 562.18 s (20 us/read; 3.06 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:              28,674,911
+Reads with adapters:                   502,904 (1.8%)
+Reads written (passing filters):    28,674,911 (100.0%)
+
+Total basepairs processed: 1,433,745,550 bp
+Quality-trimmed:             450,441,899 bp (31.4%)
+Total written (filtered):    981,525,969 bp (68.5%)
+
+=== Adapter 1 ===
+
+Sequence: TGGAATTCTCGG; Type: regular 3'; Length: 12; Trimmed: 502904 times.
+
+No. of allowed errors:
+0-9 bp: 0; 10-12 bp: 1
+
+Bases preceding removed adapters:
+  A: 27.0%
+  C: 25.0%
+  G: 23.7%
+  T: 24.3%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+3	350637	448045.5	0	350637
+4	110545	112011.4	0	110545
+5	29837	28002.8	0	29837
+6	5431	7000.7	0	5431
+7	1152	1750.2	0	1152
+8	251	437.5	0	251
+9	1019	109.4	0	186 833
+10	1223	27.3	1	36 1187
+11	389	6.8	1	7 382
+12	85	1.7	1	1 84
+13	126	1.7	1	3 123
+14	112	1.7	1	1 111
+15	103	1.7	1	0 103
+16	60	1.7	1	0 60
+17	76	1.7	1	1 75
+18	95	1.7	1	1 94
+19	108	1.7	1	2 106
+20	89	1.7	1	4 85
+21	48	1.7	1	0 48
+22	48	1.7	1	1 47
+23	87	1.7	1	2 85
+24	95	1.7	1	1 94
+25	94	1.7	1	3 91
+26	38	1.7	1	1 37
+27	52	1.7	1	1 51
+28	54	1.7	1	2 52
+29	62	1.7	1	2 60
+30	52	1.7	1	0 52
+31	48	1.7	1	0 48
+32	41	1.7	1	1 40
+33	49	1.7	1	0 49
+34	87	1.7	1	0 87
+35	62	1.7	1	3 59
+36	36	1.7	1	0 36
+37	40	1.7	1	1 39
+38	46	1.7	1	1 45
+39	65	1.7	1	0 65
+40	71	1.7	1	0 71
+41	36	1.7	1	0 36
+42	47	1.7	1	1 46
+43	57	1.7	1	1 56
+44	94	1.7	1	3 91
+45	157	1.7	1	2 155
+
+
+RUN STATISTICS FOR INPUT FILE: /gpfs/group/pipkin/hdiao/T_Cell_ChIP/0_fastq/SRR1731135_1_solidCvt.fastq
+=============================================
+28674911 sequences processed in total
+Sequences removed because they became shorter than the length cutoff of 24 bp:	9212982 (32.1%)
+
+Started analysis of SRR1731135_1_solidCvt_trimmed.fq
+Approx 5% complete for SRR1731135_1_solidCvt_trimmed.fq
+Approx 10% complete for SRR1731135_1_solidCvt_trimmed.fq
+Approx 15% complete for SRR1731135_1_solidCvt_trimmed.fq
+Approx 20% complete for SRR1731135_1_solidCvt_trimmed.fq
+Approx 25% complete for SRR1731135_1_solidCvt_trimmed.fq
+Approx 30% complete for SRR1731135_1_solidCvt_trimmed.fq
+Approx 35% complete for SRR1731135_1_solidCvt_trimmed.fq
+Approx 40% complete for SRR1731135_1_solidCvt_trimmed.fq
+Approx 45% complete for SRR1731135_1_solidCvt_trimmed.fq
+Approx 50% complete for SRR1731135_1_solidCvt_trimmed.fq
+Approx 55% complete for SRR1731135_1_solidCvt_trimmed.fq
+Approx 60% complete for SRR1731135_1_solidCvt_trimmed.fq
+Approx 65% complete for SRR1731135_1_solidCvt_trimmed.fq
+Approx 70% complete for SRR1731135_1_solidCvt_trimmed.fq
+Approx 75% complete for SRR1731135_1_solidCvt_trimmed.fq
+Approx 80% complete for SRR1731135_1_solidCvt_trimmed.fq
+Approx 85% complete for SRR1731135_1_solidCvt_trimmed.fq
+Approx 90% complete for SRR1731135_1_solidCvt_trimmed.fq
+Approx 95% complete for SRR1731135_1_solidCvt_trimmed.fq
+Analysis complete for SRR1731135_1_solidCvt_trimmed.fq
+19461929 reads; of these:
+  19461929 (100.00%) were unpaired; of these:
+    12303901 (63.22%) aligned 0 times
+    5721251 (29.40%) aligned exactly 1 time
+    1436777 (7.38%) aligned >1 times
+36.78% overall alignment rate
+[bam_sort_core] merging from 4 files and 1 in-memory blocks...
+[bam_rmdupse_core] 2452738 / 7158028 = 0.3427 in library '	'

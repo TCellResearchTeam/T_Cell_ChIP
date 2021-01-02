@@ -1,5 +1,5 @@
 Run,LibraryLayout,condition,name,Input
-SRR851152,SINGLE,Foxo1_naive-CD8-WT,Foxo1_1,input_Foxo1
+SRR851152,SINGLE,Foxo1_naive-CD8-WT,Foxo1_1,Input_Foxo1
 SRR851153,SINGLE,Foxo1_Biotin_naive-CD8-WT,Foxo1Biotin_1,Input_Foxo1Biotin
-SRR851154,SINGLE,Input_naive-CD8-WT,input_Foxo1_1,
+SRR851154,SINGLE,Input_naive-CD8-WT,Input_Foxo1_1,
 SRR851155,SINGLE,Input_Biotin_naive-CD8-WT,Input_Foxo1Biotin_1,

@@ -1,0 +1,176 @@
+Started analysis of SRR3233934_1.fastq
+Approx 5% complete for SRR3233934_1.fastq
+Approx 10% complete for SRR3233934_1.fastq
+Approx 15% complete for SRR3233934_1.fastq
+Approx 20% complete for SRR3233934_1.fastq
+Approx 25% complete for SRR3233934_1.fastq
+Approx 30% complete for SRR3233934_1.fastq
+Approx 35% complete for SRR3233934_1.fastq
+Approx 40% complete for SRR3233934_1.fastq
+Approx 45% complete for SRR3233934_1.fastq
+Approx 50% complete for SRR3233934_1.fastq
+Approx 55% complete for SRR3233934_1.fastq
+Approx 60% complete for SRR3233934_1.fastq
+Approx 65% complete for SRR3233934_1.fastq
+Approx 70% complete for SRR3233934_1.fastq
+Approx 75% complete for SRR3233934_1.fastq
+Approx 80% complete for SRR3233934_1.fastq
+Approx 85% complete for SRR3233934_1.fastq
+Approx 90% complete for SRR3233934_1.fastq
+Approx 95% complete for SRR3233934_1.fastq
+Analysis complete for SRR3233934_1.fastq
+Multicore support not enabled. Proceeding with single-core trimming.
+Path to Cutadapt set as: 'cutadapt' (default)
+Cutadapt seems to be working fine (tested command 'cutadapt --version')
+No quality encoding type selected. Assuming that the data provided uses Sanger encoded Phred scores (default)
+
+
+
+AUTO-DETECTING ADAPTER TYPE
+===========================
+Attempting to auto-detect adapter type from the first 1 million sequences of the first file (>> /gpfs/group/pipkin/hdiao/T_Cell_ChIP/0_fastq/SRR3233934_1.fastq <<)
+
+Found perfect matches for the following adapter sequences:
+Adapter type	Count	Sequence	Sequences analysed	Percentage
+Illumina	299	AGATCGGAAGAGC	1000000	0.03
+smallRNA	2	TGGAATTCTCGG	1000000	0.00
+Nextera	2	CTGTCTCTTATA	1000000	0.00
+Using Illumina adapter for trimming (count: 299). Second best hit was smallRNA (count: 2)
+
+Writing report to 'SRR3233934_1.fastq_trimming_report.txt'
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: /gpfs/group/pipkin/hdiao/T_Cell_ChIP/0_fastq/SRR3233934_1.fastq
+Trimming mode: single-end
+Trim Galore version: 0.6.1
+Cutadapt version: 1.18
+Number of cores used for trimming: 1
+Quality Phred score cutoff: 20
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'AGATCGGAAGAGC' (Illumina TruSeq, Sanger iPCR; auto-detected)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 3 bp
+Minimum required sequence length before a sequence gets removed: 24 bp
+
+Writing final adapter and quality trimmed output to SRR3233934_1_trimmed.fq
+
+
+  >>> Now performing quality (cutoff '-q 20') and adapter trimming in a single pass for the adapter sequence: 'AGATCGGAAGAGC' from file /gpfs/group/pipkin/hdiao/T_Cell_ChIP/0_fastq/SRR3233934_1.fastq <<< 
+10000000 sequences processed
+20000000 sequences processed
+This is cutadapt 1.18 with Python 2.7.11
+Command line parameters: -j 1 -e 0.1 -q 20 -O 3 -a AGATCGGAAGAGC /gpfs/group/pipkin/hdiao/T_Cell_ChIP/0_fastq/SRR3233934_1.fastq
+Processing reads on 1 core in single-end mode ...
+Finished in 379.19 s (16 us/read; 3.71 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:              23,429,942
+Reads with adapters:                   463,052 (2.0%)
+Reads written (passing filters):    23,429,942 (100.0%)
+
+Total basepairs processed: 1,171,497,100 bp
+Quality-trimmed:               1,310,768 bp (0.1%)
+Total written (filtered):  1,168,334,817 bp (99.7%)
+
+=== Adapter 1 ===
+
+Sequence: AGATCGGAAGAGC; Type: regular 3'; Length: 13; Trimmed: 463052 times.
+
+No. of allowed errors:
+0-9 bp: 0; 10-13 bp: 1
+
+Bases preceding removed adapters:
+  A: 26.7%
+  C: 32.3%
+  G: 25.8%
+  T: 15.0%
+  none/other: 0.3%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+3	317166	366092.8	0	317166
+4	85059	91523.2	0	85059
+5	30098	22880.8	0	30098
+6	9745	5720.2	0	9745
+7	3853	1430.1	0	3853
+8	1623	357.5	0	1623
+9	1992	89.4	0	1402 590
+10	1734	22.3	1	1215 519
+11	1362	5.6	1	1022 340
+12	982	1.4	1	897 85
+13	841	0.3	1	809 32
+14	719	0.3	1	681 38
+15	604	0.3	1	563 41
+16	477	0.3	1	449 28
+17	455	0.3	1	423 32
+18	389	0.3	1	364 25
+19	471	0.3	1	426 45
+20	286	0.3	1	257 29
+21	657	0.3	1	621 36
+22	328	0.3	1	312 16
+23	180	0.3	1	137 43
+24	175	0.3	1	122 53
+25	119	0.3	1	86 33
+26	92	0.3	1	60 32
+27	150	0.3	1	96 54
+28	145	0.3	1	106 39
+29	90	0.3	1	71 19
+30	119	0.3	1	81 38
+31	125	0.3	1	74 51
+32	203	0.3	1	169 34
+33	81	0.3	1	47 34
+34	112	0.3	1	78 34
+35	220	0.3	1	192 28
+36	77	0.3	1	60 17
+37	177	0.3	1	136 41
+38	171	0.3	1	124 47
+39	81	0.3	1	60 21
+40	110	0.3	1	79 31
+41	112	0.3	1	96 16
+42	62	0.3	1	40 22
+43	71	0.3	1	53 18
+44	180	0.3	1	51 129
+45	126	0.3	1	42 84
+46	82	0.3	1	41 41
+47	68	0.3	1	31 37
+48	38	0.3	1	19 19
+49	86	0.3	1	14 72
+50	959	0.3	1	39 920
+
+
+RUN STATISTICS FOR INPUT FILE: /gpfs/group/pipkin/hdiao/T_Cell_ChIP/0_fastq/SRR3233934_1.fastq
+=============================================
+23429942 sequences processed in total
+Sequences removed because they became shorter than the length cutoff of 24 bp:	5180 (0.0%)
+
+Started analysis of SRR3233934_1_trimmed.fq
+Approx 5% complete for SRR3233934_1_trimmed.fq
+Approx 10% complete for SRR3233934_1_trimmed.fq
+Approx 15% complete for SRR3233934_1_trimmed.fq
+Approx 20% complete for SRR3233934_1_trimmed.fq
+Approx 25% complete for SRR3233934_1_trimmed.fq
+Approx 30% complete for SRR3233934_1_trimmed.fq
+Approx 35% complete for SRR3233934_1_trimmed.fq
+Approx 40% complete for SRR3233934_1_trimmed.fq
+Approx 45% complete for SRR3233934_1_trimmed.fq
+Approx 50% complete for SRR3233934_1_trimmed.fq
+Approx 55% complete for SRR3233934_1_trimmed.fq
+Approx 60% complete for SRR3233934_1_trimmed.fq
+Approx 65% complete for SRR3233934_1_trimmed.fq
+Approx 70% complete for SRR3233934_1_trimmed.fq
+Approx 75% complete for SRR3233934_1_trimmed.fq
+Approx 80% complete for SRR3233934_1_trimmed.fq
+Approx 85% complete for SRR3233934_1_trimmed.fq
+Approx 90% complete for SRR3233934_1_trimmed.fq
+Approx 95% complete for SRR3233934_1_trimmed.fq
+Analysis complete for SRR3233934_1_trimmed.fq
+23424762 reads; of these:
+  23424762 (100.00%) were unpaired; of these:
+    16144101 (68.92%) aligned 0 times
+    4876317 (20.82%) aligned exactly 1 time
+    2404344 (10.26%) aligned >1 times
+31.08% overall alignment rate
+[bam_sort_core] merging from 5 files and 1 in-memory blocks...
+[bam_rmdupse_core] 1066775 / 7280661 = 0.1465 in library '	'

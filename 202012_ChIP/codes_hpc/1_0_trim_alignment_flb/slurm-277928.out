@@ -1,0 +1,176 @@
+Started analysis of SRR8240834_1.fastq
+Approx 5% complete for SRR8240834_1.fastq
+Approx 10% complete for SRR8240834_1.fastq
+Approx 15% complete for SRR8240834_1.fastq
+Approx 20% complete for SRR8240834_1.fastq
+Approx 25% complete for SRR8240834_1.fastq
+Approx 30% complete for SRR8240834_1.fastq
+Approx 35% complete for SRR8240834_1.fastq
+Approx 40% complete for SRR8240834_1.fastq
+Approx 45% complete for SRR8240834_1.fastq
+Approx 50% complete for SRR8240834_1.fastq
+Approx 55% complete for SRR8240834_1.fastq
+Approx 60% complete for SRR8240834_1.fastq
+Approx 65% complete for SRR8240834_1.fastq
+Approx 70% complete for SRR8240834_1.fastq
+Approx 75% complete for SRR8240834_1.fastq
+Approx 80% complete for SRR8240834_1.fastq
+Approx 85% complete for SRR8240834_1.fastq
+Approx 90% complete for SRR8240834_1.fastq
+Approx 95% complete for SRR8240834_1.fastq
+Analysis complete for SRR8240834_1.fastq
+Multicore support not enabled. Proceeding with single-core trimming.
+Path to Cutadapt set as: 'cutadapt' (default)
+Cutadapt seems to be working fine (tested command 'cutadapt --version')
+No quality encoding type selected. Assuming that the data provided uses Sanger encoded Phred scores (default)
+
+
+
+AUTO-DETECTING ADAPTER TYPE
+===========================
+Attempting to auto-detect adapter type from the first 1 million sequences of the first file (>> SRR8240834_1.fastq <<)
+
+Found perfect matches for the following adapter sequences:
+Adapter type	Count	Sequence	Sequences analysed	Percentage
+Nextera	2	CTGTCTCTTATA	1000000	0.00
+smallRNA	1	TGGAATTCTCGG	1000000	0.00
+Illumina	0	AGATCGGAAGAGC	1000000	0.00
+Using Nextera adapter for trimming (count: 2). Second best hit was smallRNA (count: 1)
+
+Writing report to 'SRR8240834_1.fastq_trimming_report.txt'
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: SRR8240834_1.fastq
+Trimming mode: single-end
+Trim Galore version: 0.6.1
+Cutadapt version: 1.18
+Number of cores used for trimming: 1
+Quality Phred score cutoff: 20
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'CTGTCTCTTATA' (Nextera Transposase sequence; auto-detected)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 3 bp
+Minimum required sequence length before a sequence gets removed: 24 bp
+
+Writing final adapter and quality trimmed output to SRR8240834_1_trimmed.fq
+
+
+  >>> Now performing quality (cutoff '-q 20') and adapter trimming in a single pass for the adapter sequence: 'CTGTCTCTTATA' from file SRR8240834_1.fastq <<< 
+10000000 sequences processed
+20000000 sequences processed
+This is cutadapt 1.18 with Python 2.7.11
+Command line parameters: -j 1 -e 0.1 -q 20 -O 3 -a CTGTCTCTTATA SRR8240834_1.fastq
+Processing reads on 1 core in single-end mode ...
+Finished in 933.56 s (39 us/read; 1.55 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:              24,060,699
+Reads with adapters:                   823,670 (3.4%)
+Reads written (passing filters):    24,060,699 (100.0%)
+
+Total basepairs processed: 1,203,034,950 bp
+Quality-trimmed:              10,308,254 bp (0.9%)
+Total written (filtered):  1,189,763,574 bp (98.9%)
+
+=== Adapter 1 ===
+
+Sequence: CTGTCTCTTATA; Type: regular 3'; Length: 12; Trimmed: 823670 times.
+
+No. of allowed errors:
+0-9 bp: 0; 10-12 bp: 1
+
+Bases preceding removed adapters:
+  A: 22.9%
+  C: 25.1%
+  G: 21.8%
+  T: 30.1%
+  none/other: 0.1%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+3	671018	375948.4	0	671018
+4	92675	93987.1	0	92675
+5	31253	23496.8	0	31253
+6	9765	5874.2	0	9765
+7	4506	1468.5	0	4506
+8	1656	367.1	0	1656
+9	1129	91.8	0	169 960
+10	1511	22.9	1	28 1483
+11	559	5.7	1	1 558
+12	315	1.4	1	3 312
+13	269	1.4	1	4 265
+14	237	1.4	1	4 233
+15	276	1.4	1	2 274
+16	215	1.4	1	0 215
+17	187	1.4	1	0 187
+18	219	1.4	1	5 214
+19	285	1.4	1	1 284
+20	326	1.4	1	2 324
+21	297	1.4	1	6 291
+22	305	1.4	1	2 303
+23	301	1.4	1	4 297
+24	242	1.4	1	4 238
+25	202	1.4	1	2 200
+26	213	1.4	1	2 211
+27	265	1.4	1	1 264
+28	276	1.4	1	0 276
+29	252	1.4	1	1 251
+30	233	1.4	1	0 233
+31	272	1.4	1	3 269
+32	338	1.4	1	1 337
+33	331	1.4	1	3 328
+34	259	1.4	1	4 255
+35	206	1.4	1	1 205
+36	226	1.4	1	3 223
+37	258	1.4	1	2 256
+38	256	1.4	1	1 255
+39	194	1.4	1	3 191
+40	214	1.4	1	3 211
+41	203	1.4	1	2 201
+42	219	1.4	1	2 217
+43	259	1.4	1	5 254
+44	244	1.4	1	2 242
+45	237	1.4	1	3 234
+46	274	1.4	1	5 269
+47	280	1.4	1	3 277
+48	216	1.4	1	5 211
+49	139	1.4	1	1 138
+50	58	1.4	1	0 58
+
+
+RUN STATISTICS FOR INPUT FILE: SRR8240834_1.fastq
+=============================================
+24060699 sequences processed in total
+Sequences removed because they became shorter than the length cutoff of 24 bp:	7540 (0.0%)
+
+Started analysis of SRR8240834_1_trimmed.fq
+Approx 5% complete for SRR8240834_1_trimmed.fq
+Approx 10% complete for SRR8240834_1_trimmed.fq
+Approx 15% complete for SRR8240834_1_trimmed.fq
+Approx 20% complete for SRR8240834_1_trimmed.fq
+Approx 25% complete for SRR8240834_1_trimmed.fq
+Approx 30% complete for SRR8240834_1_trimmed.fq
+Approx 35% complete for SRR8240834_1_trimmed.fq
+Approx 40% complete for SRR8240834_1_trimmed.fq
+Approx 45% complete for SRR8240834_1_trimmed.fq
+Approx 50% complete for SRR8240834_1_trimmed.fq
+Approx 55% complete for SRR8240834_1_trimmed.fq
+Approx 60% complete for SRR8240834_1_trimmed.fq
+Approx 65% complete for SRR8240834_1_trimmed.fq
+Approx 70% complete for SRR8240834_1_trimmed.fq
+Approx 75% complete for SRR8240834_1_trimmed.fq
+Approx 80% complete for SRR8240834_1_trimmed.fq
+Approx 85% complete for SRR8240834_1_trimmed.fq
+Approx 90% complete for SRR8240834_1_trimmed.fq
+Approx 95% complete for SRR8240834_1_trimmed.fq
+Analysis complete for SRR8240834_1_trimmed.fq
+24053159 reads; of these:
+  24053159 (100.00%) were unpaired; of these:
+    517638 (2.15%) aligned 0 times
+    16700268 (69.43%) aligned exactly 1 time
+    6835253 (28.42%) aligned >1 times
+97.85% overall alignment rate
+[bam_sort_core] merging from 6 files and 1 in-memory blocks...
+[bam_rmdupse_core] 1697309 / 23535521 = 0.0721 in library '	'

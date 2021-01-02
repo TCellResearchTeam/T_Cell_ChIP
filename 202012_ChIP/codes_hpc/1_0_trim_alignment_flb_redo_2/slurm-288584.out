@@ -1,0 +1,359 @@
+Started analysis of SRR8591880_1.fastq
+Approx 5% complete for SRR8591880_1.fastq
+Approx 10% complete for SRR8591880_1.fastq
+Approx 15% complete for SRR8591880_1.fastq
+Approx 20% complete for SRR8591880_1.fastq
+Approx 25% complete for SRR8591880_1.fastq
+Approx 30% complete for SRR8591880_1.fastq
+Approx 35% complete for SRR8591880_1.fastq
+Approx 40% complete for SRR8591880_1.fastq
+Approx 45% complete for SRR8591880_1.fastq
+Approx 50% complete for SRR8591880_1.fastq
+Approx 55% complete for SRR8591880_1.fastq
+Approx 60% complete for SRR8591880_1.fastq
+Approx 65% complete for SRR8591880_1.fastq
+Approx 70% complete for SRR8591880_1.fastq
+Approx 75% complete for SRR8591880_1.fastq
+Approx 80% complete for SRR8591880_1.fastq
+Approx 85% complete for SRR8591880_1.fastq
+Approx 90% complete for SRR8591880_1.fastq
+Approx 95% complete for SRR8591880_1.fastq
+Analysis complete for SRR8591880_1.fastq
+Started analysis of SRR8591880_2.fastq
+Approx 5% complete for SRR8591880_2.fastq
+Approx 10% complete for SRR8591880_2.fastq
+Approx 15% complete for SRR8591880_2.fastq
+Approx 20% complete for SRR8591880_2.fastq
+Approx 25% complete for SRR8591880_2.fastq
+Approx 30% complete for SRR8591880_2.fastq
+Approx 35% complete for SRR8591880_2.fastq
+Approx 40% complete for SRR8591880_2.fastq
+Approx 45% complete for SRR8591880_2.fastq
+Approx 50% complete for SRR8591880_2.fastq
+Approx 55% complete for SRR8591880_2.fastq
+Approx 60% complete for SRR8591880_2.fastq
+Approx 65% complete for SRR8591880_2.fastq
+Approx 70% complete for SRR8591880_2.fastq
+Approx 75% complete for SRR8591880_2.fastq
+Approx 80% complete for SRR8591880_2.fastq
+Approx 85% complete for SRR8591880_2.fastq
+Approx 90% complete for SRR8591880_2.fastq
+Approx 95% complete for SRR8591880_2.fastq
+Analysis complete for SRR8591880_2.fastq
+Multicore support not enabled. Proceeding with single-core trimming.
+Path to Cutadapt set as: 'cutadapt' (default)
+Cutadapt seems to be working fine (tested command 'cutadapt --version')
+No quality encoding type selected. Assuming that the data provided uses Sanger encoded Phred scores (default)
+
+
+
+AUTO-DETECTING ADAPTER TYPE
+===========================
+Attempting to auto-detect adapter type from the first 1 million sequences of the first file (>> /gpfs/group/pipkin/hdiao/T_Cell_ChIP/0_fastq/SRR8591880_1.fastq <<)
+
+Found perfect matches for the following adapter sequences:
+Adapter type	Count	Sequence	Sequences analysed	Percentage
+Illumina	40	AGATCGGAAGAGC	1000000	0.00
+Nextera	4	CTGTCTCTTATA	1000000	0.00
+smallRNA	1	TGGAATTCTCGG	1000000	0.00
+Using Illumina adapter for trimming (count: 40). Second best hit was Nextera (count: 4)
+
+Writing report to 'SRR8591880_1.fastq_trimming_report.txt'
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: /gpfs/group/pipkin/hdiao/T_Cell_ChIP/0_fastq/SRR8591880_1.fastq
+Trimming mode: paired-end
+Trim Galore version: 0.6.1
+Cutadapt version: 1.18
+Number of cores used for trimming: 1
+Quality Phred score cutoff: 20
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'AGATCGGAAGAGC' (Illumina TruSeq, Sanger iPCR; auto-detected)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 3 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 24 bp
+
+Writing final adapter and quality trimmed output to SRR8591880_1_trimmed.fq
+
+
+  >>> Now performing quality (cutoff '-q 20') and adapter trimming in a single pass for the adapter sequence: 'AGATCGGAAGAGC' from file /gpfs/group/pipkin/hdiao/T_Cell_ChIP/0_fastq/SRR8591880_1.fastq <<< 
+10000000 sequences processed
+20000000 sequences processed
+30000000 sequences processed
+40000000 sequences processed
+50000000 sequences processed
+This is cutadapt 1.18 with Python 2.7.11
+Command line parameters: -j 1 -e 0.1 -q 20 -O 3 -a AGATCGGAAGAGC /gpfs/group/pipkin/hdiao/T_Cell_ChIP/0_fastq/SRR8591880_1.fastq
+Processing reads on 1 core in single-end mode ...
+Finished in 931.36 s (16 us/read; 3.65 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:              56,733,118
+Reads with adapters:                 3,347,663 (5.9%)
+Reads written (passing filters):    56,733,118 (100.0%)
+
+Total basepairs processed: 2,893,389,018 bp
+Quality-trimmed:               2,497,963 bp (0.1%)
+Total written (filtered):  2,793,086,432 bp (96.5%)
+
+=== Adapter 1 ===
+
+Sequence: AGATCGGAAGAGC; Type: regular 3'; Length: 13; Trimmed: 3347663 times.
+
+No. of allowed errors:
+0-9 bp: 0; 10-13 bp: 1
+
+Bases preceding removed adapters:
+  A: 13.3%
+  C: 11.7%
+  G: 12.0%
+  T: 8.6%
+  none/other: 54.4%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+3	1228329	886455.0	0	1228329
+4	244717	221613.7	0	244717
+5	45145	55403.4	0	45145
+6	2175	13850.9	0	2175
+7	609	3462.7	0	609
+8	238	865.7	0	238
+9	892	216.4	0	178 714
+10	1281	54.1	1	184 1097
+11	720	13.5	1	146 574
+12	301	3.4	1	117 184
+13	215	0.8	1	140 75
+14	167	0.8	1	121 46
+15	186	0.8	1	133 53
+16	167	0.8	1	105 62
+17	158	0.8	1	113 45
+18	161	0.8	1	98 63
+19	148	0.8	1	101 47
+20	133	0.8	1	88 45
+21	143	0.8	1	94 49
+22	116	0.8	1	78 38
+23	116	0.8	1	74 42
+24	122	0.8	1	83 39
+25	123	0.8	1	70 53
+26	107	0.8	1	63 44
+27	113	0.8	1	68 45
+28	101	0.8	1	54 47
+29	91	0.8	1	58 33
+30	83	0.8	1	46 37
+31	85	0.8	1	47 38
+32	69	0.8	1	36 33
+33	76	0.8	1	37 39
+34	73	0.8	1	20 53
+35	78	0.8	1	22 56
+36	79	0.8	1	26 53
+37	56	0.8	1	24 32
+38	59	0.8	1	13 46
+39	420	0.8	1	48 372
+40	80	0.8	1	6 74
+41	124	0.8	1	12 112
+42	204	0.8	1	8 196
+43	115	0.8	1	7 108
+44	63	0.8	1	1 62
+45	102	0.8	1	1 101
+46	180	0.8	1	0 180
+47	348	0.8	1	6 342
+48	1216	0.8	1	0 1216
+49	1266	0.8	1	0 1266
+50	18272	0.8	1	6 18266
+51	1797841	0.8	1	14 1797827
+
+
+RUN STATISTICS FOR INPUT FILE: /gpfs/group/pipkin/hdiao/T_Cell_ChIP/0_fastq/SRR8591880_1.fastq
+=============================================
+56733118 sequences processed in total
+The length threshold of paired-end sequences gets evaluated later on (in the validation step)
+
+Writing report to 'SRR8591880_2.fastq_trimming_report.txt'
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: /gpfs/group/pipkin/hdiao/T_Cell_ChIP/0_fastq/SRR8591880_2.fastq
+Trimming mode: paired-end
+Trim Galore version: 0.6.1
+Cutadapt version: 1.18
+Number of cores used for trimming: 1
+Quality Phred score cutoff: 20
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'AGATCGGAAGAGC' (Illumina TruSeq, Sanger iPCR; auto-detected)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 3 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 24 bp
+
+Writing final adapter and quality trimmed output to SRR8591880_2_trimmed.fq
+
+
+  >>> Now performing quality (cutoff '-q 20') and adapter trimming in a single pass for the adapter sequence: 'AGATCGGAAGAGC' from file /gpfs/group/pipkin/hdiao/T_Cell_ChIP/0_fastq/SRR8591880_2.fastq <<< 
+10000000 sequences processed
+20000000 sequences processed
+30000000 sequences processed
+40000000 sequences processed
+50000000 sequences processed
+This is cutadapt 1.18 with Python 2.7.11
+Command line parameters: -j 1 -e 0.1 -q 20 -O 3 -a AGATCGGAAGAGC /gpfs/group/pipkin/hdiao/T_Cell_ChIP/0_fastq/SRR8591880_2.fastq
+Processing reads on 1 core in single-end mode ...
+Finished in 927.01 s (16 us/read; 3.67 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:              56,733,118
+Reads with adapters:                 3,335,238 (5.9%)
+Reads written (passing filters):    56,733,118 (100.0%)
+
+Total basepairs processed: 2,893,389,018 bp
+Quality-trimmed:              64,652,539 bp (2.2%)
+Total written (filtered):  2,731,609,830 bp (94.4%)
+
+=== Adapter 1 ===
+
+Sequence: AGATCGGAAGAGC; Type: regular 3'; Length: 13; Trimmed: 3335238 times.
+
+No. of allowed errors:
+0-9 bp: 0; 10-13 bp: 1
+
+Bases preceding removed adapters:
+  A: 13.5%
+  C: 11.4%
+  G: 12.0%
+  T: 8.7%
+  none/other: 54.4%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+3	1219861	886455.0	0	1219861
+4	233796	221613.7	0	233796
+5	44521	55403.4	0	44521
+6	3502	13850.9	0	3502
+7	1562	3462.7	0	1562
+8	1004	865.7	0	1004
+9	1844	216.4	0	1056 788
+10	2437	54.1	1	772 1665
+11	2044	13.5	1	832 1212
+12	1242	3.4	1	676 566
+13	865	0.8	1	530 335
+14	1039	0.8	1	692 347
+15	678	0.8	1	393 285
+16	621	0.8	1	397 224
+17	732	0.8	1	481 251
+18	498	0.8	1	283 215
+19	617	0.8	1	424 193
+20	521	0.8	1	308 213
+21	536	0.8	1	330 206
+22	448	0.8	1	288 160
+23	529	0.8	1	307 222
+24	491	0.8	1	318 173
+25	381	0.8	1	216 165
+26	367	0.8	1	208 159
+27	346	0.8	1	196 150
+28	298	0.8	1	159 139
+29	245	0.8	1	127 118
+30	204	0.8	1	111 93
+31	154	0.8	1	72 82
+32	166	0.8	1	73 93
+33	137	0.8	1	69 68
+34	116	0.8	1	40 76
+35	182	0.8	1	47 135
+36	151	0.8	1	34 117
+37	133	0.8	1	29 104
+38	136	0.8	1	24 112
+39	437	0.8	1	300 137
+40	180	0.8	1	8 172
+41	374	0.8	1	18 356
+42	145	0.8	1	30 115
+43	395	0.8	1	7 388
+44	978	0.8	1	3 975
+45	773	0.8	1	3 770
+46	440	0.8	1	0 440
+47	4285	0.8	1	7 4278
+48	5204	0.8	1	0 5204
+49	2625	0.8	1	1 2624
+50	421409	0.8	1	3 421406
+51	1375589	0.8	1	83 1375506
+
+
+RUN STATISTICS FOR INPUT FILE: /gpfs/group/pipkin/hdiao/T_Cell_ChIP/0_fastq/SRR8591880_2.fastq
+=============================================
+56733118 sequences processed in total
+The length threshold of paired-end sequences gets evaluated later on (in the validation step)
+
+Validate paired-end files SRR8591880_1_trimmed.fq and SRR8591880_2_trimmed.fq
+file_1: SRR8591880_1_trimmed.fq, file_2: SRR8591880_2_trimmed.fq
+
+
+>>>>> Now validing the length of the 2 paired-end infiles: SRR8591880_1_trimmed.fq and SRR8591880_2_trimmed.fq <<<<<
+Writing validated paired-end read 1 reads to SRR8591880_1_val_1.fq
+Writing validated paired-end read 2 reads to SRR8591880_2_val_2.fq
+
+Total number of sequences analysed: 56733118
+
+Number of sequence pairs removed because at least one read was shorter than the length cutoff (24 bp): 2764498 (4.87%)
+
+Deleting both intermediate output files SRR8591880_1_trimmed.fq and SRR8591880_2_trimmed.fq
+
+====================================================================================================
+
+Started analysis of SRR8591880_1_val_1.fq
+Approx 5% complete for SRR8591880_1_val_1.fq
+Approx 10% complete for SRR8591880_1_val_1.fq
+Approx 15% complete for SRR8591880_1_val_1.fq
+Approx 20% complete for SRR8591880_1_val_1.fq
+Approx 25% complete for SRR8591880_1_val_1.fq
+Approx 30% complete for SRR8591880_1_val_1.fq
+Approx 35% complete for SRR8591880_1_val_1.fq
+Approx 40% complete for SRR8591880_1_val_1.fq
+Approx 45% complete for SRR8591880_1_val_1.fq
+Approx 50% complete for SRR8591880_1_val_1.fq
+Approx 55% complete for SRR8591880_1_val_1.fq
+Approx 60% complete for SRR8591880_1_val_1.fq
+Approx 65% complete for SRR8591880_1_val_1.fq
+Approx 70% complete for SRR8591880_1_val_1.fq
+Approx 75% complete for SRR8591880_1_val_1.fq
+Approx 80% complete for SRR8591880_1_val_1.fq
+Approx 85% complete for SRR8591880_1_val_1.fq
+Approx 90% complete for SRR8591880_1_val_1.fq
+Approx 95% complete for SRR8591880_1_val_1.fq
+Analysis complete for SRR8591880_1_val_1.fq
+Started analysis of SRR8591880_2_val_2.fq
+Approx 5% complete for SRR8591880_2_val_2.fq
+Approx 10% complete for SRR8591880_2_val_2.fq
+Approx 15% complete for SRR8591880_2_val_2.fq
+Approx 20% complete for SRR8591880_2_val_2.fq
+Approx 25% complete for SRR8591880_2_val_2.fq
+Approx 30% complete for SRR8591880_2_val_2.fq
+Approx 35% complete for SRR8591880_2_val_2.fq
+Approx 40% complete for SRR8591880_2_val_2.fq
+Approx 45% complete for SRR8591880_2_val_2.fq
+Approx 50% complete for SRR8591880_2_val_2.fq
+Approx 55% complete for SRR8591880_2_val_2.fq
+Approx 60% complete for SRR8591880_2_val_2.fq
+Approx 65% complete for SRR8591880_2_val_2.fq
+Approx 70% complete for SRR8591880_2_val_2.fq
+Approx 75% complete for SRR8591880_2_val_2.fq
+Approx 80% complete for SRR8591880_2_val_2.fq
+Approx 85% complete for SRR8591880_2_val_2.fq
+Approx 90% complete for SRR8591880_2_val_2.fq
+Approx 95% complete for SRR8591880_2_val_2.fq
+Analysis complete for SRR8591880_2_val_2.fq
+53968620 reads; of these:
+  53968620 (100.00%) were paired; of these:
+    5716498 (10.59%) aligned concordantly 0 times
+    35851567 (66.43%) aligned concordantly exactly 1 time
+    12400555 (22.98%) aligned concordantly >1 times
+    ----
+    5716498 pairs aligned concordantly 0 times; of these:
+      282654 (4.94%) aligned discordantly 1 time
+    ----
+    5433844 pairs aligned 0 times concordantly or discordantly; of these:
+      10867688 mates make up the pairs; of these:
+        7352376 (67.65%) aligned 0 times
+        2061850 (18.97%) aligned exactly 1 time
+        1453462 (13.37%) aligned >1 times
+93.19% overall alignment rate
+[bam_sort_core] merging from 30 files and 1 in-memory blocks...
+[bam_rmdupse_core] 45033419 / 100584864 = 0.4477 in library '	'

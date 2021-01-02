@@ -1,0 +1,86 @@
+2020-12-31T00:05:23 fastq-dump.2.10.4 err: name not found while resolving query within virtual file system module - failed to resolve accession 'SRR3203621' - no data ( 404 )
+2020-12-31T00:05:23 fastq-dump.2.10.4 err: item not found while constructing within virtual database module - the path 'SRR3203621' cannot be opened as database or table
+fastq-dump (PID 26026) quit with error code 3
+2020-12-31T00:05:23 fastq-dump.2.10.4 err: name not found while resolving query within virtual file system module - failed to resolve accession 'SRR3203623' - no data ( 404 )
+2020-12-31T00:05:23 fastq-dump.2.10.4 err: name not found while resolving query within virtual file system module - failed to resolve accession 'SRR3203617' - no data ( 404 )
+2020-12-31T00:05:23 fastq-dump.2.10.4 err: name not found while resolving query within virtual file system module - failed to resolve accession 'SRR3203622' - no data ( 404 )
+2020-12-31T00:05:23 fastq-dump.2.10.4 err: item not found while constructing within virtual database module - the path 'SRR3203617' cannot be opened as database or table
+2020-12-31T00:05:23 fastq-dump.2.10.4 err: item not found while constructing within virtual database module - the path 'SRR3203623' cannot be opened as database or table
+fastq-dumpfastq-dump (PID  (PID 2603126030) quit with error code ) quit with error code 33
+
+2020-12-31T00:05:23 fastq-dump.2.10.4 err: item not found while constructing within virtual database module - the path 'SRR3203622' cannot be opened as database or table
+fastq-dump (PID 26034) quit with error code 3
+Read 23429942 spots for SRR3233934
+Written 23429942 spots for SRR3233934
+Read 27619644 spots for SRR3233933
+Written 27619644 spots for SRR3233933
+2020-12-31T00:15:14 fastq-dump.2.10.4 err: timeout exhausted while waiting condition within process system module - failed SRR8591881
+
+=============================================================
+An error occurred during processing.
+A report was generated into the file '/gpfs/home/hdiao/ncbi_error_report.txt'.
+If the problem persists, you may consider sending the file
+to 'sra-tools@ncbi.nlm.nih.gov' for assistance.
+=============================================================
+
+fastq-dump (PID 26027) quit with error code 3
+Read 56733118 spots for SRR8591880
+Written 56733118 spots for SRR8591880
+2020-12-31T00:31:10 fastq-dump.2.10.4 err: timeout exhausted while waiting condition within process system module - failed SRR8591883
+
+=============================================================
+An error occurred during processing.
+A report was generated into the file '/gpfs/home/hdiao/ncbi_error_report.txt'.
+If the problem persists, you may consider sending the file
+to 'sra-tools@ncbi.nlm.nih.gov' for assistance.
+=============================================================
+
+2020-12-31T00:31:10 fastq-dump.2.10.4 err: timeout exhausted while waiting condition within process system module - failed SRR8591884
+
+=============================================================
+An error occurred during processing.
+A report was generated into the file '/gpfs/home/hdiao/ncbi_error_report.txt'.
+If the problem persists, you may consider sending the file
+to 'sra-tools@ncbi.nlm.nih.gov' for assistance.
+=============================================================
+
+fastq-dump (PID 27923) quit with error code 3
+fastq-dump (PID 27922) quit with error code 3
+Read 43556043 spots for SRR8591888
+Written 43556043 spots for SRR8591888
+Read 48555259 spots for SRR8591887
+Written 48555259 spots for SRR8591887
+Read 43354495 spots for SRR8591885
+Written 43354495 spots for SRR8591885
+Read 53662672 spots for SRR8591882
+Written 53662672 spots for SRR8591882
+2020-12-31T00:55:02 fastq-dump.2.10.4 err: timeout exhausted while waiting condition within process system module - failed SRR8591889
+
+=============================================================
+An error occurred during processing.
+A report was generated into the file '/gpfs/home/hdiao/ncbi_error_report.txt'.
+If the problem persists, you may consider sending the file
+to 'sra-tools@ncbi.nlm.nih.gov' for assistance.
+=============================================================
+
+fastq-dump (PID 27926) quit with error code 3
+2020-12-31T01:04:34 fastq-dump.2.10.4 err: timeout exhausted while waiting condition within process system module - failed SRR8591886
+
+=============================================================
+An error occurred during processing.
+A report was generated into the file '/gpfs/home/hdiao/ncbi_error_report.txt'.
+If the problem persists, you may consider sending the file
+to 'sra-tools@ncbi.nlm.nih.gov' for assistance.
+=============================================================
+
+fastq-dump (PID 27921) quit with error code 3
+2020-12-31T01:13:25 fastq-dump.2.10.4 err: timeout exhausted while waiting condition within process system module - failed SRR8591897
+
+=============================================================
+An error occurred during processing.
+A report was generated into the file '/gpfs/home/hdiao/ncbi_error_report.txt'.
+If the problem persists, you may consider sending the file
+to 'sra-tools@ncbi.nlm.nih.gov' for assistance.
+=============================================================
+
+fastq-dump (PID 31300) quit with error code 3

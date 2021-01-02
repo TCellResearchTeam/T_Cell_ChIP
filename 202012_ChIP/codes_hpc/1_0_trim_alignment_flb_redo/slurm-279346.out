@@ -1,0 +1,10 @@
+Error: Read SRR1731136.1.1 1_1128_314_F3 length=50 has more quality values than read characters.
+terminate called after throwing an instance of 'int'
+(ERR): bowtie2-align died with signal 6 (ABRT) 
+[main_samview] fail to read the header from "SRR1731136.sam".
+samtools sort: failed to read header from "SRR1731136.bam"
+[E::hts_open_format] Failed to open file "SRR1731136_srt.sam" : No such file or directory
+samtools rmdup: failed to open "SRR1731136_srt.sam" for input: No such file or directory
+[E::hts_open_format] Failed to open file "SRR1731136_srt_dupr.sam" : No such file or directory
+samtools view: failed to open "SRR1731136_srt_dupr.sam" for reading: No such file or directory
+Failed to open BAM file SRR1731136_srt_dupr.bam

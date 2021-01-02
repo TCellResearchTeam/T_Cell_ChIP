@@ -1,0 +1,29 @@
+Read 23774700 spots for SRR8240837
+Written 23774700 spots for SRR8240837
+Read 32039763 spots for SRR5195619
+Written 32039763 spots for SRR5195619
+Read 24317258 spots for SRR5195618
+Written 24317258 spots for SRR5195618
+Read 60035727 spots for SRR5195620
+Written 60035727 spots for SRR5195620
+Read 50429333 spots for SRR6228882
+Written 50429333 spots for SRR6228882
+Read 47184481 spots for SRR6228881
+Written 47184481 spots for SRR6228881
+Read 58974777 spots for SRR6228883
+Written 58974777 spots for SRR6228883
+Read 56117037 spots for SRR6228884
+Written 56117037 spots for SRR6228884
+2020-12-28T02:31:13 fastq-dump.2.10.4 err: timeout exhausted while waiting condition within process system module - failed SRR6228888
+
+=============================================================
+An error occurred during processing.
+A report was generated into the file '/gpfs/home/hdiao/ncbi_error_report.txt'.
+If the problem persists, you may consider sending the file
+to 'sra-tools@ncbi.nlm.nih.gov' for assistance.
+=============================================================
+
+Read 35842585 spots for SRR10285314
+Written 35842585 spots for SRR10285314
+Read 43146504 spots for SRR10285316
+Written 43146504 spots for SRR10285316

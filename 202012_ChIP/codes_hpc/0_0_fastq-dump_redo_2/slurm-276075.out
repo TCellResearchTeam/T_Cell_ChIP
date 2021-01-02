@@ -1,0 +1,12 @@
+2020-12-28T18:21:19 fastq-dump.2.10.4 err: name not found while resolving query within virtual file system module - failed to resolve accession 'SRR3203617' - no data ( 404 )
+2020-12-28T18:21:19 fastq-dump.2.10.4 err: name not found while resolving query within virtual file system module - failed to resolve accession 'SRR3203622' - no data ( 404 )
+2020-12-28T18:21:19 fastq-dump.2.10.4 err: name not found while resolving query within virtual file system module - failed to resolve accession 'SRR3203621' - no data ( 404 )
+2020-12-28T18:21:19 fastq-dump.2.10.4 err: item not found while constructing within virtual database module - the path 'SRR3203622' cannot be opened as database or table
+2020-12-28T18:21:19 fastq-dump.2.10.4 err: item not found while constructing within virtual database module - the path 'SRR3203617' cannot be opened as database or table
+fastq-dumpfastq-dump (PID  (PID 2237822377) quit with error code ) quit with error code 33
+
+2020-12-28T18:21:19 fastq-dump.2.10.4 err: item not found while constructing within virtual database module - the path 'SRR3203621' cannot be opened as database or table
+fastq-dump (PID 22379) quit with error code 3
+2020-12-28T18:21:19 fastq-dump.2.10.4 err: name not found while resolving query within virtual file system module - failed to resolve accession 'SRR3203623' - no data ( 404 )
+2020-12-28T18:21:19 fastq-dump.2.10.4 err: item not found while constructing within virtual database module - the path 'SRR3203623' cannot be opened as database or table
+fastq-dump (PID 22380) quit with error code 3

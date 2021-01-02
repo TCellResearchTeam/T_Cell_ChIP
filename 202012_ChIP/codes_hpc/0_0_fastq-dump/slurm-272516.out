@@ -1,0 +1,35 @@
+2020-12-28T01:07:10 fastq-dump.2.10.4 err: name not found while resolving query within virtual file system module - failed to resolve accession 'SRR3203622' - no data ( 404 )
+2020-12-28T01:07:10 fastq-dump.2.10.4 err: item not found while constructing within virtual database module - the path 'SRR3203622' cannot be opened as database or table
+fastq-dump (PID 22575) quit with error code 3
+2020-12-28T01:07:10 fastq-dump.2.10.4 err: name not found while resolving query within virtual file system module - failed to resolve accession 'SRR3203623' - no data ( 404 )
+2020-12-28T01:07:10 fastq-dump.2.10.4 err: item not found while constructing within virtual database module - the path 'SRR3203623' cannot be opened as database or table
+fastq-dump (PID 22580) quit with error code 3
+Read 17237585 spots for SRR3586800
+Written 17237585 spots for SRR3586800
+Read 18935367 spots for SRR3586801
+Written 18935367 spots for SRR3586801
+Read 15236749 spots for SRR2467230
+Written 15236749 spots for SRR2467230
+Read 20313503 spots for SRR2467231
+Written 20313503 spots for SRR2467231
+Read 19817236 spots for SRR2467213
+Written 19817236 spots for SRR2467213
+Read 33858555 spots for SRR5217323
+Written 33858555 spots for SRR5217323
+Read 13525000 spots for SRR3586803
+Written 13525000 spots for SRR3586803
+Read 12918922 spots for SRR3586804
+Written 12918922 spots for SRR3586804
+Read 19566913 spots for SRR3586802
+Written 19566913 spots for SRR3586802
+Read 24767362 spots for SRR5217326
+Written 24767362 spots for SRR5217326
+Read 28863634 spots for SRR5217322
+Written 28863634 spots for SRR5217322
+Read 29290007 spots for SRR5217325
+Written 29290007 spots for SRR5217325
+Read 33928839 spots for SRR5217324
+Written 33928839 spots for SRR5217324
+Rejected 99098116 READS because READLEN < 1
+Read 99098116 spots for SRR5217327
+Written 99098116 spots for SRR5217327
