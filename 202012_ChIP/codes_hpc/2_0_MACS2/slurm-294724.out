@@ -1,0 +1,252 @@
+INFO  @ Sat, 02 Jan 2021 11:20:46: 
+# Command line: callpeak -t SRR2075569_srt_dupr_flb.bam SRR2075570_srt_dupr_flb.bam -c SRR2075586_srt_dupr_flb.bam -g mm -B --SPMR --nomodel --extsize 147 --call-summits -n 2015_JEM_Dominguez___Tbet_LCMVarm-D8-CD8-Zeb2KO --outdir /gpfs/group/pipkin/hdiao/T_Cell_ChIP/2_MACS2
+# ARGUMENTS LIST:
+# name = 2015_JEM_Dominguez___Tbet_LCMVarm-D8-CD8-Zeb2KO
+# format = AUTO
+# ChIP-seq file = ['SRR2075569_srt_dupr_flb.bam', 'SRR2075570_srt_dupr_flb.bam']
+# control file = ['SRR2075586_srt_dupr_flb.bam']
+# effective genome size = 1.87e+09
+# band width = 300
+# model fold = [5, 50]
+# qvalue cutoff = 5.00e-02
+# Larger dataset will be scaled towards smaller dataset.
+# Range for calculating regional lambda is: 1000 bps and 10000 bps
+# Broad region calling is off
+# Searching for subpeak summits is on
+# MACS will save fragment pileup signal per million reads
+ 
+INFO  @ Sat, 02 Jan 2021 11:20:46: #1 read tag files... 
+INFO  @ Sat, 02 Jan 2021 11:20:46: #1 read treatment tags... 
+INFO  @ Sat, 02 Jan 2021 11:20:46: Detected format is: BAM 
+INFO  @ Sat, 02 Jan 2021 11:20:46: * Input file is gzipped. 
+INFO  @ Sat, 02 Jan 2021 11:20:56:  1000000 
+INFO  @ Sat, 02 Jan 2021 11:21:06:  2000000 
+INFO  @ Sat, 02 Jan 2021 11:21:15:  3000000 
+INFO  @ Sat, 02 Jan 2021 11:21:24:  4000000 
+INFO  @ Sat, 02 Jan 2021 11:21:34:  5000000 
+INFO  @ Sat, 02 Jan 2021 11:21:44:  6000000 
+INFO  @ Sat, 02 Jan 2021 11:21:53:  7000000 
+INFO  @ Sat, 02 Jan 2021 11:22:03:  8000000 
+INFO  @ Sat, 02 Jan 2021 11:22:13:  9000000 
+INFO  @ Sat, 02 Jan 2021 11:22:22:  10000000 
+INFO  @ Sat, 02 Jan 2021 11:22:31:  11000000 
+INFO  @ Sat, 02 Jan 2021 11:22:40:  12000000 
+INFO  @ Sat, 02 Jan 2021 11:22:49:  13000000 
+INFO  @ Sat, 02 Jan 2021 11:22:58:  14000000 
+INFO  @ Sat, 02 Jan 2021 11:23:07:  15000000 
+INFO  @ Sat, 02 Jan 2021 11:23:16:  16000000 
+INFO  @ Sat, 02 Jan 2021 11:23:25:  17000000 
+INFO  @ Sat, 02 Jan 2021 11:23:34:  18000000 
+INFO  @ Sat, 02 Jan 2021 11:23:43:  19000000 
+INFO  @ Sat, 02 Jan 2021 11:23:52:  20000000 
+INFO  @ Sat, 02 Jan 2021 11:24:01:  21000000 
+INFO  @ Sat, 02 Jan 2021 11:24:10:  22000000 
+INFO  @ Sat, 02 Jan 2021 11:24:19:  23000000 
+INFO  @ Sat, 02 Jan 2021 11:24:29:  24000000 
+INFO  @ Sat, 02 Jan 2021 11:24:38:  25000000 
+INFO  @ Sat, 02 Jan 2021 11:24:47:  26000000 
+INFO  @ Sat, 02 Jan 2021 11:24:56:  27000000 
+INFO  @ Sat, 02 Jan 2021 11:25:05:  28000000 
+INFO  @ Sat, 02 Jan 2021 11:25:14:  29000000 
+INFO  @ Sat, 02 Jan 2021 11:25:22:  30000000 
+INFO  @ Sat, 02 Jan 2021 11:25:31:  31000000 
+INFO  @ Sat, 02 Jan 2021 11:25:40:  32000000 
+INFO  @ Sat, 02 Jan 2021 11:25:49:  33000000 
+INFO  @ Sat, 02 Jan 2021 11:25:57:  34000000 
+INFO  @ Sat, 02 Jan 2021 11:26:03:  35000000 
+INFO  @ Sat, 02 Jan 2021 11:26:09:  36000000 
+INFO  @ Sat, 02 Jan 2021 11:26:14:  37000000 
+INFO  @ Sat, 02 Jan 2021 11:26:20:  38000000 
+INFO  @ Sat, 02 Jan 2021 11:26:26:  39000000 
+INFO  @ Sat, 02 Jan 2021 11:26:32:  40000000 
+INFO  @ Sat, 02 Jan 2021 11:26:37:  41000000 
+INFO  @ Sat, 02 Jan 2021 11:26:44:  42000000 
+INFO  @ Sat, 02 Jan 2021 11:26:49:  43000000 
+INFO  @ Sat, 02 Jan 2021 11:26:55:  44000000 
+INFO  @ Sat, 02 Jan 2021 11:27:01:  45000000 
+INFO  @ Sat, 02 Jan 2021 11:27:06:  46000000 
+INFO  @ Sat, 02 Jan 2021 11:27:12:  47000000 
+INFO  @ Sat, 02 Jan 2021 11:27:18:  48000000 
+INFO  @ Sat, 02 Jan 2021 11:27:24:  49000000 
+INFO  @ Sat, 02 Jan 2021 11:27:30:  50000000 
+INFO  @ Sat, 02 Jan 2021 11:27:35:  51000000 
+INFO  @ Sat, 02 Jan 2021 11:27:41:  52000000 
+INFO  @ Sat, 02 Jan 2021 11:27:47:  53000000 
+INFO  @ Sat, 02 Jan 2021 11:27:53:  54000000 
+INFO  @ Sat, 02 Jan 2021 11:27:58:  55000000 
+INFO  @ Sat, 02 Jan 2021 11:28:04:  56000000 
+INFO  @ Sat, 02 Jan 2021 11:28:10:  57000000 
+INFO  @ Sat, 02 Jan 2021 11:28:15:  58000000 
+INFO  @ Sat, 02 Jan 2021 11:28:21:  59000000 
+INFO  @ Sat, 02 Jan 2021 11:28:26:  60000000 
+INFO  @ Sat, 02 Jan 2021 11:28:31:  61000000 
+INFO  @ Sat, 02 Jan 2021 11:28:37:  62000000 
+INFO  @ Sat, 02 Jan 2021 11:28:42:  63000000 
+INFO  @ Sat, 02 Jan 2021 11:28:48:  64000000 
+INFO  @ Sat, 02 Jan 2021 11:28:53:  65000000 
+INFO  @ Sat, 02 Jan 2021 11:28:59:  66000000 
+INFO  @ Sat, 02 Jan 2021 11:29:04:  67000000 
+INFO  @ Sat, 02 Jan 2021 11:29:10:  68000000 
+INFO  @ Sat, 02 Jan 2021 11:29:15:  69000000 
+INFO  @ Sat, 02 Jan 2021 11:29:21:  70000000 
+INFO  @ Sat, 02 Jan 2021 11:29:26:  71000000 
+INFO  @ Sat, 02 Jan 2021 11:29:31:  72000000 
+INFO  @ Sat, 02 Jan 2021 11:29:36:  73000000 
+INFO  @ Sat, 02 Jan 2021 11:29:42:  74000000 
+INFO  @ Sat, 02 Jan 2021 11:29:47:  75000000 
+INFO  @ Sat, 02 Jan 2021 11:29:53:  76000000 
+INFO  @ Sat, 02 Jan 2021 11:29:58:  77000000 
+INFO  @ Sat, 02 Jan 2021 11:30:04:  78000000 
+INFO  @ Sat, 02 Jan 2021 11:30:09:  79000000 
+INFO  @ Sat, 02 Jan 2021 11:30:14:  80000000 
+INFO  @ Sat, 02 Jan 2021 11:30:20:  81000000 
+INFO  @ Sat, 02 Jan 2021 11:30:25:  82000000 
+INFO  @ Sat, 02 Jan 2021 11:30:30:  83000000 
+INFO  @ Sat, 02 Jan 2021 11:30:36:  84000000 
+INFO  @ Sat, 02 Jan 2021 11:30:42:  85000000 
+INFO  @ Sat, 02 Jan 2021 11:30:47:  86000000 
+INFO  @ Sat, 02 Jan 2021 11:30:52:  87000000 
+INFO  @ Sat, 02 Jan 2021 11:30:58:  88000000 
+INFO  @ Sat, 02 Jan 2021 11:31:03:  89000000 
+INFO  @ Sat, 02 Jan 2021 11:31:08:  90000000 
+INFO  @ Sat, 02 Jan 2021 11:31:10: Detected format is: BAM 
+INFO  @ Sat, 02 Jan 2021 11:31:10: * Input file is gzipped. 
+INFO  @ Sat, 02 Jan 2021 11:31:19:  1000000 
+INFO  @ Sat, 02 Jan 2021 11:31:27:  2000000 
+INFO  @ Sat, 02 Jan 2021 11:31:35:  3000000 
+INFO  @ Sat, 02 Jan 2021 11:31:44:  4000000 
+INFO  @ Sat, 02 Jan 2021 11:31:52:  5000000 
+INFO  @ Sat, 02 Jan 2021 11:32:01:  6000000 
+INFO  @ Sat, 02 Jan 2021 11:32:09:  7000000 
+INFO  @ Sat, 02 Jan 2021 11:32:17:  8000000 
+INFO  @ Sat, 02 Jan 2021 11:32:26:  9000000 
+INFO  @ Sat, 02 Jan 2021 11:32:34:  10000000 
+INFO  @ Sat, 02 Jan 2021 11:32:42:  11000000 
+INFO  @ Sat, 02 Jan 2021 11:32:50:  12000000 
+INFO  @ Sat, 02 Jan 2021 11:32:59:  13000000 
+INFO  @ Sat, 02 Jan 2021 11:33:07:  14000000 
+INFO  @ Sat, 02 Jan 2021 11:33:16:  15000000 
+INFO  @ Sat, 02 Jan 2021 11:33:24:  16000000 
+INFO  @ Sat, 02 Jan 2021 11:33:32:  17000000 
+INFO  @ Sat, 02 Jan 2021 11:33:41:  18000000 
+INFO  @ Sat, 02 Jan 2021 11:33:49:  19000000 
+INFO  @ Sat, 02 Jan 2021 11:33:57:  20000000 
+INFO  @ Sat, 02 Jan 2021 11:34:06:  21000000 
+INFO  @ Sat, 02 Jan 2021 11:34:14:  22000000 
+INFO  @ Sat, 02 Jan 2021 11:34:22:  23000000 
+INFO  @ Sat, 02 Jan 2021 11:34:27:  24000000 
+INFO  @ Sat, 02 Jan 2021 11:34:33:  25000000 
+INFO  @ Sat, 02 Jan 2021 11:34:38:  26000000 
+INFO  @ Sat, 02 Jan 2021 11:34:43:  27000000 
+INFO  @ Sat, 02 Jan 2021 11:34:48:  28000000 
+INFO  @ Sat, 02 Jan 2021 11:34:53:  29000000 
+INFO  @ Sat, 02 Jan 2021 11:34:59:  30000000 
+INFO  @ Sat, 02 Jan 2021 11:35:04:  31000000 
+INFO  @ Sat, 02 Jan 2021 11:35:09:  32000000 
+INFO  @ Sat, 02 Jan 2021 11:35:14:  33000000 
+INFO  @ Sat, 02 Jan 2021 11:35:19:  34000000 
+INFO  @ Sat, 02 Jan 2021 11:35:25:  35000000 
+INFO  @ Sat, 02 Jan 2021 11:35:30:  36000000 
+INFO  @ Sat, 02 Jan 2021 11:35:35:  37000000 
+INFO  @ Sat, 02 Jan 2021 11:35:40:  38000000 
+INFO  @ Sat, 02 Jan 2021 11:35:45:  39000000 
+INFO  @ Sat, 02 Jan 2021 11:35:50:  40000000 
+INFO  @ Sat, 02 Jan 2021 11:35:56:  41000000 
+INFO  @ Sat, 02 Jan 2021 11:36:01:  42000000 
+INFO  @ Sat, 02 Jan 2021 11:36:06:  43000000 
+INFO  @ Sat, 02 Jan 2021 11:36:11:  44000000 
+INFO  @ Sat, 02 Jan 2021 11:36:16:  45000000 
+INFO  @ Sat, 02 Jan 2021 11:36:22:  46000000 
+INFO  @ Sat, 02 Jan 2021 11:36:27:  47000000 
+INFO  @ Sat, 02 Jan 2021 11:36:32:  48000000 
+INFO  @ Sat, 02 Jan 2021 11:36:37:  49000000 
+INFO  @ Sat, 02 Jan 2021 11:36:42:  50000000 
+INFO  @ Sat, 02 Jan 2021 11:36:47:  51000000 
+INFO  @ Sat, 02 Jan 2021 11:36:52:  52000000 
+INFO  @ Sat, 02 Jan 2021 11:36:57:  53000000 
+INFO  @ Sat, 02 Jan 2021 11:37:03:  54000000 
+INFO  @ Sat, 02 Jan 2021 11:37:08:  55000000 
+INFO  @ Sat, 02 Jan 2021 11:37:13:  56000000 
+INFO  @ Sat, 02 Jan 2021 11:37:18:  57000000 
+INFO  @ Sat, 02 Jan 2021 11:37:23:  58000000 
+INFO  @ Sat, 02 Jan 2021 11:37:28:  59000000 
+INFO  @ Sat, 02 Jan 2021 11:37:33:  60000000 
+INFO  @ Sat, 02 Jan 2021 11:37:38:  61000000 
+INFO  @ Sat, 02 Jan 2021 11:37:44:  62000000 
+INFO  @ Sat, 02 Jan 2021 11:37:49:  63000000 
+INFO  @ Sat, 02 Jan 2021 11:37:54:  64000000 
+INFO  @ Sat, 02 Jan 2021 11:37:59:  65000000 
+INFO  @ Sat, 02 Jan 2021 11:38:04:  66000000 
+INFO  @ Sat, 02 Jan 2021 11:38:09:  67000000 
+INFO  @ Sat, 02 Jan 2021 11:38:14:  68000000 
+INFO  @ Sat, 02 Jan 2021 11:38:19:  69000000 
+INFO  @ Sat, 02 Jan 2021 11:38:25:  70000000 
+INFO  @ Sat, 02 Jan 2021 11:38:30:  71000000 
+INFO  @ Sat, 02 Jan 2021 11:38:35:  72000000 
+INFO  @ Sat, 02 Jan 2021 11:38:40:  73000000 
+INFO  @ Sat, 02 Jan 2021 11:38:45:  74000000 
+INFO  @ Sat, 02 Jan 2021 11:38:50:  75000000 
+INFO  @ Sat, 02 Jan 2021 11:38:57: #1.2 read input tags... 
+INFO  @ Sat, 02 Jan 2021 11:38:57: Detected format is: BAM 
+INFO  @ Sat, 02 Jan 2021 11:38:57: * Input file is gzipped. 
+INFO  @ Sat, 02 Jan 2021 11:39:05:  1000000 
+INFO  @ Sat, 02 Jan 2021 11:39:13:  2000000 
+INFO  @ Sat, 02 Jan 2021 11:39:21:  3000000 
+INFO  @ Sat, 02 Jan 2021 11:39:29:  4000000 
+INFO  @ Sat, 02 Jan 2021 11:39:37:  5000000 
+INFO  @ Sat, 02 Jan 2021 11:39:45:  6000000 
+INFO  @ Sat, 02 Jan 2021 11:39:53:  7000000 
+INFO  @ Sat, 02 Jan 2021 11:40:01:  8000000 
+INFO  @ Sat, 02 Jan 2021 11:40:09:  9000000 
+INFO  @ Sat, 02 Jan 2021 11:40:16:  10000000 
+INFO  @ Sat, 02 Jan 2021 11:40:24:  11000000 
+INFO  @ Sat, 02 Jan 2021 11:40:32:  12000000 
+INFO  @ Sat, 02 Jan 2021 11:40:40:  13000000 
+INFO  @ Sat, 02 Jan 2021 11:40:48:  14000000 
+INFO  @ Sat, 02 Jan 2021 11:40:56:  15000000 
+INFO  @ Sat, 02 Jan 2021 11:41:04:  16000000 
+INFO  @ Sat, 02 Jan 2021 11:41:12:  17000000 
+INFO  @ Sat, 02 Jan 2021 11:41:20:  18000000 
+INFO  @ Sat, 02 Jan 2021 11:41:28:  19000000 
+INFO  @ Sat, 02 Jan 2021 11:41:36:  20000000 
+INFO  @ Sat, 02 Jan 2021 11:41:44:  21000000 
+INFO  @ Sat, 02 Jan 2021 11:41:52:  22000000 
+INFO  @ Sat, 02 Jan 2021 11:42:00:  23000000 
+INFO  @ Sat, 02 Jan 2021 11:42:08:  24000000 
+INFO  @ Sat, 02 Jan 2021 11:42:16:  25000000 
+INFO  @ Sat, 02 Jan 2021 11:42:23:  26000000 
+INFO  @ Sat, 02 Jan 2021 11:42:31:  27000000 
+INFO  @ Sat, 02 Jan 2021 11:42:39:  28000000 
+INFO  @ Sat, 02 Jan 2021 11:42:47:  29000000 
+INFO  @ Sat, 02 Jan 2021 11:42:55:  30000000 
+INFO  @ Sat, 02 Jan 2021 11:43:03:  31000000 
+INFO  @ Sat, 02 Jan 2021 11:43:11:  32000000 
+INFO  @ Sat, 02 Jan 2021 11:43:20:  33000000 
+INFO  @ Sat, 02 Jan 2021 11:43:22: #1 tag size is determined as 76 bps 
+INFO  @ Sat, 02 Jan 2021 11:43:22: #1 tag size = 76 
+INFO  @ Sat, 02 Jan 2021 11:43:22: #1  total tags in treatment: 56488747 
+INFO  @ Sat, 02 Jan 2021 11:43:22: #1 user defined the maximum tags... 
+INFO  @ Sat, 02 Jan 2021 11:43:22: #1 filter out redundant tags at the same location and the same strand by allowing at most 1 tag(s) 
+INFO  @ Sat, 02 Jan 2021 11:43:24: #1  tags after filtering in treatment: 56149653 
+INFO  @ Sat, 02 Jan 2021 11:43:24: #1  Redundant rate of treatment: 0.01 
+INFO  @ Sat, 02 Jan 2021 11:43:24: #1  total tags in control: 33006018 
+INFO  @ Sat, 02 Jan 2021 11:43:24: #1 user defined the maximum tags... 
+INFO  @ Sat, 02 Jan 2021 11:43:24: #1 filter out redundant tags at the same location and the same strand by allowing at most 1 tag(s) 
+INFO  @ Sat, 02 Jan 2021 11:43:25: #1  tags after filtering in control: 33006018 
+INFO  @ Sat, 02 Jan 2021 11:43:25: #1  Redundant rate of control: 0.00 
+INFO  @ Sat, 02 Jan 2021 11:43:25: #1 finished! 
+INFO  @ Sat, 02 Jan 2021 11:43:25: #2 Build Peak Model... 
+INFO  @ Sat, 02 Jan 2021 11:43:25: #2 Skipped... 
+INFO  @ Sat, 02 Jan 2021 11:43:25: #2 Use 147 as fragment length 
+INFO  @ Sat, 02 Jan 2021 11:43:25: #3 Call peaks... 
+INFO  @ Sat, 02 Jan 2021 11:43:25: #3 Going to call summits inside each peak ... 
+INFO  @ Sat, 02 Jan 2021 11:43:25: #3 Pre-compute pvalue-qvalue table... 
+INFO  @ Sat, 02 Jan 2021 11:47:38: #3 In the peak calling step, the following will be performed simultaneously: 
+INFO  @ Sat, 02 Jan 2021 11:47:38: #3   Write bedGraph files for treatment pileup (after scaling if necessary)... 2015_JEM_Dominguez___Tbet_LCMVarm-D8-CD8-Zeb2KO_treat_pileup.bdg 
+INFO  @ Sat, 02 Jan 2021 11:47:38: #3   Write bedGraph files for control lambda (after scaling if necessary)... 2015_JEM_Dominguez___Tbet_LCMVarm-D8-CD8-Zeb2KO_control_lambda.bdg 
+INFO  @ Sat, 02 Jan 2021 11:47:38: #3   --SPMR is requested, so pileup will be normalized by sequencing depth in million reads. 
+INFO  @ Sat, 02 Jan 2021 11:47:38: #3 Call peaks for each chromosome... 
+INFO  @ Sat, 02 Jan 2021 11:59:44: #4 Write output xls file... /gpfs/group/pipkin/hdiao/T_Cell_ChIP/2_MACS2/2015_JEM_Dominguez___Tbet_LCMVarm-D8-CD8-Zeb2KO_peaks.xls 
+INFO  @ Sat, 02 Jan 2021 11:59:44: #4 Write peak in narrowPeak format file... /gpfs/group/pipkin/hdiao/T_Cell_ChIP/2_MACS2/2015_JEM_Dominguez___Tbet_LCMVarm-D8-CD8-Zeb2KO_peaks.narrowPeak 
+INFO  @ Sat, 02 Jan 2021 11:59:44: #4 Write summits bed file... /gpfs/group/pipkin/hdiao/T_Cell_ChIP/2_MACS2/2015_JEM_Dominguez___Tbet_LCMVarm-D8-CD8-Zeb2KO_summits.bed 
+INFO  @ Sat, 02 Jan 2021 11:59:44: Done! 

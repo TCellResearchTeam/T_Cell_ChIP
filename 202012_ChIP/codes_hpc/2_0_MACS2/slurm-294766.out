@@ -1,0 +1,125 @@
+INFO  @ Sat, 02 Jan 2021 11:20:47: 
+# Command line: callpeak -t SRR5905839_srt_dupr_flb.bam -c SRR5905836_srt_dupr_flb.bam -g mm -B --SPMR --nomodel --extsize 147 --call-summits -n 2017_PNAS_Li___H3K4me3-noIL2-CD4 --outdir /gpfs/group/pipkin/hdiao/T_Cell_ChIP/2_MACS2
+# ARGUMENTS LIST:
+# name = 2017_PNAS_Li___H3K4me3-noIL2-CD4
+# format = AUTO
+# ChIP-seq file = ['SRR5905839_srt_dupr_flb.bam']
+# control file = ['SRR5905836_srt_dupr_flb.bam']
+# effective genome size = 1.87e+09
+# band width = 300
+# model fold = [5, 50]
+# qvalue cutoff = 5.00e-02
+# Larger dataset will be scaled towards smaller dataset.
+# Range for calculating regional lambda is: 1000 bps and 10000 bps
+# Broad region calling is off
+# Searching for subpeak summits is on
+# MACS will save fragment pileup signal per million reads
+ 
+INFO  @ Sat, 02 Jan 2021 11:20:47: #1 read tag files... 
+INFO  @ Sat, 02 Jan 2021 11:20:47: #1 read treatment tags... 
+INFO  @ Sat, 02 Jan 2021 11:20:47: Detected format is: BAM 
+INFO  @ Sat, 02 Jan 2021 11:20:47: * Input file is gzipped. 
+INFO  @ Sat, 02 Jan 2021 11:20:55:  1000000 
+INFO  @ Sat, 02 Jan 2021 11:21:05:  2000000 
+INFO  @ Sat, 02 Jan 2021 11:21:13:  3000000 
+INFO  @ Sat, 02 Jan 2021 11:21:21:  4000000 
+INFO  @ Sat, 02 Jan 2021 11:21:30:  5000000 
+INFO  @ Sat, 02 Jan 2021 11:21:39:  6000000 
+INFO  @ Sat, 02 Jan 2021 11:21:47:  7000000 
+INFO  @ Sat, 02 Jan 2021 11:21:54:  8000000 
+INFO  @ Sat, 02 Jan 2021 11:21:57: #1.2 read input tags... 
+INFO  @ Sat, 02 Jan 2021 11:21:57: Detected format is: BAM 
+INFO  @ Sat, 02 Jan 2021 11:21:57: * Input file is gzipped. 
+INFO  @ Sat, 02 Jan 2021 11:22:02:  1000000 
+INFO  @ Sat, 02 Jan 2021 11:22:08:  2000000 
+INFO  @ Sat, 02 Jan 2021 11:22:13:  3000000 
+INFO  @ Sat, 02 Jan 2021 11:22:19:  4000000 
+INFO  @ Sat, 02 Jan 2021 11:22:24:  5000000 
+INFO  @ Sat, 02 Jan 2021 11:22:26: #1 tag size is determined as 37 bps 
+INFO  @ Sat, 02 Jan 2021 11:22:26: #1 tag size = 37 
+INFO  @ Sat, 02 Jan 2021 11:22:26: #1  total tags in treatment: 8256957 
+INFO  @ Sat, 02 Jan 2021 11:22:26: #1 user defined the maximum tags... 
+INFO  @ Sat, 02 Jan 2021 11:22:26: #1 filter out redundant tags at the same location and the same strand by allowing at most 1 tag(s) 
+INFO  @ Sat, 02 Jan 2021 11:22:27: #1  tags after filtering in treatment: 8256956 
+INFO  @ Sat, 02 Jan 2021 11:22:27: #1  Redundant rate of treatment: 0.00 
+INFO  @ Sat, 02 Jan 2021 11:22:27: #1  total tags in control: 5165098 
+INFO  @ Sat, 02 Jan 2021 11:22:27: #1 user defined the maximum tags... 
+INFO  @ Sat, 02 Jan 2021 11:22:27: #1 filter out redundant tags at the same location and the same strand by allowing at most 1 tag(s) 
+INFO  @ Sat, 02 Jan 2021 11:22:27: #1  tags after filtering in control: 5165097 
+INFO  @ Sat, 02 Jan 2021 11:22:27: #1  Redundant rate of control: 0.00 
+INFO  @ Sat, 02 Jan 2021 11:22:27: #1 finished! 
+INFO  @ Sat, 02 Jan 2021 11:22:27: #2 Build Peak Model... 
+INFO  @ Sat, 02 Jan 2021 11:22:27: #2 Skipped... 
+INFO  @ Sat, 02 Jan 2021 11:22:27: #2 Use 147 as fragment length 
+INFO  @ Sat, 02 Jan 2021 11:22:27: #3 Call peaks... 
+INFO  @ Sat, 02 Jan 2021 11:22:27: #3 Going to call summits inside each peak ... 
+INFO  @ Sat, 02 Jan 2021 11:22:27: #3 Pre-compute pvalue-qvalue table... 
+INFO  @ Sat, 02 Jan 2021 11:23:00: #3 In the peak calling step, the following will be performed simultaneously: 
+INFO  @ Sat, 02 Jan 2021 11:23:00: #3   Write bedGraph files for treatment pileup (after scaling if necessary)... 2017_PNAS_Li___H3K4me3-noIL2-CD4_treat_pileup.bdg 
+INFO  @ Sat, 02 Jan 2021 11:23:00: #3   Write bedGraph files for control lambda (after scaling if necessary)... 2017_PNAS_Li___H3K4me3-noIL2-CD4_control_lambda.bdg 
+INFO  @ Sat, 02 Jan 2021 11:23:00: #3   --SPMR is requested, so pileup will be normalized by sequencing depth in million reads. 
+INFO  @ Sat, 02 Jan 2021 11:23:00: #3 Call peaks for each chromosome... 
+INFO  @ Sat, 02 Jan 2021 11:25:31: #4 Write output xls file... /gpfs/group/pipkin/hdiao/T_Cell_ChIP/2_MACS2/2017_PNAS_Li___H3K4me3-noIL2-CD4_peaks.xls 
+INFO  @ Sat, 02 Jan 2021 11:25:31: #4 Write peak in narrowPeak format file... /gpfs/group/pipkin/hdiao/T_Cell_ChIP/2_MACS2/2017_PNAS_Li___H3K4me3-noIL2-CD4_peaks.narrowPeak 
+INFO  @ Sat, 02 Jan 2021 11:25:32: #4 Write summits bed file... /gpfs/group/pipkin/hdiao/T_Cell_ChIP/2_MACS2/2017_PNAS_Li___H3K4me3-noIL2-CD4_summits.bed 
+INFO  @ Sat, 02 Jan 2021 11:25:32: Done! 
+INFO  @ Sat, 02 Jan 2021 11:25:33: 
+# Command line: callpeak -t SRR5905839_srt_dupr_flb.bam -c SRR5905836_srt_dupr_flb.bam -g mm --nomodel --extsize 147 --broad -n 2017_PNAS_Li___H3K4me3-noIL2-CD4 --outdir /gpfs/group/pipkin/hdiao/T_Cell_ChIP/2_MACS2_broad
+# ARGUMENTS LIST:
+# name = 2017_PNAS_Li___H3K4me3-noIL2-CD4
+# format = AUTO
+# ChIP-seq file = ['SRR5905839_srt_dupr_flb.bam']
+# control file = ['SRR5905836_srt_dupr_flb.bam']
+# effective genome size = 1.87e+09
+# band width = 300
+# model fold = [5, 50]
+# qvalue cutoff for narrow/strong regions = 5.00e-02
+# qvalue cutoff for broad/weak regions = 1.00e-01
+# Larger dataset will be scaled towards smaller dataset.
+# Range for calculating regional lambda is: 1000 bps and 10000 bps
+# Broad region calling is on
+ 
+INFO  @ Sat, 02 Jan 2021 11:25:33: #1 read tag files... 
+INFO  @ Sat, 02 Jan 2021 11:25:33: #1 read treatment tags... 
+INFO  @ Sat, 02 Jan 2021 11:25:33: Detected format is: BAM 
+INFO  @ Sat, 02 Jan 2021 11:25:33: * Input file is gzipped. 
+INFO  @ Sat, 02 Jan 2021 11:25:38:  1000000 
+INFO  @ Sat, 02 Jan 2021 11:25:44:  2000000 
+INFO  @ Sat, 02 Jan 2021 11:25:49:  3000000 
+INFO  @ Sat, 02 Jan 2021 11:25:55:  4000000 
+INFO  @ Sat, 02 Jan 2021 11:26:00:  5000000 
+INFO  @ Sat, 02 Jan 2021 11:26:06:  6000000 
+INFO  @ Sat, 02 Jan 2021 11:26:11:  7000000 
+INFO  @ Sat, 02 Jan 2021 11:26:17:  8000000 
+INFO  @ Sat, 02 Jan 2021 11:26:19: #1.2 read input tags... 
+INFO  @ Sat, 02 Jan 2021 11:26:19: Detected format is: BAM 
+INFO  @ Sat, 02 Jan 2021 11:26:19: * Input file is gzipped. 
+INFO  @ Sat, 02 Jan 2021 11:26:24:  1000000 
+INFO  @ Sat, 02 Jan 2021 11:26:29:  2000000 
+INFO  @ Sat, 02 Jan 2021 11:26:34:  3000000 
+INFO  @ Sat, 02 Jan 2021 11:26:39:  4000000 
+INFO  @ Sat, 02 Jan 2021 11:26:44:  5000000 
+INFO  @ Sat, 02 Jan 2021 11:26:46: #1 tag size is determined as 37 bps 
+INFO  @ Sat, 02 Jan 2021 11:26:46: #1 tag size = 37 
+INFO  @ Sat, 02 Jan 2021 11:26:46: #1  total tags in treatment: 8256957 
+INFO  @ Sat, 02 Jan 2021 11:26:46: #1 user defined the maximum tags... 
+INFO  @ Sat, 02 Jan 2021 11:26:46: #1 filter out redundant tags at the same location and the same strand by allowing at most 1 tag(s) 
+INFO  @ Sat, 02 Jan 2021 11:26:46: #1  tags after filtering in treatment: 8256956 
+INFO  @ Sat, 02 Jan 2021 11:26:46: #1  Redundant rate of treatment: 0.00 
+INFO  @ Sat, 02 Jan 2021 11:26:46: #1  total tags in control: 5165098 
+INFO  @ Sat, 02 Jan 2021 11:26:46: #1 user defined the maximum tags... 
+INFO  @ Sat, 02 Jan 2021 11:26:46: #1 filter out redundant tags at the same location and the same strand by allowing at most 1 tag(s) 
+INFO  @ Sat, 02 Jan 2021 11:26:46: #1  tags after filtering in control: 5165097 
+INFO  @ Sat, 02 Jan 2021 11:26:46: #1  Redundant rate of control: 0.00 
+INFO  @ Sat, 02 Jan 2021 11:26:46: #1 finished! 
+INFO  @ Sat, 02 Jan 2021 11:26:46: #2 Build Peak Model... 
+INFO  @ Sat, 02 Jan 2021 11:26:46: #2 Skipped... 
+INFO  @ Sat, 02 Jan 2021 11:26:46: #2 Use 147 as fragment length 
+INFO  @ Sat, 02 Jan 2021 11:26:46: #3 Call peaks... 
+INFO  @ Sat, 02 Jan 2021 11:26:46: #3 Call broad peaks with given level1 -log10qvalue cutoff and level2: 1.301030, 1.000000... 
+INFO  @ Sat, 02 Jan 2021 11:26:46: #3 Pre-compute pvalue-qvalue table... 
+INFO  @ Sat, 02 Jan 2021 11:27:19: #3 Call peaks for each chromosome... 
+INFO  @ Sat, 02 Jan 2021 11:27:59: #4 Write output xls file... /gpfs/group/pipkin/hdiao/T_Cell_ChIP/2_MACS2_broad/2017_PNAS_Li___H3K4me3-noIL2-CD4_peaks.xls 
+INFO  @ Sat, 02 Jan 2021 11:28:00: #4 Write broad peak in broadPeak format file... /gpfs/group/pipkin/hdiao/T_Cell_ChIP/2_MACS2_broad/2017_PNAS_Li___H3K4me3-noIL2-CD4_peaks.broadPeak 
+INFO  @ Sat, 02 Jan 2021 11:28:00: #4 Write broad peak in bed12/gappedPeak format file... /gpfs/group/pipkin/hdiao/T_Cell_ChIP/2_MACS2_broad/2017_PNAS_Li___H3K4me3-noIL2-CD4_peaks.gappedPeak 
+INFO  @ Sat, 02 Jan 2021 11:28:00: Done! 

@@ -1,0 +1,145 @@
+INFO  @ Sat, 02 Jan 2021 11:20:46: 
+# Command line: callpeak -t SRR955614_srt_dupr_flb.bam -c SRR955612_srt_dupr_flb.bam SRR955613_srt_dupr_flb.bam -g mm -B --SPMR --nomodel --extsize 147 --call-summits -n 2013_PLOS_ONE_Lotem___H3K4me1_invitro-Il2-CD8 --outdir /gpfs/group/pipkin/hdiao/T_Cell_ChIP/2_MACS2
+# ARGUMENTS LIST:
+# name = 2013_PLOS_ONE_Lotem___H3K4me1_invitro-Il2-CD8
+# format = AUTO
+# ChIP-seq file = ['SRR955614_srt_dupr_flb.bam']
+# control file = ['SRR955612_srt_dupr_flb.bam', 'SRR955613_srt_dupr_flb.bam']
+# effective genome size = 1.87e+09
+# band width = 300
+# model fold = [5, 50]
+# qvalue cutoff = 5.00e-02
+# Larger dataset will be scaled towards smaller dataset.
+# Range for calculating regional lambda is: 1000 bps and 10000 bps
+# Broad region calling is off
+# Searching for subpeak summits is on
+# MACS will save fragment pileup signal per million reads
+ 
+INFO  @ Sat, 02 Jan 2021 11:20:46: #1 read tag files... 
+INFO  @ Sat, 02 Jan 2021 11:20:46: #1 read treatment tags... 
+INFO  @ Sat, 02 Jan 2021 11:20:46: Detected format is: BAM 
+INFO  @ Sat, 02 Jan 2021 11:20:46: * Input file is gzipped. 
+INFO  @ Sat, 02 Jan 2021 11:20:55:  1000000 
+INFO  @ Sat, 02 Jan 2021 11:21:04:  2000000 
+INFO  @ Sat, 02 Jan 2021 11:21:14:  3000000 
+INFO  @ Sat, 02 Jan 2021 11:21:23:  4000000 
+INFO  @ Sat, 02 Jan 2021 11:21:33:  5000000 
+INFO  @ Sat, 02 Jan 2021 11:21:43:  6000000 
+INFO  @ Sat, 02 Jan 2021 11:21:51:  7000000 
+INFO  @ Sat, 02 Jan 2021 11:22:00:  8000000 
+INFO  @ Sat, 02 Jan 2021 11:22:08:  9000000 
+INFO  @ Sat, 02 Jan 2021 11:22:17:  10000000 
+INFO  @ Sat, 02 Jan 2021 11:22:25:  11000000 
+INFO  @ Sat, 02 Jan 2021 11:22:35:  12000000 
+INFO  @ Sat, 02 Jan 2021 11:22:43:  13000000 
+INFO  @ Sat, 02 Jan 2021 11:22:51:  14000000 
+INFO  @ Sat, 02 Jan 2021 11:22:55: #1.2 read input tags... 
+INFO  @ Sat, 02 Jan 2021 11:22:55: Detected format is: BAM 
+INFO  @ Sat, 02 Jan 2021 11:22:55: * Input file is gzipped. 
+INFO  @ Sat, 02 Jan 2021 11:23:02:  1000000 
+INFO  @ Sat, 02 Jan 2021 11:23:09:  2000000 
+INFO  @ Sat, 02 Jan 2021 11:23:12: Detected format is: BAM 
+INFO  @ Sat, 02 Jan 2021 11:23:12: * Input file is gzipped. 
+INFO  @ Sat, 02 Jan 2021 11:23:20:  1000000 
+INFO  @ Sat, 02 Jan 2021 11:23:28:  2000000 
+INFO  @ Sat, 02 Jan 2021 11:23:36:  3000000 
+INFO  @ Sat, 02 Jan 2021 11:23:44:  4000000 
+INFO  @ Sat, 02 Jan 2021 11:23:51:  5000000 
+INFO  @ Sat, 02 Jan 2021 11:23:52: #1 tag size is determined as 39 bps 
+INFO  @ Sat, 02 Jan 2021 11:23:52: #1 tag size = 39 
+INFO  @ Sat, 02 Jan 2021 11:23:52: #1  total tags in treatment: 13965350 
+INFO  @ Sat, 02 Jan 2021 11:23:52: #1 user defined the maximum tags... 
+INFO  @ Sat, 02 Jan 2021 11:23:52: #1 filter out redundant tags at the same location and the same strand by allowing at most 1 tag(s) 
+INFO  @ Sat, 02 Jan 2021 11:23:53: #1  tags after filtering in treatment: 13965350 
+INFO  @ Sat, 02 Jan 2021 11:23:53: #1  Redundant rate of treatment: 0.00 
+INFO  @ Sat, 02 Jan 2021 11:23:53: #1  total tags in control: 7298248 
+INFO  @ Sat, 02 Jan 2021 11:23:53: #1 user defined the maximum tags... 
+INFO  @ Sat, 02 Jan 2021 11:23:53: #1 filter out redundant tags at the same location and the same strand by allowing at most 1 tag(s) 
+INFO  @ Sat, 02 Jan 2021 11:23:53: #1  tags after filtering in control: 7254401 
+INFO  @ Sat, 02 Jan 2021 11:23:53: #1  Redundant rate of control: 0.01 
+INFO  @ Sat, 02 Jan 2021 11:23:53: #1 finished! 
+INFO  @ Sat, 02 Jan 2021 11:23:53: #2 Build Peak Model... 
+INFO  @ Sat, 02 Jan 2021 11:23:53: #2 Skipped... 
+INFO  @ Sat, 02 Jan 2021 11:23:53: #2 Use 147 as fragment length 
+INFO  @ Sat, 02 Jan 2021 11:23:53: #3 Call peaks... 
+INFO  @ Sat, 02 Jan 2021 11:23:53: #3 Going to call summits inside each peak ... 
+INFO  @ Sat, 02 Jan 2021 11:23:53: #3 Pre-compute pvalue-qvalue table... 
+INFO  @ Sat, 02 Jan 2021 11:24:45: #3 In the peak calling step, the following will be performed simultaneously: 
+INFO  @ Sat, 02 Jan 2021 11:24:45: #3   Write bedGraph files for treatment pileup (after scaling if necessary)... 2013_PLOS_ONE_Lotem___H3K4me1_invitro-Il2-CD8_treat_pileup.bdg 
+INFO  @ Sat, 02 Jan 2021 11:24:45: #3   Write bedGraph files for control lambda (after scaling if necessary)... 2013_PLOS_ONE_Lotem___H3K4me1_invitro-Il2-CD8_control_lambda.bdg 
+INFO  @ Sat, 02 Jan 2021 11:24:45: #3   --SPMR is requested, so pileup will be normalized by sequencing depth in million reads. 
+INFO  @ Sat, 02 Jan 2021 11:24:45: #3 Call peaks for each chromosome... 
+INFO  @ Sat, 02 Jan 2021 11:27:44: #4 Write output xls file... /gpfs/group/pipkin/hdiao/T_Cell_ChIP/2_MACS2/2013_PLOS_ONE_Lotem___H3K4me1_invitro-Il2-CD8_peaks.xls 
+INFO  @ Sat, 02 Jan 2021 11:27:44: #4 Write peak in narrowPeak format file... /gpfs/group/pipkin/hdiao/T_Cell_ChIP/2_MACS2/2013_PLOS_ONE_Lotem___H3K4me1_invitro-Il2-CD8_peaks.narrowPeak 
+INFO  @ Sat, 02 Jan 2021 11:27:44: #4 Write summits bed file... /gpfs/group/pipkin/hdiao/T_Cell_ChIP/2_MACS2/2013_PLOS_ONE_Lotem___H3K4me1_invitro-Il2-CD8_summits.bed 
+INFO  @ Sat, 02 Jan 2021 11:27:44: Done! 
+INFO  @ Sat, 02 Jan 2021 11:27:45: 
+# Command line: callpeak -t SRR955614_srt_dupr_flb.bam -c SRR955612_srt_dupr_flb.bam SRR955613_srt_dupr_flb.bam -g mm --nomodel --extsize 147 --broad -n 2013_PLOS_ONE_Lotem___H3K4me1_invitro-Il2-CD8 --outdir /gpfs/group/pipkin/hdiao/T_Cell_ChIP/2_MACS2_broad
+# ARGUMENTS LIST:
+# name = 2013_PLOS_ONE_Lotem___H3K4me1_invitro-Il2-CD8
+# format = AUTO
+# ChIP-seq file = ['SRR955614_srt_dupr_flb.bam']
+# control file = ['SRR955612_srt_dupr_flb.bam', 'SRR955613_srt_dupr_flb.bam']
+# effective genome size = 1.87e+09
+# band width = 300
+# model fold = [5, 50]
+# qvalue cutoff for narrow/strong regions = 5.00e-02
+# qvalue cutoff for broad/weak regions = 1.00e-01
+# Larger dataset will be scaled towards smaller dataset.
+# Range for calculating regional lambda is: 1000 bps and 10000 bps
+# Broad region calling is on
+ 
+INFO  @ Sat, 02 Jan 2021 11:27:45: #1 read tag files... 
+INFO  @ Sat, 02 Jan 2021 11:27:45: #1 read treatment tags... 
+INFO  @ Sat, 02 Jan 2021 11:27:45: Detected format is: BAM 
+INFO  @ Sat, 02 Jan 2021 11:27:45: * Input file is gzipped. 
+INFO  @ Sat, 02 Jan 2021 11:27:50:  1000000 
+INFO  @ Sat, 02 Jan 2021 11:27:56:  2000000 
+INFO  @ Sat, 02 Jan 2021 11:28:01:  3000000 
+INFO  @ Sat, 02 Jan 2021 11:28:07:  4000000 
+INFO  @ Sat, 02 Jan 2021 11:28:13:  5000000 
+INFO  @ Sat, 02 Jan 2021 11:28:18:  6000000 
+INFO  @ Sat, 02 Jan 2021 11:28:24:  7000000 
+INFO  @ Sat, 02 Jan 2021 11:28:29:  8000000 
+INFO  @ Sat, 02 Jan 2021 11:28:35:  9000000 
+INFO  @ Sat, 02 Jan 2021 11:28:40:  10000000 
+INFO  @ Sat, 02 Jan 2021 11:28:46:  11000000 
+INFO  @ Sat, 02 Jan 2021 11:28:51:  12000000 
+INFO  @ Sat, 02 Jan 2021 11:28:57:  13000000 
+INFO  @ Sat, 02 Jan 2021 11:29:02:  14000000 
+INFO  @ Sat, 02 Jan 2021 11:29:05: #1.2 read input tags... 
+INFO  @ Sat, 02 Jan 2021 11:29:05: Detected format is: BAM 
+INFO  @ Sat, 02 Jan 2021 11:29:05: * Input file is gzipped. 
+INFO  @ Sat, 02 Jan 2021 11:29:11:  1000000 
+INFO  @ Sat, 02 Jan 2021 11:29:16:  2000000 
+INFO  @ Sat, 02 Jan 2021 11:29:18: Detected format is: BAM 
+INFO  @ Sat, 02 Jan 2021 11:29:18: * Input file is gzipped. 
+INFO  @ Sat, 02 Jan 2021 11:29:24:  1000000 
+INFO  @ Sat, 02 Jan 2021 11:29:30:  2000000 
+INFO  @ Sat, 02 Jan 2021 11:29:35:  3000000 
+INFO  @ Sat, 02 Jan 2021 11:29:41:  4000000 
+INFO  @ Sat, 02 Jan 2021 11:29:46:  5000000 
+INFO  @ Sat, 02 Jan 2021 11:29:47: #1 tag size is determined as 39 bps 
+INFO  @ Sat, 02 Jan 2021 11:29:47: #1 tag size = 39 
+INFO  @ Sat, 02 Jan 2021 11:29:47: #1  total tags in treatment: 13965350 
+INFO  @ Sat, 02 Jan 2021 11:29:47: #1 user defined the maximum tags... 
+INFO  @ Sat, 02 Jan 2021 11:29:47: #1 filter out redundant tags at the same location and the same strand by allowing at most 1 tag(s) 
+INFO  @ Sat, 02 Jan 2021 11:29:48: #1  tags after filtering in treatment: 13965350 
+INFO  @ Sat, 02 Jan 2021 11:29:48: #1  Redundant rate of treatment: 0.00 
+INFO  @ Sat, 02 Jan 2021 11:29:48: #1  total tags in control: 7298248 
+INFO  @ Sat, 02 Jan 2021 11:29:48: #1 user defined the maximum tags... 
+INFO  @ Sat, 02 Jan 2021 11:29:48: #1 filter out redundant tags at the same location and the same strand by allowing at most 1 tag(s) 
+INFO  @ Sat, 02 Jan 2021 11:29:48: #1  tags after filtering in control: 7254401 
+INFO  @ Sat, 02 Jan 2021 11:29:48: #1  Redundant rate of control: 0.01 
+INFO  @ Sat, 02 Jan 2021 11:29:48: #1 finished! 
+INFO  @ Sat, 02 Jan 2021 11:29:48: #2 Build Peak Model... 
+INFO  @ Sat, 02 Jan 2021 11:29:48: #2 Skipped... 
+INFO  @ Sat, 02 Jan 2021 11:29:48: #2 Use 147 as fragment length 
+INFO  @ Sat, 02 Jan 2021 11:29:48: #3 Call peaks... 
+INFO  @ Sat, 02 Jan 2021 11:29:48: #3 Call broad peaks with given level1 -log10qvalue cutoff and level2: 1.301030, 1.000000... 
+INFO  @ Sat, 02 Jan 2021 11:29:48: #3 Pre-compute pvalue-qvalue table... 
+INFO  @ Sat, 02 Jan 2021 11:30:40: #3 Call peaks for each chromosome... 
+INFO  @ Sat, 02 Jan 2021 11:31:06: #4 Write output xls file... /gpfs/group/pipkin/hdiao/T_Cell_ChIP/2_MACS2_broad/2013_PLOS_ONE_Lotem___H3K4me1_invitro-Il2-CD8_peaks.xls 
+INFO  @ Sat, 02 Jan 2021 11:31:06: #4 Write broad peak in broadPeak format file... /gpfs/group/pipkin/hdiao/T_Cell_ChIP/2_MACS2_broad/2013_PLOS_ONE_Lotem___H3K4me1_invitro-Il2-CD8_peaks.broadPeak 
+INFO  @ Sat, 02 Jan 2021 11:31:06: #4 Write broad peak in bed12/gappedPeak format file... /gpfs/group/pipkin/hdiao/T_Cell_ChIP/2_MACS2_broad/2013_PLOS_ONE_Lotem___H3K4me1_invitro-Il2-CD8_peaks.gappedPeak 
+INFO  @ Sat, 02 Jan 2021 11:31:06: Done! 

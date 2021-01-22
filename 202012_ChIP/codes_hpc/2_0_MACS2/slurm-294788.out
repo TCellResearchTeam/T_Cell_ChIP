@@ -1,0 +1,76 @@
+INFO  @ Sat, 02 Jan 2021 11:20:47: 
+# Command line: callpeak -t SRR8591895_srt_dupr_flb.bam SRR8591896_srt_dupr_flb.bam -c SRR8591897_srt_dupr_flb.bam -g mm -B --SPMR --nomodel --extsize 147 --call-summits -n 2019_IMMUNITY_Veeken___Tbet_LCMV-d07-CD8 --outdir /gpfs/group/pipkin/hdiao/T_Cell_ChIP/2_MACS2
+# ARGUMENTS LIST:
+# name = 2019_IMMUNITY_Veeken___Tbet_LCMV-d07-CD8
+# format = AUTO
+# ChIP-seq file = ['SRR8591895_srt_dupr_flb.bam', 'SRR8591896_srt_dupr_flb.bam']
+# control file = ['SRR8591897_srt_dupr_flb.bam']
+# effective genome size = 1.87e+09
+# band width = 300
+# model fold = [5, 50]
+# qvalue cutoff = 5.00e-02
+# Larger dataset will be scaled towards smaller dataset.
+# Range for calculating regional lambda is: 1000 bps and 10000 bps
+# Broad region calling is off
+# Searching for subpeak summits is on
+# MACS will save fragment pileup signal per million reads
+ 
+INFO  @ Sat, 02 Jan 2021 11:20:47: #1 read tag files... 
+INFO  @ Sat, 02 Jan 2021 11:20:47: #1 read treatment tags... 
+INFO  @ Sat, 02 Jan 2021 11:20:47: Detected format is: BAM 
+INFO  @ Sat, 02 Jan 2021 11:20:47: * Input file is gzipped. 
+INFO  @ Sat, 02 Jan 2021 11:20:54:  1000000 
+INFO  @ Sat, 02 Jan 2021 11:21:02:  2000000 
+INFO  @ Sat, 02 Jan 2021 11:21:10:  3000000 
+INFO  @ Sat, 02 Jan 2021 11:21:16:  4000000 
+INFO  @ Sat, 02 Jan 2021 11:21:22: Detected format is: BAM 
+INFO  @ Sat, 02 Jan 2021 11:21:22: * Input file is gzipped. 
+INFO  @ Sat, 02 Jan 2021 11:21:29:  1000000 
+INFO  @ Sat, 02 Jan 2021 11:21:36:  2000000 
+INFO  @ Sat, 02 Jan 2021 11:21:43:  3000000 
+INFO  @ Sat, 02 Jan 2021 11:21:50:  4000000 
+INFO  @ Sat, 02 Jan 2021 11:21:55: #1.2 read input tags... 
+INFO  @ Sat, 02 Jan 2021 11:21:55: Detected format is: BAM 
+INFO  @ Sat, 02 Jan 2021 11:21:55: * Input file is gzipped. 
+INFO  @ Sat, 02 Jan 2021 11:22:02:  1000000 
+INFO  @ Sat, 02 Jan 2021 11:22:09:  2000000 
+INFO  @ Sat, 02 Jan 2021 11:22:15:  3000000 
+INFO  @ Sat, 02 Jan 2021 11:22:22:  4000000 
+INFO  @ Sat, 02 Jan 2021 11:22:29:  5000000 
+INFO  @ Sat, 02 Jan 2021 11:22:36:  6000000 
+INFO  @ Sat, 02 Jan 2021 11:22:42:  7000000 
+INFO  @ Sat, 02 Jan 2021 11:22:49:  8000000 
+INFO  @ Sat, 02 Jan 2021 11:22:56:  9000000 
+INFO  @ Sat, 02 Jan 2021 11:23:02:  10000000 
+INFO  @ Sat, 02 Jan 2021 11:23:08:  11000000 
+INFO  @ Sat, 02 Jan 2021 11:23:14:  12000000 
+INFO  @ Sat, 02 Jan 2021 11:23:21:  13000000 
+INFO  @ Sat, 02 Jan 2021 11:23:27:  14000000 
+INFO  @ Sat, 02 Jan 2021 11:23:31: #1 tag size is determined as 50 bps 
+INFO  @ Sat, 02 Jan 2021 11:23:31: #1 tag size = 50 
+INFO  @ Sat, 02 Jan 2021 11:23:31: #1  total tags in treatment: 4405642 
+INFO  @ Sat, 02 Jan 2021 11:23:31: #1 user defined the maximum tags... 
+INFO  @ Sat, 02 Jan 2021 11:23:31: #1 filter out redundant tags at the same location and the same strand by allowing at most 1 tag(s) 
+INFO  @ Sat, 02 Jan 2021 11:23:31: #1  tags after filtering in treatment: 4390871 
+INFO  @ Sat, 02 Jan 2021 11:23:31: #1  Redundant rate of treatment: 0.00 
+INFO  @ Sat, 02 Jan 2021 11:23:31: #1  total tags in control: 6877711 
+INFO  @ Sat, 02 Jan 2021 11:23:31: #1 user defined the maximum tags... 
+INFO  @ Sat, 02 Jan 2021 11:23:31: #1 filter out redundant tags at the same location and the same strand by allowing at most 1 tag(s) 
+INFO  @ Sat, 02 Jan 2021 11:23:31: #1  tags after filtering in control: 6877706 
+INFO  @ Sat, 02 Jan 2021 11:23:31: #1  Redundant rate of control: 0.00 
+INFO  @ Sat, 02 Jan 2021 11:23:31: #1 finished! 
+INFO  @ Sat, 02 Jan 2021 11:23:31: #2 Build Peak Model... 
+INFO  @ Sat, 02 Jan 2021 11:23:31: #2 Skipped... 
+INFO  @ Sat, 02 Jan 2021 11:23:31: #2 Use 147 as fragment length 
+INFO  @ Sat, 02 Jan 2021 11:23:31: #3 Call peaks... 
+INFO  @ Sat, 02 Jan 2021 11:23:31: #3 Going to call summits inside each peak ... 
+INFO  @ Sat, 02 Jan 2021 11:23:31: #3 Pre-compute pvalue-qvalue table... 
+INFO  @ Sat, 02 Jan 2021 11:24:08: #3 In the peak calling step, the following will be performed simultaneously: 
+INFO  @ Sat, 02 Jan 2021 11:24:08: #3   Write bedGraph files for treatment pileup (after scaling if necessary)... 2019_IMMUNITY_Veeken___Tbet_LCMV-d07-CD8_treat_pileup.bdg 
+INFO  @ Sat, 02 Jan 2021 11:24:08: #3   Write bedGraph files for control lambda (after scaling if necessary)... 2019_IMMUNITY_Veeken___Tbet_LCMV-d07-CD8_control_lambda.bdg 
+INFO  @ Sat, 02 Jan 2021 11:24:08: #3   --SPMR is requested, so pileup will be normalized by sequencing depth in million reads. 
+INFO  @ Sat, 02 Jan 2021 11:24:08: #3 Call peaks for each chromosome... 
+INFO  @ Sat, 02 Jan 2021 11:25:55: #4 Write output xls file... /gpfs/group/pipkin/hdiao/T_Cell_ChIP/2_MACS2/2019_IMMUNITY_Veeken___Tbet_LCMV-d07-CD8_peaks.xls 
+INFO  @ Sat, 02 Jan 2021 11:25:55: #4 Write peak in narrowPeak format file... /gpfs/group/pipkin/hdiao/T_Cell_ChIP/2_MACS2/2019_IMMUNITY_Veeken___Tbet_LCMV-d07-CD8_peaks.narrowPeak 
+INFO  @ Sat, 02 Jan 2021 11:25:55: #4 Write summits bed file... /gpfs/group/pipkin/hdiao/T_Cell_ChIP/2_MACS2/2019_IMMUNITY_Veeken___Tbet_LCMV-d07-CD8_summits.bed 
+INFO  @ Sat, 02 Jan 2021 11:25:55: Done! 

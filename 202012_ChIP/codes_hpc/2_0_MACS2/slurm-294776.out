@@ -1,0 +1,50 @@
+INFO  @ Sat, 02 Jan 2021 11:20:48: 
+# Command line: callpeak -t SRR5905843_srt_dupr_flb.bam -g mm -B --SPMR --nomodel --extsize 147 --call-summits -n 2017_PNAS_Li___STAT5B_noIL2-CD8 --outdir /gpfs/group/pipkin/hdiao/T_Cell_ChIP/2_MACS2
+# ARGUMENTS LIST:
+# name = 2017_PNAS_Li___STAT5B_noIL2-CD8
+# format = AUTO
+# ChIP-seq file = ['SRR5905843_srt_dupr_flb.bam']
+# control file = None
+# effective genome size = 1.87e+09
+# band width = 300
+# model fold = [5, 50]
+# qvalue cutoff = 5.00e-02
+# Larger dataset will be scaled towards smaller dataset.
+# Range for calculating regional lambda is: 10000 bps
+# Broad region calling is off
+# Searching for subpeak summits is on
+# MACS will save fragment pileup signal per million reads
+ 
+INFO  @ Sat, 02 Jan 2021 11:20:48: #1 read tag files... 
+INFO  @ Sat, 02 Jan 2021 11:20:48: #1 read treatment tags... 
+INFO  @ Sat, 02 Jan 2021 11:20:48: Detected format is: BAM 
+INFO  @ Sat, 02 Jan 2021 11:20:48: * Input file is gzipped. 
+INFO  @ Sat, 02 Jan 2021 11:20:57:  1000000 
+INFO  @ Sat, 02 Jan 2021 11:21:06:  2000000 
+INFO  @ Sat, 02 Jan 2021 11:21:15:  3000000 
+INFO  @ Sat, 02 Jan 2021 11:21:23:  4000000 
+INFO  @ Sat, 02 Jan 2021 11:21:30:  5000000 
+INFO  @ Sat, 02 Jan 2021 11:21:36:  6000000 
+INFO  @ Sat, 02 Jan 2021 11:21:36: #1 tag size is determined as 49 bps 
+INFO  @ Sat, 02 Jan 2021 11:21:36: #1 tag size = 49 
+INFO  @ Sat, 02 Jan 2021 11:21:36: #1  total tags in treatment: 4658968 
+INFO  @ Sat, 02 Jan 2021 11:21:36: #1 user defined the maximum tags... 
+INFO  @ Sat, 02 Jan 2021 11:21:36: #1 filter out redundant tags at the same location and the same strand by allowing at most 1 tag(s) 
+INFO  @ Sat, 02 Jan 2021 11:21:37: #1  tags after filtering in treatment: 4658968 
+INFO  @ Sat, 02 Jan 2021 11:21:37: #1  Redundant rate of treatment: 0.00 
+INFO  @ Sat, 02 Jan 2021 11:21:37: #1 finished! 
+INFO  @ Sat, 02 Jan 2021 11:21:37: #2 Build Peak Model... 
+INFO  @ Sat, 02 Jan 2021 11:21:37: #2 Skipped... 
+INFO  @ Sat, 02 Jan 2021 11:21:37: #2 Use 147 as fragment length 
+INFO  @ Sat, 02 Jan 2021 11:21:37: #3 Call peaks... 
+INFO  @ Sat, 02 Jan 2021 11:21:37: #3 Going to call summits inside each peak ... 
+INFO  @ Sat, 02 Jan 2021 11:21:37: #3 Pre-compute pvalue-qvalue table... 
+INFO  @ Sat, 02 Jan 2021 11:21:53: #3 In the peak calling step, the following will be performed simultaneously: 
+INFO  @ Sat, 02 Jan 2021 11:21:53: #3   Write bedGraph files for treatment pileup (after scaling if necessary)... 2017_PNAS_Li___STAT5B_noIL2-CD8_treat_pileup.bdg 
+INFO  @ Sat, 02 Jan 2021 11:21:53: #3   Write bedGraph files for control lambda (after scaling if necessary)... 2017_PNAS_Li___STAT5B_noIL2-CD8_control_lambda.bdg 
+INFO  @ Sat, 02 Jan 2021 11:21:53: #3   --SPMR is requested, so pileup will be normalized by sequencing depth in million reads. 
+INFO  @ Sat, 02 Jan 2021 11:21:53: #3 Call peaks for each chromosome... 
+INFO  @ Sat, 02 Jan 2021 11:22:49: #4 Write output xls file... /gpfs/group/pipkin/hdiao/T_Cell_ChIP/2_MACS2/2017_PNAS_Li___STAT5B_noIL2-CD8_peaks.xls 
+INFO  @ Sat, 02 Jan 2021 11:22:49: #4 Write peak in narrowPeak format file... /gpfs/group/pipkin/hdiao/T_Cell_ChIP/2_MACS2/2017_PNAS_Li___STAT5B_noIL2-CD8_peaks.narrowPeak 
+INFO  @ Sat, 02 Jan 2021 11:22:49: #4 Write summits bed file... /gpfs/group/pipkin/hdiao/T_Cell_ChIP/2_MACS2/2017_PNAS_Li___STAT5B_noIL2-CD8_summits.bed 
+INFO  @ Sat, 02 Jan 2021 11:22:49: Done! 

@@ -1,0 +1,137 @@
+INFO  @ Thu, 21 Jan 2021 21:21:14: 
+# Command line: callpeak -t 1_0939_0182UCSD_Naive-N1_BRD4_mm_i57_srt_dupr_flb.bam 2_093A_0182UCSD_Naive-N2_BRD4_mm_i59_srt_dupr_flb.bam -c 3_07HT_00ZRUCSD_Pooled_Input_mm_i82_srt_dupr_flb.bam -g mm -B --SPMR --nomodel --extsize 147 --call-summits -n 2021_GoldrathLab_Brd4___BRD4_NAV-CD8 --outdir /gpfs/group/pipkin/hdiao/T_Cell_ChIP/2_MACS2
+# ARGUMENTS LIST:
+# name = 2021_GoldrathLab_Brd4___BRD4_NAV-CD8
+# format = AUTO
+# ChIP-seq file = ['1_0939_0182UCSD_Naive-N1_BRD4_mm_i57_srt_dupr_flb.bam', '2_093A_0182UCSD_Naive-N2_BRD4_mm_i59_srt_dupr_flb.bam']
+# control file = ['3_07HT_00ZRUCSD_Pooled_Input_mm_i82_srt_dupr_flb.bam']
+# effective genome size = 1.87e+09
+# band width = 300
+# model fold = [5, 50]
+# qvalue cutoff = 5.00e-02
+# Larger dataset will be scaled towards smaller dataset.
+# Range for calculating regional lambda is: 1000 bps and 10000 bps
+# Broad region calling is off
+# Searching for subpeak summits is on
+# MACS will save fragment pileup signal per million reads
+ 
+INFO  @ Thu, 21 Jan 2021 21:21:14: #1 read tag files... 
+INFO  @ Thu, 21 Jan 2021 21:21:14: #1 read treatment tags... 
+INFO  @ Thu, 21 Jan 2021 21:21:14: Detected format is: BAM 
+INFO  @ Thu, 21 Jan 2021 21:21:14: * Input file is gzipped. 
+INFO  @ Thu, 21 Jan 2021 21:21:44:  1000000 
+INFO  @ Thu, 21 Jan 2021 21:22:28:  2000000 
+INFO  @ Thu, 21 Jan 2021 21:23:05:  3000000 
+INFO  @ Thu, 21 Jan 2021 21:23:33:  4000000 
+INFO  @ Thu, 21 Jan 2021 21:23:58:  5000000 
+INFO  @ Thu, 21 Jan 2021 21:24:18:  6000000 
+INFO  @ Thu, 21 Jan 2021 21:24:46:  7000000 
+INFO  @ Thu, 21 Jan 2021 21:25:39:  8000000 
+INFO  @ Thu, 21 Jan 2021 21:26:23:  9000000 
+INFO  @ Thu, 21 Jan 2021 21:27:09:  10000000 
+INFO  @ Thu, 21 Jan 2021 21:27:37:  11000000 
+INFO  @ Thu, 21 Jan 2021 21:28:05:  12000000 
+INFO  @ Thu, 21 Jan 2021 21:28:40:  13000000 
+INFO  @ Thu, 21 Jan 2021 21:29:05:  14000000 
+INFO  @ Thu, 21 Jan 2021 21:29:23:  15000000 
+INFO  @ Thu, 21 Jan 2021 21:30:03:  16000000 
+INFO  @ Thu, 21 Jan 2021 21:30:26:  17000000 
+INFO  @ Thu, 21 Jan 2021 21:30:47:  18000000 
+INFO  @ Thu, 21 Jan 2021 21:31:28:  19000000 
+INFO  @ Thu, 21 Jan 2021 21:31:45:  20000000 
+INFO  @ Thu, 21 Jan 2021 21:32:03:  21000000 
+INFO  @ Thu, 21 Jan 2021 21:32:21:  22000000 
+INFO  @ Thu, 21 Jan 2021 21:32:46:  23000000 
+INFO  @ Thu, 21 Jan 2021 21:33:10:  24000000 
+INFO  @ Thu, 21 Jan 2021 21:33:27:  25000000 
+INFO  @ Thu, 21 Jan 2021 21:33:49:  26000000 
+INFO  @ Thu, 21 Jan 2021 21:34:04:  27000000 
+INFO  @ Thu, 21 Jan 2021 21:34:18: Detected format is: BAM 
+INFO  @ Thu, 21 Jan 2021 21:34:18: * Input file is gzipped. 
+INFO  @ Thu, 21 Jan 2021 21:34:35:  1000000 
+INFO  @ Thu, 21 Jan 2021 21:34:53:  2000000 
+INFO  @ Thu, 21 Jan 2021 21:35:21:  3000000 
+INFO  @ Thu, 21 Jan 2021 21:35:48:  4000000 
+INFO  @ Thu, 21 Jan 2021 21:36:20:  5000000 
+INFO  @ Thu, 21 Jan 2021 21:36:38:  6000000 
+INFO  @ Thu, 21 Jan 2021 21:37:02:  7000000 
+INFO  @ Thu, 21 Jan 2021 21:37:31:  8000000 
+INFO  @ Thu, 21 Jan 2021 21:37:44:  9000000 
+INFO  @ Thu, 21 Jan 2021 21:38:12:  10000000 
+INFO  @ Thu, 21 Jan 2021 21:38:31:  11000000 
+INFO  @ Thu, 21 Jan 2021 21:39:04:  12000000 
+INFO  @ Thu, 21 Jan 2021 21:39:43:  13000000 
+INFO  @ Thu, 21 Jan 2021 21:40:11:  14000000 
+INFO  @ Thu, 21 Jan 2021 21:40:30:  15000000 
+INFO  @ Thu, 21 Jan 2021 21:40:48:  16000000 
+INFO  @ Thu, 21 Jan 2021 21:41:12:  17000000 
+INFO  @ Thu, 21 Jan 2021 21:41:29:  18000000 
+INFO  @ Thu, 21 Jan 2021 21:41:59:  19000000 
+INFO  @ Thu, 21 Jan 2021 21:42:24:  20000000 
+INFO  @ Thu, 21 Jan 2021 21:42:48:  21000000 
+INFO  @ Thu, 21 Jan 2021 21:43:13:  22000000 
+INFO  @ Thu, 21 Jan 2021 21:43:30:  23000000 
+INFO  @ Thu, 21 Jan 2021 21:43:47:  24000000 
+INFO  @ Thu, 21 Jan 2021 21:44:05:  25000000 
+INFO  @ Thu, 21 Jan 2021 21:44:30:  26000000 
+INFO  @ Thu, 21 Jan 2021 21:44:44:  27000000 
+INFO  @ Thu, 21 Jan 2021 21:44:59: #1.2 read input tags... 
+INFO  @ Thu, 21 Jan 2021 21:44:59: Detected format is: BAM 
+INFO  @ Thu, 21 Jan 2021 21:44:59: * Input file is gzipped. 
+INFO  @ Thu, 21 Jan 2021 21:45:05:  1000000 
+INFO  @ Thu, 21 Jan 2021 21:45:10:  2000000 
+INFO  @ Thu, 21 Jan 2021 21:45:15:  3000000 
+INFO  @ Thu, 21 Jan 2021 21:45:21:  4000000 
+INFO  @ Thu, 21 Jan 2021 21:45:26:  5000000 
+INFO  @ Thu, 21 Jan 2021 21:45:31:  6000000 
+INFO  @ Thu, 21 Jan 2021 21:45:37:  7000000 
+INFO  @ Thu, 21 Jan 2021 21:45:42:  8000000 
+INFO  @ Thu, 21 Jan 2021 21:45:47:  9000000 
+INFO  @ Thu, 21 Jan 2021 21:45:53:  10000000 
+INFO  @ Thu, 21 Jan 2021 21:45:58:  11000000 
+INFO  @ Thu, 21 Jan 2021 21:46:03:  12000000 
+INFO  @ Thu, 21 Jan 2021 21:46:09:  13000000 
+INFO  @ Thu, 21 Jan 2021 21:46:14:  14000000 
+INFO  @ Thu, 21 Jan 2021 21:46:19:  15000000 
+INFO  @ Thu, 21 Jan 2021 21:46:25:  16000000 
+INFO  @ Thu, 21 Jan 2021 21:46:30:  17000000 
+INFO  @ Thu, 21 Jan 2021 21:46:35:  18000000 
+INFO  @ Thu, 21 Jan 2021 21:46:41:  19000000 
+INFO  @ Thu, 21 Jan 2021 21:46:46:  20000000 
+INFO  @ Thu, 21 Jan 2021 21:46:51:  21000000 
+INFO  @ Thu, 21 Jan 2021 21:46:57:  22000000 
+INFO  @ Thu, 21 Jan 2021 21:47:02:  23000000 
+INFO  @ Thu, 21 Jan 2021 21:47:07:  24000000 
+INFO  @ Thu, 21 Jan 2021 21:47:13:  25000000 
+INFO  @ Thu, 21 Jan 2021 21:47:18:  26000000 
+INFO  @ Thu, 21 Jan 2021 21:47:23:  27000000 
+INFO  @ Thu, 21 Jan 2021 21:47:29:  28000000 
+INFO  @ Thu, 21 Jan 2021 21:47:34:  29000000 
+INFO  @ Thu, 21 Jan 2021 21:47:37: #1 tag size is determined as 74 bps 
+INFO  @ Thu, 21 Jan 2021 21:47:37: #1 tag size = 74 
+INFO  @ Thu, 21 Jan 2021 21:47:37: #1  total tags in treatment: 52303343 
+INFO  @ Thu, 21 Jan 2021 21:47:37: #1 user defined the maximum tags... 
+INFO  @ Thu, 21 Jan 2021 21:47:37: #1 filter out redundant tags at the same location and the same strand by allowing at most 1 tag(s) 
+INFO  @ Thu, 21 Jan 2021 21:47:38: #1  tags after filtering in treatment: 51938650 
+INFO  @ Thu, 21 Jan 2021 21:47:38: #1  Redundant rate of treatment: 0.01 
+INFO  @ Thu, 21 Jan 2021 21:47:38: #1  total tags in control: 29174098 
+INFO  @ Thu, 21 Jan 2021 21:47:38: #1 user defined the maximum tags... 
+INFO  @ Thu, 21 Jan 2021 21:47:38: #1 filter out redundant tags at the same location and the same strand by allowing at most 1 tag(s) 
+INFO  @ Thu, 21 Jan 2021 21:47:39: #1  tags after filtering in control: 29174098 
+INFO  @ Thu, 21 Jan 2021 21:47:39: #1  Redundant rate of control: 0.00 
+INFO  @ Thu, 21 Jan 2021 21:47:39: #1 finished! 
+INFO  @ Thu, 21 Jan 2021 21:47:39: #2 Build Peak Model... 
+INFO  @ Thu, 21 Jan 2021 21:47:39: #2 Skipped... 
+INFO  @ Thu, 21 Jan 2021 21:47:39: #2 Use 147 as fragment length 
+INFO  @ Thu, 21 Jan 2021 21:47:39: #3 Call peaks... 
+INFO  @ Thu, 21 Jan 2021 21:47:39: #3 Going to call summits inside each peak ... 
+INFO  @ Thu, 21 Jan 2021 21:47:39: #3 Pre-compute pvalue-qvalue table... 
+INFO  @ Thu, 21 Jan 2021 21:51:26: #3 In the peak calling step, the following will be performed simultaneously: 
+INFO  @ Thu, 21 Jan 2021 21:51:26: #3   Write bedGraph files for treatment pileup (after scaling if necessary)... 2021_GoldrathLab_Brd4___BRD4_NAV-CD8_treat_pileup.bdg 
+INFO  @ Thu, 21 Jan 2021 21:51:26: #3   Write bedGraph files for control lambda (after scaling if necessary)... 2021_GoldrathLab_Brd4___BRD4_NAV-CD8_control_lambda.bdg 
+INFO  @ Thu, 21 Jan 2021 21:51:26: #3   --SPMR is requested, so pileup will be normalized by sequencing depth in million reads. 
+INFO  @ Thu, 21 Jan 2021 21:51:26: #3 Call peaks for each chromosome... 
+INFO  @ Thu, 21 Jan 2021 21:59:27: #4 Write output xls file... /gpfs/group/pipkin/hdiao/T_Cell_ChIP/2_MACS2/2021_GoldrathLab_Brd4___BRD4_NAV-CD8_peaks.xls 
+INFO  @ Thu, 21 Jan 2021 21:59:28: #4 Write peak in narrowPeak format file... /gpfs/group/pipkin/hdiao/T_Cell_ChIP/2_MACS2/2021_GoldrathLab_Brd4___BRD4_NAV-CD8_peaks.narrowPeak 
+INFO  @ Thu, 21 Jan 2021 21:59:28: #4 Write summits bed file... /gpfs/group/pipkin/hdiao/T_Cell_ChIP/2_MACS2/2021_GoldrathLab_Brd4___BRD4_NAV-CD8_summits.bed 
+INFO  @ Thu, 21 Jan 2021 21:59:28: Done! 

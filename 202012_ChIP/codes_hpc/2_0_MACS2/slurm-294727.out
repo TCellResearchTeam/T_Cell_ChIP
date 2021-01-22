@@ -1,0 +1,45 @@
+INFO  @ Sat, 02 Jan 2021 11:20:47: 
+# Command line: callpeak -t SRR3203620_srt_dupr_flb.bam -g mm -B --SPMR --nomodel --extsize 147 --call-summits -n 2016_NAT_IMMUNOL_Roychoudhuri___p300_invitro-CD8-WT --outdir /gpfs/group/pipkin/hdiao/T_Cell_ChIP/2_MACS2
+# ARGUMENTS LIST:
+# name = 2016_NAT_IMMUNOL_Roychoudhuri___p300_invitro-CD8-WT
+# format = AUTO
+# ChIP-seq file = ['SRR3203620_srt_dupr_flb.bam']
+# control file = None
+# effective genome size = 1.87e+09
+# band width = 300
+# model fold = [5, 50]
+# qvalue cutoff = 5.00e-02
+# Larger dataset will be scaled towards smaller dataset.
+# Range for calculating regional lambda is: 10000 bps
+# Broad region calling is off
+# Searching for subpeak summits is on
+# MACS will save fragment pileup signal per million reads
+ 
+INFO  @ Sat, 02 Jan 2021 11:20:47: #1 read tag files... 
+INFO  @ Sat, 02 Jan 2021 11:20:47: #1 read treatment tags... 
+INFO  @ Sat, 02 Jan 2021 11:20:47: Detected format is: BAM 
+INFO  @ Sat, 02 Jan 2021 11:20:47: * Input file is gzipped. 
+INFO  @ Sat, 02 Jan 2021 11:20:56:  1000000 
+INFO  @ Sat, 02 Jan 2021 11:20:57: #1 tag size is determined as 50 bps 
+INFO  @ Sat, 02 Jan 2021 11:20:57: #1 tag size = 50 
+INFO  @ Sat, 02 Jan 2021 11:20:57: #1  total tags in treatment: 1046765 
+INFO  @ Sat, 02 Jan 2021 11:20:57: #1 user defined the maximum tags... 
+INFO  @ Sat, 02 Jan 2021 11:20:57: #1 filter out redundant tags at the same location and the same strand by allowing at most 1 tag(s) 
+INFO  @ Sat, 02 Jan 2021 11:20:57: #1  tags after filtering in treatment: 1046722 
+INFO  @ Sat, 02 Jan 2021 11:20:57: #1  Redundant rate of treatment: 0.00 
+INFO  @ Sat, 02 Jan 2021 11:20:57: #1 finished! 
+INFO  @ Sat, 02 Jan 2021 11:20:57: #2 Build Peak Model... 
+INFO  @ Sat, 02 Jan 2021 11:20:57: #2 Skipped... 
+INFO  @ Sat, 02 Jan 2021 11:20:57: #2 Use 147 as fragment length 
+INFO  @ Sat, 02 Jan 2021 11:20:57: #3 Call peaks... 
+INFO  @ Sat, 02 Jan 2021 11:20:57: #3 Going to call summits inside each peak ... 
+INFO  @ Sat, 02 Jan 2021 11:20:57: #3 Pre-compute pvalue-qvalue table... 
+INFO  @ Sat, 02 Jan 2021 11:21:00: #3 In the peak calling step, the following will be performed simultaneously: 
+INFO  @ Sat, 02 Jan 2021 11:21:00: #3   Write bedGraph files for treatment pileup (after scaling if necessary)... 2016_NAT_IMMUNOL_Roychoudhuri___p300_invitro-CD8-WT_treat_pileup.bdg 
+INFO  @ Sat, 02 Jan 2021 11:21:00: #3   Write bedGraph files for control lambda (after scaling if necessary)... 2016_NAT_IMMUNOL_Roychoudhuri___p300_invitro-CD8-WT_control_lambda.bdg 
+INFO  @ Sat, 02 Jan 2021 11:21:00: #3   --SPMR is requested, so pileup will be normalized by sequencing depth in million reads. 
+INFO  @ Sat, 02 Jan 2021 11:21:00: #3 Call peaks for each chromosome... 
+INFO  @ Sat, 02 Jan 2021 11:21:19: #4 Write output xls file... /gpfs/group/pipkin/hdiao/T_Cell_ChIP/2_MACS2/2016_NAT_IMMUNOL_Roychoudhuri___p300_invitro-CD8-WT_peaks.xls 
+INFO  @ Sat, 02 Jan 2021 11:21:19: #4 Write peak in narrowPeak format file... /gpfs/group/pipkin/hdiao/T_Cell_ChIP/2_MACS2/2016_NAT_IMMUNOL_Roychoudhuri___p300_invitro-CD8-WT_peaks.narrowPeak 
+INFO  @ Sat, 02 Jan 2021 11:21:19: #4 Write summits bed file... /gpfs/group/pipkin/hdiao/T_Cell_ChIP/2_MACS2/2016_NAT_IMMUNOL_Roychoudhuri___p300_invitro-CD8-WT_summits.bed 
+INFO  @ Sat, 02 Jan 2021 11:21:19: Done! 

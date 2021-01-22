@@ -1,0 +1,227 @@
+INFO  @ Sat, 02 Jan 2021 11:20:45: 
+# Command line: callpeak -t SRR4437343_srt_dupr_flb.bam SRR4437344_srt_dupr_flb.bam -c SRR4437359_srt_dupr_flb.bam SRR4437360_srt_dupr_flb.bam -g mm -B --SPMR --nomodel --extsize 147 --call-summits -n 2017_NAT_IMMUNOL_Yu___H3K27me3_P14-CD8-Memory --outdir /gpfs/group/pipkin/hdiao/T_Cell_ChIP/2_MACS2
+# ARGUMENTS LIST:
+# name = 2017_NAT_IMMUNOL_Yu___H3K27me3_P14-CD8-Memory
+# format = AUTO
+# ChIP-seq file = ['SRR4437343_srt_dupr_flb.bam', 'SRR4437344_srt_dupr_flb.bam']
+# control file = ['SRR4437359_srt_dupr_flb.bam', 'SRR4437360_srt_dupr_flb.bam']
+# effective genome size = 1.87e+09
+# band width = 300
+# model fold = [5, 50]
+# qvalue cutoff = 5.00e-02
+# Larger dataset will be scaled towards smaller dataset.
+# Range for calculating regional lambda is: 1000 bps and 10000 bps
+# Broad region calling is off
+# Searching for subpeak summits is on
+# MACS will save fragment pileup signal per million reads
+ 
+INFO  @ Sat, 02 Jan 2021 11:20:45: #1 read tag files... 
+INFO  @ Sat, 02 Jan 2021 11:20:45: #1 read treatment tags... 
+INFO  @ Sat, 02 Jan 2021 11:20:45: Detected format is: BAM 
+INFO  @ Sat, 02 Jan 2021 11:20:45: * Input file is gzipped. 
+INFO  @ Sat, 02 Jan 2021 11:20:55:  1000000 
+INFO  @ Sat, 02 Jan 2021 11:21:05:  2000000 
+INFO  @ Sat, 02 Jan 2021 11:21:14:  3000000 
+INFO  @ Sat, 02 Jan 2021 11:21:24:  4000000 
+INFO  @ Sat, 02 Jan 2021 11:21:34:  5000000 
+INFO  @ Sat, 02 Jan 2021 11:21:44:  6000000 
+INFO  @ Sat, 02 Jan 2021 11:21:53:  7000000 
+INFO  @ Sat, 02 Jan 2021 11:22:03:  8000000 
+INFO  @ Sat, 02 Jan 2021 11:22:12:  9000000 
+INFO  @ Sat, 02 Jan 2021 11:22:21:  10000000 
+INFO  @ Sat, 02 Jan 2021 11:22:31:  11000000 
+INFO  @ Sat, 02 Jan 2021 11:22:40:  12000000 
+INFO  @ Sat, 02 Jan 2021 11:22:48:  13000000 
+INFO  @ Sat, 02 Jan 2021 11:22:57:  14000000 
+INFO  @ Sat, 02 Jan 2021 11:23:06:  15000000 
+INFO  @ Sat, 02 Jan 2021 11:23:14:  16000000 
+INFO  @ Sat, 02 Jan 2021 11:23:24:  17000000 
+INFO  @ Sat, 02 Jan 2021 11:23:33:  18000000 
+INFO  @ Sat, 02 Jan 2021 11:23:42:  19000000 
+INFO  @ Sat, 02 Jan 2021 11:23:49: Detected format is: BAM 
+INFO  @ Sat, 02 Jan 2021 11:23:49: * Input file is gzipped. 
+INFO  @ Sat, 02 Jan 2021 11:23:58:  1000000 
+INFO  @ Sat, 02 Jan 2021 11:24:07:  2000000 
+INFO  @ Sat, 02 Jan 2021 11:24:15:  3000000 
+INFO  @ Sat, 02 Jan 2021 11:24:23:  4000000 
+INFO  @ Sat, 02 Jan 2021 11:24:31:  5000000 
+INFO  @ Sat, 02 Jan 2021 11:24:39:  6000000 
+INFO  @ Sat, 02 Jan 2021 11:24:48:  7000000 
+INFO  @ Sat, 02 Jan 2021 11:24:55:  8000000 
+INFO  @ Sat, 02 Jan 2021 11:25:03:  9000000 
+INFO  @ Sat, 02 Jan 2021 11:25:11:  10000000 
+INFO  @ Sat, 02 Jan 2021 11:25:19:  11000000 
+INFO  @ Sat, 02 Jan 2021 11:25:27:  12000000 
+INFO  @ Sat, 02 Jan 2021 11:25:35:  13000000 
+INFO  @ Sat, 02 Jan 2021 11:25:43:  14000000 
+INFO  @ Sat, 02 Jan 2021 11:25:49:  15000000 
+INFO  @ Sat, 02 Jan 2021 11:25:50: #1.2 read input tags... 
+INFO  @ Sat, 02 Jan 2021 11:25:51: Detected format is: BAM 
+INFO  @ Sat, 02 Jan 2021 11:25:51: * Input file is gzipped. 
+INFO  @ Sat, 02 Jan 2021 11:25:59:  1000000 
+INFO  @ Sat, 02 Jan 2021 11:26:07:  2000000 
+INFO  @ Sat, 02 Jan 2021 11:26:16:  3000000 
+INFO  @ Sat, 02 Jan 2021 11:26:24:  4000000 
+INFO  @ Sat, 02 Jan 2021 11:26:32:  5000000 
+INFO  @ Sat, 02 Jan 2021 11:26:40:  6000000 
+INFO  @ Sat, 02 Jan 2021 11:26:48:  7000000 
+INFO  @ Sat, 02 Jan 2021 11:26:57:  8000000 
+INFO  @ Sat, 02 Jan 2021 11:27:05:  9000000 
+INFO  @ Sat, 02 Jan 2021 11:27:13:  10000000 
+INFO  @ Sat, 02 Jan 2021 11:27:22:  11000000 
+INFO  @ Sat, 02 Jan 2021 11:27:31:  12000000 
+INFO  @ Sat, 02 Jan 2021 11:27:38:  13000000 
+INFO  @ Sat, 02 Jan 2021 11:27:45: Detected format is: BAM 
+INFO  @ Sat, 02 Jan 2021 11:27:45: * Input file is gzipped. 
+INFO  @ Sat, 02 Jan 2021 11:27:53:  1000000 
+INFO  @ Sat, 02 Jan 2021 11:28:00:  2000000 
+INFO  @ Sat, 02 Jan 2021 11:28:07:  3000000 
+INFO  @ Sat, 02 Jan 2021 11:28:15:  4000000 
+INFO  @ Sat, 02 Jan 2021 11:28:22:  5000000 
+INFO  @ Sat, 02 Jan 2021 11:28:29:  6000000 
+INFO  @ Sat, 02 Jan 2021 11:28:37:  7000000 
+INFO  @ Sat, 02 Jan 2021 11:28:44:  8000000 
+INFO  @ Sat, 02 Jan 2021 11:28:52:  9000000 
+INFO  @ Sat, 02 Jan 2021 11:28:59:  10000000 
+INFO  @ Sat, 02 Jan 2021 11:29:06:  11000000 
+INFO  @ Sat, 02 Jan 2021 11:29:14:  12000000 
+INFO  @ Sat, 02 Jan 2021 11:29:21:  13000000 
+INFO  @ Sat, 02 Jan 2021 11:29:27: #1 tag size is determined as 50 bps 
+INFO  @ Sat, 02 Jan 2021 11:29:27: #1 tag size = 50 
+INFO  @ Sat, 02 Jan 2021 11:29:27: #1  total tags in treatment: 33967766 
+INFO  @ Sat, 02 Jan 2021 11:29:27: #1 user defined the maximum tags... 
+INFO  @ Sat, 02 Jan 2021 11:29:27: #1 filter out redundant tags at the same location and the same strand by allowing at most 1 tag(s) 
+INFO  @ Sat, 02 Jan 2021 11:29:29: #1  tags after filtering in treatment: 33814299 
+INFO  @ Sat, 02 Jan 2021 11:29:29: #1  Redundant rate of treatment: 0.00 
+INFO  @ Sat, 02 Jan 2021 11:29:29: #1  total tags in control: 27358654 
+INFO  @ Sat, 02 Jan 2021 11:29:29: #1 user defined the maximum tags... 
+INFO  @ Sat, 02 Jan 2021 11:29:29: #1 filter out redundant tags at the same location and the same strand by allowing at most 1 tag(s) 
+INFO  @ Sat, 02 Jan 2021 11:29:29: #1  tags after filtering in control: 27228338 
+INFO  @ Sat, 02 Jan 2021 11:29:29: #1  Redundant rate of control: 0.00 
+INFO  @ Sat, 02 Jan 2021 11:29:29: #1 finished! 
+INFO  @ Sat, 02 Jan 2021 11:29:29: #2 Build Peak Model... 
+INFO  @ Sat, 02 Jan 2021 11:29:29: #2 Skipped... 
+INFO  @ Sat, 02 Jan 2021 11:29:29: #2 Use 147 as fragment length 
+INFO  @ Sat, 02 Jan 2021 11:29:29: #3 Call peaks... 
+INFO  @ Sat, 02 Jan 2021 11:29:29: #3 Going to call summits inside each peak ... 
+INFO  @ Sat, 02 Jan 2021 11:29:29: #3 Pre-compute pvalue-qvalue table... 
+INFO  @ Sat, 02 Jan 2021 11:32:45: #3 In the peak calling step, the following will be performed simultaneously: 
+INFO  @ Sat, 02 Jan 2021 11:32:45: #3   Write bedGraph files for treatment pileup (after scaling if necessary)... 2017_NAT_IMMUNOL_Yu___H3K27me3_P14-CD8-Memory_treat_pileup.bdg 
+INFO  @ Sat, 02 Jan 2021 11:32:45: #3   Write bedGraph files for control lambda (after scaling if necessary)... 2017_NAT_IMMUNOL_Yu___H3K27me3_P14-CD8-Memory_control_lambda.bdg 
+INFO  @ Sat, 02 Jan 2021 11:32:45: #3   --SPMR is requested, so pileup will be normalized by sequencing depth in million reads. 
+INFO  @ Sat, 02 Jan 2021 11:32:45: #3 Call peaks for each chromosome... 
+INFO  @ Sat, 02 Jan 2021 11:41:26: #4 Write output xls file... /gpfs/group/pipkin/hdiao/T_Cell_ChIP/2_MACS2/2017_NAT_IMMUNOL_Yu___H3K27me3_P14-CD8-Memory_peaks.xls 
+INFO  @ Sat, 02 Jan 2021 11:41:26: #4 Write peak in narrowPeak format file... /gpfs/group/pipkin/hdiao/T_Cell_ChIP/2_MACS2/2017_NAT_IMMUNOL_Yu___H3K27me3_P14-CD8-Memory_peaks.narrowPeak 
+INFO  @ Sat, 02 Jan 2021 11:41:26: #4 Write summits bed file... /gpfs/group/pipkin/hdiao/T_Cell_ChIP/2_MACS2/2017_NAT_IMMUNOL_Yu___H3K27me3_P14-CD8-Memory_summits.bed 
+INFO  @ Sat, 02 Jan 2021 11:41:26: Done! 
+INFO  @ Sat, 02 Jan 2021 11:41:27: 
+# Command line: callpeak -t SRR4437343_srt_dupr_flb.bam SRR4437344_srt_dupr_flb.bam -c SRR4437359_srt_dupr_flb.bam SRR4437360_srt_dupr_flb.bam -g mm --nomodel --extsize 147 --broad -n 2017_NAT_IMMUNOL_Yu___H3K27me3_P14-CD8-Memory --outdir /gpfs/group/pipkin/hdiao/T_Cell_ChIP/2_MACS2_broad
+# ARGUMENTS LIST:
+# name = 2017_NAT_IMMUNOL_Yu___H3K27me3_P14-CD8-Memory
+# format = AUTO
+# ChIP-seq file = ['SRR4437343_srt_dupr_flb.bam', 'SRR4437344_srt_dupr_flb.bam']
+# control file = ['SRR4437359_srt_dupr_flb.bam', 'SRR4437360_srt_dupr_flb.bam']
+# effective genome size = 1.87e+09
+# band width = 300
+# model fold = [5, 50]
+# qvalue cutoff for narrow/strong regions = 5.00e-02
+# qvalue cutoff for broad/weak regions = 1.00e-01
+# Larger dataset will be scaled towards smaller dataset.
+# Range for calculating regional lambda is: 1000 bps and 10000 bps
+# Broad region calling is on
+ 
+INFO  @ Sat, 02 Jan 2021 11:41:27: #1 read tag files... 
+INFO  @ Sat, 02 Jan 2021 11:41:27: #1 read treatment tags... 
+INFO  @ Sat, 02 Jan 2021 11:41:27: Detected format is: BAM 
+INFO  @ Sat, 02 Jan 2021 11:41:27: * Input file is gzipped. 
+INFO  @ Sat, 02 Jan 2021 11:41:34:  1000000 
+INFO  @ Sat, 02 Jan 2021 11:41:42:  2000000 
+INFO  @ Sat, 02 Jan 2021 11:41:49:  3000000 
+INFO  @ Sat, 02 Jan 2021 11:41:56:  4000000 
+INFO  @ Sat, 02 Jan 2021 11:42:04:  5000000 
+INFO  @ Sat, 02 Jan 2021 11:42:11:  6000000 
+INFO  @ Sat, 02 Jan 2021 11:42:18:  7000000 
+INFO  @ Sat, 02 Jan 2021 11:42:26:  8000000 
+INFO  @ Sat, 02 Jan 2021 11:42:33:  9000000 
+INFO  @ Sat, 02 Jan 2021 11:42:40:  10000000 
+INFO  @ Sat, 02 Jan 2021 11:42:48:  11000000 
+INFO  @ Sat, 02 Jan 2021 11:42:55:  12000000 
+INFO  @ Sat, 02 Jan 2021 11:43:03:  13000000 
+INFO  @ Sat, 02 Jan 2021 11:43:10:  14000000 
+INFO  @ Sat, 02 Jan 2021 11:43:17:  15000000 
+INFO  @ Sat, 02 Jan 2021 11:43:25:  16000000 
+INFO  @ Sat, 02 Jan 2021 11:43:32:  17000000 
+INFO  @ Sat, 02 Jan 2021 11:43:40:  18000000 
+INFO  @ Sat, 02 Jan 2021 11:43:47:  19000000 
+INFO  @ Sat, 02 Jan 2021 11:43:53: Detected format is: BAM 
+INFO  @ Sat, 02 Jan 2021 11:43:53: * Input file is gzipped. 
+INFO  @ Sat, 02 Jan 2021 11:44:00:  1000000 
+INFO  @ Sat, 02 Jan 2021 11:44:07:  2000000 
+INFO  @ Sat, 02 Jan 2021 11:44:14:  3000000 
+INFO  @ Sat, 02 Jan 2021 11:44:21:  4000000 
+INFO  @ Sat, 02 Jan 2021 11:44:28:  5000000 
+INFO  @ Sat, 02 Jan 2021 11:44:36:  6000000 
+INFO  @ Sat, 02 Jan 2021 11:44:43:  7000000 
+INFO  @ Sat, 02 Jan 2021 11:44:50:  8000000 
+INFO  @ Sat, 02 Jan 2021 11:44:57:  9000000 
+INFO  @ Sat, 02 Jan 2021 11:45:04:  10000000 
+INFO  @ Sat, 02 Jan 2021 11:45:11:  11000000 
+INFO  @ Sat, 02 Jan 2021 11:45:19:  12000000 
+INFO  @ Sat, 02 Jan 2021 11:45:26:  13000000 
+INFO  @ Sat, 02 Jan 2021 11:45:33:  14000000 
+INFO  @ Sat, 02 Jan 2021 11:45:38:  15000000 
+INFO  @ Sat, 02 Jan 2021 11:45:40: #1.2 read input tags... 
+INFO  @ Sat, 02 Jan 2021 11:45:40: Detected format is: BAM 
+INFO  @ Sat, 02 Jan 2021 11:45:40: * Input file is gzipped. 
+INFO  @ Sat, 02 Jan 2021 11:45:47:  1000000 
+INFO  @ Sat, 02 Jan 2021 11:45:55:  2000000 
+INFO  @ Sat, 02 Jan 2021 11:46:02:  3000000 
+INFO  @ Sat, 02 Jan 2021 11:46:09:  4000000 
+INFO  @ Sat, 02 Jan 2021 11:46:17:  5000000 
+INFO  @ Sat, 02 Jan 2021 11:46:24:  6000000 
+INFO  @ Sat, 02 Jan 2021 11:46:32:  7000000 
+INFO  @ Sat, 02 Jan 2021 11:46:39:  8000000 
+INFO  @ Sat, 02 Jan 2021 11:46:47:  9000000 
+INFO  @ Sat, 02 Jan 2021 11:46:54:  10000000 
+INFO  @ Sat, 02 Jan 2021 11:47:01:  11000000 
+INFO  @ Sat, 02 Jan 2021 11:47:08:  12000000 
+INFO  @ Sat, 02 Jan 2021 11:47:15:  13000000 
+INFO  @ Sat, 02 Jan 2021 11:47:21: Detected format is: BAM 
+INFO  @ Sat, 02 Jan 2021 11:47:21: * Input file is gzipped. 
+INFO  @ Sat, 02 Jan 2021 11:47:28:  1000000 
+INFO  @ Sat, 02 Jan 2021 11:47:35:  2000000 
+INFO  @ Sat, 02 Jan 2021 11:47:42:  3000000 
+INFO  @ Sat, 02 Jan 2021 11:47:48:  4000000 
+INFO  @ Sat, 02 Jan 2021 11:47:55:  5000000 
+INFO  @ Sat, 02 Jan 2021 11:48:02:  6000000 
+INFO  @ Sat, 02 Jan 2021 11:48:08:  7000000 
+INFO  @ Sat, 02 Jan 2021 11:48:15:  8000000 
+INFO  @ Sat, 02 Jan 2021 11:48:22:  9000000 
+INFO  @ Sat, 02 Jan 2021 11:48:29:  10000000 
+INFO  @ Sat, 02 Jan 2021 11:48:35:  11000000 
+INFO  @ Sat, 02 Jan 2021 11:48:42:  12000000 
+INFO  @ Sat, 02 Jan 2021 11:48:49:  13000000 
+INFO  @ Sat, 02 Jan 2021 11:48:54: #1 tag size is determined as 50 bps 
+INFO  @ Sat, 02 Jan 2021 11:48:54: #1 tag size = 50 
+INFO  @ Sat, 02 Jan 2021 11:48:54: #1  total tags in treatment: 33967766 
+INFO  @ Sat, 02 Jan 2021 11:48:54: #1 user defined the maximum tags... 
+INFO  @ Sat, 02 Jan 2021 11:48:54: #1 filter out redundant tags at the same location and the same strand by allowing at most 1 tag(s) 
+INFO  @ Sat, 02 Jan 2021 11:48:55: #1  tags after filtering in treatment: 33814299 
+INFO  @ Sat, 02 Jan 2021 11:48:55: #1  Redundant rate of treatment: 0.00 
+INFO  @ Sat, 02 Jan 2021 11:48:55: #1  total tags in control: 27358654 
+INFO  @ Sat, 02 Jan 2021 11:48:55: #1 user defined the maximum tags... 
+INFO  @ Sat, 02 Jan 2021 11:48:55: #1 filter out redundant tags at the same location and the same strand by allowing at most 1 tag(s) 
+INFO  @ Sat, 02 Jan 2021 11:48:56: #1  tags after filtering in control: 27228338 
+INFO  @ Sat, 02 Jan 2021 11:48:56: #1  Redundant rate of control: 0.00 
+INFO  @ Sat, 02 Jan 2021 11:48:56: #1 finished! 
+INFO  @ Sat, 02 Jan 2021 11:48:56: #2 Build Peak Model... 
+INFO  @ Sat, 02 Jan 2021 11:48:56: #2 Skipped... 
+INFO  @ Sat, 02 Jan 2021 11:48:56: #2 Use 147 as fragment length 
+INFO  @ Sat, 02 Jan 2021 11:48:56: #3 Call peaks... 
+INFO  @ Sat, 02 Jan 2021 11:48:56: #3 Call broad peaks with given level1 -log10qvalue cutoff and level2: 1.301030, 1.000000... 
+INFO  @ Sat, 02 Jan 2021 11:48:56: #3 Pre-compute pvalue-qvalue table... 
+INFO  @ Sat, 02 Jan 2021 11:52:00: #3 Call peaks for each chromosome... 
+INFO  @ Sat, 02 Jan 2021 11:53:28: #4 Write output xls file... /gpfs/group/pipkin/hdiao/T_Cell_ChIP/2_MACS2_broad/2017_NAT_IMMUNOL_Yu___H3K27me3_P14-CD8-Memory_peaks.xls 
+INFO  @ Sat, 02 Jan 2021 11:53:28: #4 Write broad peak in broadPeak format file... /gpfs/group/pipkin/hdiao/T_Cell_ChIP/2_MACS2_broad/2017_NAT_IMMUNOL_Yu___H3K27me3_P14-CD8-Memory_peaks.broadPeak 
+INFO  @ Sat, 02 Jan 2021 11:53:28: #4 Write broad peak in bed12/gappedPeak format file... /gpfs/group/pipkin/hdiao/T_Cell_ChIP/2_MACS2_broad/2017_NAT_IMMUNOL_Yu___H3K27me3_P14-CD8-Memory_peaks.gappedPeak 
+INFO  @ Sat, 02 Jan 2021 11:53:28: Done! 

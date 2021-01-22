@@ -1,0 +1,74 @@
+INFO  @ Sat, 02 Jan 2021 11:20:46: 
+# Command line: callpeak -t SRR2467231_srt_dupr_flb.bam -c SRR2467213_srt_dupr_flb.bam -g mm -B --SPMR --nomodel --extsize 147 --call-summits -n 2016_NAT_IMMUNOL_Xing___Tcf1_naive-CD8-Tcf1KO --outdir /gpfs/group/pipkin/hdiao/T_Cell_ChIP/2_MACS2
+# ARGUMENTS LIST:
+# name = 2016_NAT_IMMUNOL_Xing___Tcf1_naive-CD8-Tcf1KO
+# format = AUTO
+# ChIP-seq file = ['SRR2467231_srt_dupr_flb.bam']
+# control file = ['SRR2467213_srt_dupr_flb.bam']
+# effective genome size = 1.87e+09
+# band width = 300
+# model fold = [5, 50]
+# qvalue cutoff = 5.00e-02
+# Larger dataset will be scaled towards smaller dataset.
+# Range for calculating regional lambda is: 1000 bps and 10000 bps
+# Broad region calling is off
+# Searching for subpeak summits is on
+# MACS will save fragment pileup signal per million reads
+ 
+INFO  @ Sat, 02 Jan 2021 11:20:46: #1 read tag files... 
+INFO  @ Sat, 02 Jan 2021 11:20:46: #1 read treatment tags... 
+INFO  @ Sat, 02 Jan 2021 11:20:46: Detected format is: BAM 
+INFO  @ Sat, 02 Jan 2021 11:20:46: * Input file is gzipped. 
+INFO  @ Sat, 02 Jan 2021 11:20:54:  1000000 
+INFO  @ Sat, 02 Jan 2021 11:21:01:  2000000 
+INFO  @ Sat, 02 Jan 2021 11:21:08:  3000000 
+INFO  @ Sat, 02 Jan 2021 11:21:15:  4000000 
+INFO  @ Sat, 02 Jan 2021 11:21:22:  5000000 
+INFO  @ Sat, 02 Jan 2021 11:21:29:  6000000 
+INFO  @ Sat, 02 Jan 2021 11:21:36:  7000000 
+INFO  @ Sat, 02 Jan 2021 11:21:44:  8000000 
+INFO  @ Sat, 02 Jan 2021 11:21:50:  9000000 
+INFO  @ Sat, 02 Jan 2021 11:21:57:  10000000 
+INFO  @ Sat, 02 Jan 2021 11:22:05:  11000000 
+INFO  @ Sat, 02 Jan 2021 11:22:12:  12000000 
+INFO  @ Sat, 02 Jan 2021 11:22:19:  13000000 
+INFO  @ Sat, 02 Jan 2021 11:22:25:  14000000 
+INFO  @ Sat, 02 Jan 2021 11:22:26: #1.2 read input tags... 
+INFO  @ Sat, 02 Jan 2021 11:22:26: Detected format is: BAM 
+INFO  @ Sat, 02 Jan 2021 11:22:26: * Input file is gzipped. 
+INFO  @ Sat, 02 Jan 2021 11:22:31:  1000000 
+INFO  @ Sat, 02 Jan 2021 11:22:37:  2000000 
+INFO  @ Sat, 02 Jan 2021 11:22:43:  3000000 
+INFO  @ Sat, 02 Jan 2021 11:22:49:  4000000 
+INFO  @ Sat, 02 Jan 2021 11:22:57:  5000000 
+INFO  @ Sat, 02 Jan 2021 11:23:04:  6000000 
+INFO  @ Sat, 02 Jan 2021 11:23:11:  7000000 
+INFO  @ Sat, 02 Jan 2021 11:23:19:  8000000 
+INFO  @ Sat, 02 Jan 2021 11:23:21: #1 tag size is determined as 49 bps 
+INFO  @ Sat, 02 Jan 2021 11:23:21: #1 tag size = 49 
+INFO  @ Sat, 02 Jan 2021 11:23:21: #1  total tags in treatment: 13621375 
+INFO  @ Sat, 02 Jan 2021 11:23:21: #1 user defined the maximum tags... 
+INFO  @ Sat, 02 Jan 2021 11:23:21: #1 filter out redundant tags at the same location and the same strand by allowing at most 1 tag(s) 
+INFO  @ Sat, 02 Jan 2021 11:23:22: #1  tags after filtering in treatment: 13621375 
+INFO  @ Sat, 02 Jan 2021 11:23:22: #1  Redundant rate of treatment: 0.00 
+INFO  @ Sat, 02 Jan 2021 11:23:22: #1  total tags in control: 8139473 
+INFO  @ Sat, 02 Jan 2021 11:23:22: #1 user defined the maximum tags... 
+INFO  @ Sat, 02 Jan 2021 11:23:22: #1 filter out redundant tags at the same location and the same strand by allowing at most 1 tag(s) 
+INFO  @ Sat, 02 Jan 2021 11:23:22: #1  tags after filtering in control: 8139473 
+INFO  @ Sat, 02 Jan 2021 11:23:22: #1  Redundant rate of control: 0.00 
+INFO  @ Sat, 02 Jan 2021 11:23:22: #1 finished! 
+INFO  @ Sat, 02 Jan 2021 11:23:22: #2 Build Peak Model... 
+INFO  @ Sat, 02 Jan 2021 11:23:22: #2 Skipped... 
+INFO  @ Sat, 02 Jan 2021 11:23:22: #2 Use 147 as fragment length 
+INFO  @ Sat, 02 Jan 2021 11:23:22: #3 Call peaks... 
+INFO  @ Sat, 02 Jan 2021 11:23:22: #3 Going to call summits inside each peak ... 
+INFO  @ Sat, 02 Jan 2021 11:23:22: #3 Pre-compute pvalue-qvalue table... 
+INFO  @ Sat, 02 Jan 2021 11:24:20: #3 In the peak calling step, the following will be performed simultaneously: 
+INFO  @ Sat, 02 Jan 2021 11:24:20: #3   Write bedGraph files for treatment pileup (after scaling if necessary)... 2016_NAT_IMMUNOL_Xing___Tcf1_naive-CD8-Tcf1KO_treat_pileup.bdg 
+INFO  @ Sat, 02 Jan 2021 11:24:20: #3   Write bedGraph files for control lambda (after scaling if necessary)... 2016_NAT_IMMUNOL_Xing___Tcf1_naive-CD8-Tcf1KO_control_lambda.bdg 
+INFO  @ Sat, 02 Jan 2021 11:24:20: #3   --SPMR is requested, so pileup will be normalized by sequencing depth in million reads. 
+INFO  @ Sat, 02 Jan 2021 11:24:20: #3 Call peaks for each chromosome... 
+INFO  @ Sat, 02 Jan 2021 11:27:21: #4 Write output xls file... /gpfs/group/pipkin/hdiao/T_Cell_ChIP/2_MACS2/2016_NAT_IMMUNOL_Xing___Tcf1_naive-CD8-Tcf1KO_peaks.xls 
+INFO  @ Sat, 02 Jan 2021 11:27:21: #4 Write peak in narrowPeak format file... /gpfs/group/pipkin/hdiao/T_Cell_ChIP/2_MACS2/2016_NAT_IMMUNOL_Xing___Tcf1_naive-CD8-Tcf1KO_peaks.narrowPeak 
+INFO  @ Sat, 02 Jan 2021 11:27:21: #4 Write summits bed file... /gpfs/group/pipkin/hdiao/T_Cell_ChIP/2_MACS2/2016_NAT_IMMUNOL_Xing___Tcf1_naive-CD8-Tcf1KO_summits.bed 
+INFO  @ Sat, 02 Jan 2021 11:27:21: Done! 

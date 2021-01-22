@@ -1,0 +1,64 @@
+INFO  @ Sat, 02 Jan 2021 11:20:46: 
+# Command line: callpeak -t SRR851153_srt_dupr_flb.bam -c SRR851155_srt_dupr_flb.bam -g mm -B --SPMR --nomodel --extsize 147 --call-summits -n 2013_IMMUNITY_KIM___Foxo1_Biotin_naive-CD8-WT --outdir /gpfs/group/pipkin/hdiao/T_Cell_ChIP/2_MACS2
+# ARGUMENTS LIST:
+# name = 2013_IMMUNITY_KIM___Foxo1_Biotin_naive-CD8-WT
+# format = AUTO
+# ChIP-seq file = ['SRR851153_srt_dupr_flb.bam']
+# control file = ['SRR851155_srt_dupr_flb.bam']
+# effective genome size = 1.87e+09
+# band width = 300
+# model fold = [5, 50]
+# qvalue cutoff = 5.00e-02
+# Larger dataset will be scaled towards smaller dataset.
+# Range for calculating regional lambda is: 1000 bps and 10000 bps
+# Broad region calling is off
+# Searching for subpeak summits is on
+# MACS will save fragment pileup signal per million reads
+ 
+INFO  @ Sat, 02 Jan 2021 11:20:46: #1 read tag files... 
+INFO  @ Sat, 02 Jan 2021 11:20:46: #1 read treatment tags... 
+INFO  @ Sat, 02 Jan 2021 11:20:46: Detected format is: BAM 
+INFO  @ Sat, 02 Jan 2021 11:20:46: * Input file is gzipped. 
+INFO  @ Sat, 02 Jan 2021 11:20:53:  1000000 
+INFO  @ Sat, 02 Jan 2021 11:21:01:  2000000 
+INFO  @ Sat, 02 Jan 2021 11:21:10:  3000000 
+INFO  @ Sat, 02 Jan 2021 11:21:16:  4000000 
+INFO  @ Sat, 02 Jan 2021 11:21:20:  5000000 
+INFO  @ Sat, 02 Jan 2021 11:21:24: #1.2 read input tags... 
+INFO  @ Sat, 02 Jan 2021 11:21:24: Detected format is: BAM 
+INFO  @ Sat, 02 Jan 2021 11:21:24: * Input file is gzipped. 
+INFO  @ Sat, 02 Jan 2021 11:21:31:  1000000 
+INFO  @ Sat, 02 Jan 2021 11:21:38:  2000000 
+INFO  @ Sat, 02 Jan 2021 11:21:45:  3000000 
+INFO  @ Sat, 02 Jan 2021 11:21:51:  4000000 
+INFO  @ Sat, 02 Jan 2021 11:21:58:  5000000 
+INFO  @ Sat, 02 Jan 2021 11:22:06:  6000000 
+INFO  @ Sat, 02 Jan 2021 11:22:13:  7000000 
+INFO  @ Sat, 02 Jan 2021 11:22:15: #1 tag size is determined as 36 bps 
+INFO  @ Sat, 02 Jan 2021 11:22:15: #1 tag size = 36 
+INFO  @ Sat, 02 Jan 2021 11:22:15: #1  total tags in treatment: 3777271 
+INFO  @ Sat, 02 Jan 2021 11:22:15: #1 user defined the maximum tags... 
+INFO  @ Sat, 02 Jan 2021 11:22:15: #1 filter out redundant tags at the same location and the same strand by allowing at most 1 tag(s) 
+INFO  @ Sat, 02 Jan 2021 11:22:15: #1  tags after filtering in treatment: 3777270 
+INFO  @ Sat, 02 Jan 2021 11:22:15: #1  Redundant rate of treatment: 0.00 
+INFO  @ Sat, 02 Jan 2021 11:22:15: #1  total tags in control: 7211995 
+INFO  @ Sat, 02 Jan 2021 11:22:15: #1 user defined the maximum tags... 
+INFO  @ Sat, 02 Jan 2021 11:22:15: #1 filter out redundant tags at the same location and the same strand by allowing at most 1 tag(s) 
+INFO  @ Sat, 02 Jan 2021 11:22:16: #1  tags after filtering in control: 7211995 
+INFO  @ Sat, 02 Jan 2021 11:22:16: #1  Redundant rate of control: 0.00 
+INFO  @ Sat, 02 Jan 2021 11:22:16: #1 finished! 
+INFO  @ Sat, 02 Jan 2021 11:22:16: #2 Build Peak Model... 
+INFO  @ Sat, 02 Jan 2021 11:22:16: #2 Skipped... 
+INFO  @ Sat, 02 Jan 2021 11:22:16: #2 Use 147 as fragment length 
+INFO  @ Sat, 02 Jan 2021 11:22:16: #3 Call peaks... 
+INFO  @ Sat, 02 Jan 2021 11:22:16: #3 Going to call summits inside each peak ... 
+INFO  @ Sat, 02 Jan 2021 11:22:16: #3 Pre-compute pvalue-qvalue table... 
+INFO  @ Sat, 02 Jan 2021 11:22:52: #3 In the peak calling step, the following will be performed simultaneously: 
+INFO  @ Sat, 02 Jan 2021 11:22:52: #3   Write bedGraph files for treatment pileup (after scaling if necessary)... 2013_IMMUNITY_KIM___Foxo1_Biotin_naive-CD8-WT_treat_pileup.bdg 
+INFO  @ Sat, 02 Jan 2021 11:22:52: #3   Write bedGraph files for control lambda (after scaling if necessary)... 2013_IMMUNITY_KIM___Foxo1_Biotin_naive-CD8-WT_control_lambda.bdg 
+INFO  @ Sat, 02 Jan 2021 11:22:52: #3   --SPMR is requested, so pileup will be normalized by sequencing depth in million reads. 
+INFO  @ Sat, 02 Jan 2021 11:22:52: #3 Call peaks for each chromosome... 
+INFO  @ Sat, 02 Jan 2021 11:24:37: #4 Write output xls file... /gpfs/group/pipkin/hdiao/T_Cell_ChIP/2_MACS2/2013_IMMUNITY_KIM___Foxo1_Biotin_naive-CD8-WT_peaks.xls 
+INFO  @ Sat, 02 Jan 2021 11:24:37: #4 Write peak in narrowPeak format file... /gpfs/group/pipkin/hdiao/T_Cell_ChIP/2_MACS2/2013_IMMUNITY_KIM___Foxo1_Biotin_naive-CD8-WT_peaks.narrowPeak 
+INFO  @ Sat, 02 Jan 2021 11:24:37: #4 Write summits bed file... /gpfs/group/pipkin/hdiao/T_Cell_ChIP/2_MACS2/2013_IMMUNITY_KIM___Foxo1_Biotin_naive-CD8-WT_summits.bed 
+INFO  @ Sat, 02 Jan 2021 11:24:37: Done! 
