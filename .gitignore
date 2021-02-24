@@ -21,4 +21,8 @@ __pycache__/
 *.bed
 *.narrowPeak
 *.bw
+<<<<<<< HEAD
 
+=======
+*.bam
+>>>>>>> 9f93f0e363eda0bb4ab01e046b6c16b59ae8f8aa
