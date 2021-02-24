@@ -9,6 +9,7 @@ print("$python Ensembl_bed_to_usce_bed.py ensembl_bed_file")
 
 infile = sys.argv[1]
 outfile = infile.replace(".bed","") + ".chr.bed"
+outfile = infile.replace(".bdg","") + ".chr.bdg"
 
 chr_list = [str(x) for x in list(range(1,21))] + ["MT", "X", "Y"]
 
